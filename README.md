@@ -49,11 +49,6 @@ Current "History" coding conversion for 1990 is:
 - Code 3 = 6 (Recently dead)
 - Code 4 = 6 (Recently dead)
 
-"Tree history codes of 0-5 are used to represent live tree records that
-are projected by FVS. FVS does not distinguish between the various live tree codes. Tree
-history codes 6, 7, 8, and 9 indicate types of tree records that are not projected." 
-https://www.fs.fed.us/fmsc/ftp/fvs/docs/gtr/EssentialFVS.pdf
-
 ## Step 6: Running the Raw Data from 1990 in FVS
 - Individual stand files were each run with FVS (version>) release date 20201010 through the web based graphical user interface.
 - Excel dattbase files were converted to Sqlite3 database files by using the following website: https://forest.moscowfsl.wsu.edu/FVSDataConvert/
@@ -61,7 +56,7 @@ https://www.fs.fed.us/fmsc/ftp/fvs/docs/gtr/EssentialFVS.pdf
 - Stand age of 0 years was used.
 - A new project was created, the downloaded Sqlite3 db files were uploaded and installed under the "Import Data" tab in FVS
 - The stands were added using the "Add Selected Stand" button under that "Stands" tab
-- The keyword RRTREIN was used to improve accuracy of root disease infection (https://www.fs.fed.us/rm/pubs/rmrs_p054/rmrs_p054_055_067.pdf)
+- The keyword RRTREIN was used to improve accuracy of root disease infection. Source: (https://www.fs.fed.us/rm/pubs/rmrs_p054/rmrs_p054_055_067.pdf)
 - Under the "Time" tab:
 Common starting year\
 1990\
@@ -75,40 +70,6 @@ Additional output reporting years\
 SVS, Plot shape Round, Tree lists (FVS_Treelist, FVS_CutList (StdStk-stand and stock)), Inventory Statistics (FVS_Stats_Species, FVS_Stats_Stand)
 - The corresponding Table was downloaded and graphs were made using R (insert version number here)
 - There was no DBH data for 3-4E for 1990. Used 1985 DBH measurements instead. 
-
-
-
-## Step 7: Setting the Western Root Disease Parameters
-| Dam | Sev | Model | Comments |
-| --- | --- | --- | --- |
-| 62 | 00-03 | Root Disease | Phellinus|
-
-
-Severity codes are defined as follows:
-
-- 01 = Tree is within 30 feet of a root disease infected tree
-
-- 02 = Symptoms of root disease detected on the tree
-
-- 03 = Symptoms of root disease and crown deterioration detected
-
-If the severity code is 01 and the tree diameter is not more than 5 inches, then the tree is regarded as an uninfected small tree in the disease center; if the severity code is 00 or 01 and the tree diameter is greater than 5 inches, the tree is regarded as an infected large tree\
-
-
-When it comes to specifying disease centers, there are two schools of thought on this and it really depends on the overall root disease condition in the stand. If there are identifiable root disease pockets or centers, you can sum those up for the stand for the number of centers. If the diseased trees, live and dead, are basically scattered throughout the stand, a single center is the best choice. In defining parameters with the RRInit keyword, the percent of roots infected 0.1 (10%) is considered light infection and mortality will occur well before 100% of roots become infected depending on the disease type. Specification of infected and uninfected number of trees does not need to be specific tree counts, because the model is just using these values to calculate a proportion.
-
-
- - Dam code of 62 for all trees that had signs/symptoms (severity code 02) or mortality (severity code 03).
- - If the plot center tree was infected then every tree within that plot was coded with a 00,01 for that year.
-- If tree was coded with a 02 or 03, an estimation of proximity was done and the previous two trees and the next two trees within the plot were assigned with a 00.
-- If last tree in the plot was coded a 02 or 03 then trees #1 and #2 were coded with a 01 and vice versa if the last two trees within the plot were coded as 02 or 03.
-
-"When root disease occurs in numerous small centers or when the edges of centers
-are not readily discernible on the ground, the stand should be modeled as one
-disease center." (https://www.fs.fed.us/rm/pubs/rmrs_p054/rmrs_p054_055_067.pdf)
-
-
-
 
 ## Addtional Notes 
 - 24B Tree #2 DBH from 1990 is probably wrong.
