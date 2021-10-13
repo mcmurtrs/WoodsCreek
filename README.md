@@ -49,28 +49,6 @@ Current "History" coding conversion for 1990 is:
 - Code 3 = 6 (Recently dead)
 - Code 4 = 6 (Recently dead)
 
-## Step 6: Running the Raw Data from 1990 in FVS
-- Individual stand files were each run with FVS (version>) release date 20201010 through the web based graphical user interface.
-- Excel dattbase files were converted to Sqlite3 database files by using the following website: https://forest.moscowfsl.wsu.edu/FVSDataConvert/
-- Area of stands was calculated in ArcGIS Pro 2.6.0 by using the map found at C.-sulphurascens-Project/data/Stand size per acre (ArcGIS Pro)/WC_map(1).aprx 
-- Stand age of 0 years was used.
-- A new project was created, the downloaded Sqlite3 db files were uploaded and installed under the "Import Data" tab in FVS
-- The stands were added using the "Add Selected Stand" button under that "Stands" tab
-- The keyword RRTREIN was used to improve accuracy of root disease infection. Source: (https://www.fs.fed.us/rm/pubs/rmrs_p054/rmrs_p054_055_067.pdf)
-- Under the "Time" tab:
-Common starting year\
-1990\
-Common ending year\
-2020\
-Growth and reporting interval (years)\
-5\
-Additional output reporting years\
-2009
-- Under "Select Outputs" tab the following boxes were checked:\
-SVS, Plot shape Round, Tree lists (FVS_Treelist, FVS_CutList (StdStk-stand and stock)), Inventory Statistics (FVS_Stats_Species, FVS_Stats_Stand)
-- The corresponding Table was downloaded and graphs were made using R (insert version number here)
-- There was no DBH data for 3-4E for 1990. Used 1985 DBH measurements instead. 
-
 ## Addtional Notes 
 - 24B Tree #2 DBH from 1990 is probably wrong.
 - 14F Tree #40 missing DBH from 1990 
