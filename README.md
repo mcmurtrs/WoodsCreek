@@ -1,5 +1,5 @@
 ## Step 1: General cleanup
-- ***Note that all DBH measurements are in cm unless otherwise stated!!!***
+- ***Note that all DBH measurements are in cm unless otherwise stated.***
 - Also note that all changes are being made to the "WC Final 2020 - 08_05_20.xlsx" file. More specifically all changes are being made on the "original from everett" sheet.
 - Replaced all "x" with a blank space (made 1105 replacements). 
 - Replaced all "?" with a blank space (made 5 replacements).
@@ -14,7 +14,7 @@
 - Removed tree 3	3	D	23 from dataset because no species code was ever assigned.
 
 ## Step 2: Check to Ensure that there are no measurements included within the data that have < 15.24cm DBH
-- ***Note that all DBH measurements are in cm unless otherwise stated!!!***
+- ***Note that all DBH measurements are in cm unless otherwise stated.***
 - In excel sort by DBH starting with 1985 through 2020 (deleted 77 trees).
 - In excel sort by DBH from 1985-2020 and delete any individual measurements from those years that were less < 15.24cm (edited 44 trees).
 - Excel spreadsheet titled "edited_and_deleted_trees.xlsx" contains the records of all trees that were edited or deleted.
