@@ -1,4 +1,5 @@
 # Directory index
+- Final data sheet before data cleaning adendum was conducted: `WC Final 2020 - 08_05_20.xlsx`
 - Cleaned up file after the below steps were completed: `WC Final 2020 - 08_05_20_CLEANED.xlsx`
 - All trees that were removed were documented in: `edited_and_deleted_trees.xlsx`
 - File used for creating FVS input files: `WC Final 2020 - 08_05_20_CLEANED_FVS_INPUT.xlsx`
