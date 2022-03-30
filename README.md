@@ -1,6 +1,6 @@
 # Directory index
-- File used for creating FVS input files: `WC Final 2020 - 08_05_20_CLEANED_FVS_INPUT `
-- Cleaned up file after the below steps were completed: `WC Final 2020 - 08_05_20_CLEANED`
+- File used for creating FVS input files: `WC Final 2020 - 08_05_20_CLEANED_FVS_INPUT.xlxs `
+- Cleaned up file after the below steps were completed: `WC Final 2020 - 08_05_20_CLEANED.xlxs`
 
 ## Step 1: General cleanup
 - ***Note that all DBH measurements are in cm unless otherwise stated.***
