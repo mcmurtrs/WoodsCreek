@@ -1,6 +1,7 @@
 # Directory index
-- File used for creating FVS input files: `WC Final 2020 - 08_05_20_CLEANED_FVS_INPUT.xlxs `
-- Cleaned up file after the below steps were completed: `WC Final 2020 - 08_05_20_CLEANED.xlxs`
+- File used for creating FVS input files: `WC Final 2020 - 08_05_20_CLEANED_FVS_INPUT.xlsx`
+- Cleaned up file after the below steps were completed: `WC Final 2020 - 08_05_20_CLEANED.xlsx`
+- All trees that were removed were documented in: `edited_and_deleted_trees.xlsx`
 
 ## Step 1: General cleanup
 - ***Note that all DBH measurements are in cm unless otherwise stated.***
