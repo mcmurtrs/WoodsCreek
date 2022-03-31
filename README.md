@@ -7,7 +7,15 @@
 - All FVS/WRDM input files can be found in this directory: ` mcmurtrs/WoodsCreek/FVS_Input_Files`
 - All FVS/WRDM output and log files are in:
 
-## Step 1: General cleanup
+
+# Paramaters for FVS
+
+# Parameters for WRDM
+![image](https://user-images.githubusercontent.com/49656044/160974332-ca7210b1-3813-4116-aa9a-531981f9a31c.png)
+
+
+# Data Cleanup
+## Step 1: Initial Tidying Steps
 - ***Note that all DBH measurements are in cm unless otherwise stated.***
 - Also note that all changes are being made to the "WC Final 2020 - 08_05_20.xlsx" file. More specifically all changes are being made on the "original from everett" sheet.
 - Replaced all "x" with a blank space (made 1105 replacements). 
