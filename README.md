@@ -13,6 +13,12 @@
 # Parameters for WRDM
 ![image](https://user-images.githubusercontent.com/49656044/160974332-ca7210b1-3813-4116-aa9a-531981f9a31c.png)
 
+# Methods for Model Comparisons
+- Step 1: Use FVS_Input_Files to run FVS and WRDM with default parameters.
+![image](https://user-images.githubusercontent.com/49656044/163603749-135c28c2-aec8-4521-89c6-eef7c13ade92.png)
+- Step 2: 
+
+
 
 # Data Cleanup
 ## Step 1: Initial Tidying Steps
