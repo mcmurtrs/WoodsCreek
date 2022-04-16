@@ -1,0 +1,500 @@
+---
+title: "Apiary_LRR_Analysis"
+author: "David Showalter"
+date: "8/2/2021"
+output: html_document
+---
+```{r}
+# Load libraries we need for the assignment
+install.packages("fvsLoad")
+library(ggplot2)
+install.packages(tidyverse)
+install.packages(tidyr)
+library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(readxl)
+```
+
+
+
+```{r, message=FALSE}
+#reading in abbreviation code sheets from metadata workbook from Anna
+Apiary_TMTs <- read_excel("C:/Users/shawn/Desktop/Apiary_2020_Path_Data_All_for_Jared_2.xlsx", sheet = "Treatments", range = "A1:C6", col_names = TRUE)
+colnames(Apiary_TMTs)<-c("TMT_code","TMT_short","TMT_name")
+Species_codes <- read_excel("C:/Users/shawn/Desktop/Apiary_Measurement_Codes.xls",sheet = "Species_Codes", range = "A5:B130", col_names = FALSE)
+colnames(Species_codes)<-c("Species_Code","Species_name")
+Origin_codes <- read_excel("C:/Users/shawn/Desktop/Apiary_Measurement_Codes.xls",sheet = "Origin_Codes", range = "A5:B10", col_names = FALSE)
+colnames(Origin_codes)<-c("Origin_Code","Origin")
+Status_codes <- read_excel("C:/Users/shawn/Desktop/Apiary_Measurement_Codes.xls",sheet = "Status_Codes", range = "A5:B19", col_names = FALSE)
+colnames(Status_codes)<-c("Status_Code","Status")
+Damage_codes <- read_excel("C:/Users/shawn/Desktop/Apiary_Measurement_Codes.xls",sheet = "Damage_Codes", range = "A5:B62", col_names = FALSE)
+colnames(Damage_codes)<-c("Damage_Code","Damage")
+Position_codes <- read_excel("C:/Users/shawn/Desktop/Apiary_Measurement_Codes.xls",sheet = "Position_Codes", range = "A7:B14", col_names = FALSE)
+colnames(Position_codes)<-c("Position_Code","Position")
+Damage_amount_codes <- read_excel("C:/Users/shawn/Desktop/Apiary_Measurement_Codes.xls",sheet = "Amount_Codes", range = "A5:B54", col_names = FALSE)
+colnames(Damage_amount_codes)<-c("Damage_Amount_Code","Damage_Amount")
+#reading in dictionary sheet from data workbook
+#Data_dict <- read_excel("C:/Users/shawn/Desktop/Apiary_Measurement_Codes.xls",sheet = "Data_Dictionary", range = "A3:B23", col_names = FALSE)
+#colnames(Data_dict)<-c("Column_Name","Description")
+#reading in data Note that "data_input_edits.xlsx" has been manually reviewed and corrected based on inspection of data in R.
+#A_plots <- read_excel("C:/Users/shawn/Desktop/Apiary_Measurement_Codes.xls",sheet = "A-Plots", col_names = TRUE)
+#unique(A_plots$AMT1)
+#A_plots$AMT1[A_plots$AMT1==0]<-NA
+B_plots <- read_excel("C:/Users/shawn/Desktop/data_input_edits.xlsx",sheet = "B-Plots", col_names = TRUE)
+C_plots <- read_excel("C:/Users/shawn/Desktop/data_input_edits.xlsx",sheet = "C-Plots", col_names = TRUE)
+#checking nonconforming trt entries with "y" instead of "Y"
+#unique(C_plots$TRT)
+C_plots$TRT[C_plots$TRT=="DF0y"]<-"DF0Y"
+D_plots <- read_excel("C:/Users/shawn/Desktop/data_input_edits.xlsx",sheet = "D-Plots", col_names = TRUE)
+#checking nonconforming trt entries with "y" instead of "Y"
+#unique(D_plots$TRT)
+#unique(D_plots$DAM1)
+#unique(D_plots$AMT1)
+D_plots$TRT[D_plots$TRT=="RA20y"]<-"RA20Y"
+#D_plots$DAM1[D_plots$DAM1=="Blank"]<-NA
+#D_plots$AMT1[D_plots$AMT1=="Blank"]<-NA
+E_plots <- read_excel("C:/Users/shawn/Desktop/data_input_edits.xlsx",sheet = "E-Plots", col_names = TRUE)
+#combine all treatments together into one dataset and change coded variables to factors rather than numbers
+combined_data<-rbind(B_plots,C_plots,D_plots,E_plots)
+#unique(combined_data$TRT)
+combined_data$LOC<-as.factor(combined_data$LOC)
+combined_data$PLOT<-as.factor(combined_data$PLOT)
+combined_data$SUBPLOT<-as.factor(combined_data$SUBPLOT)
+#combined_data$REP<-as.factor(combined_data$REP)
+combined_data$TRT<-as.factor(combined_data$TRT)
+combined_data$TREE<-as.character(combined_data$TREE)
+combined_data$SP<-as.character(combined_data$SP)
+combined_data$OR<-as.character(combined_data$OR)
+combined_data$OSTS<-as.character(combined_data$OSTS)
+combined_data$NSTS<-as.character(combined_data$NSTS)
+combined_data$DAM1<-as.character(combined_data$DAM1)
+combined_data$POS1<-as.character(combined_data$POS1)
+combined_data$AMT1<-as.character(combined_data$AMT1)
+#removing false zeros for DBH measurements
+combined_data$NDBH[combined_data$NDBH==0]<-NA
+combined_data$ODBH[combined_data$ODBH==0]<-NA
+#add treatment code variable and unique Tree and subplot ID variables
+combined_data$TRT_code<-ifelse(combined_data$TRT=="RA10Y", "A", ifelse(combined_data$TRT=="CW10Y","B", ifelse(combined_data$TRT=="DF0Y","C", ifelse(combined_data$TRT=="RA20Y","D","E"))))
+combined_data$TRT_code<-as.factor(combined_data$TRT_code)
+combined_data$SUBPLOT_ID<-as.factor(paste(combined_data$TRT_code,combined_data$REP,combined_data$SUBPLOT, sep = ""))
+combined_data$Tree_ID<-paste(combined_data$SUBPLOT_ID,combined_data$TREE, sep = "_")
+#Repeat similar process for transcribed datasheets adding new dates.
+A_plots_2<- read_excel("C:/Users/shawn/Desktop/transcribed_datasheets_87_95_11_common_format.xlsx",sheet = "A_Plots", col_names = TRUE) 
+B_plots_2<- read_excel("C:/Users/shawn/Desktop/transcribed_datasheets_87_95_11_common_format.xlsx",sheet = "B_Plots", col_names = TRUE)
+C_plots_2<- read_excel("C:/Users/shawn/Desktop/transcribed_datasheets_87_95_11_common_format.xlsx",sheet = "C_Plots", col_names = TRUE)
+new_combined_data<-rbind(A_plots_2,B_plots_2,C_plots_2)
+new_combined_data$LOC<-as.factor(new_combined_data$LOC)
+new_combined_data$PLOT<-as.factor(new_combined_data$PLOT)
+new_combined_data$SUBPLOT<-as.factor(new_combined_data$SUBPLOT)
+#new_combined_data$REP<-as.factor(new_combined_data$REP)
+new_combined_data$TRT<-as.factor(new_combined_data$TRT)
+new_combined_data$TREE<-as.character(new_combined_data$TREE)
+new_combined_data$DAM1<-as.character(new_combined_data$DAM1)
+new_combined_data$LASTTREE<-as.character(new_combined_data$LASTTREE)
+new_combined_data$DIA_87_mm<-as.numeric(new_combined_data$DIA_87_mm)
+new_combined_data$DIA_95_mm<-as.numeric(new_combined_data$DIA_95_mm)
+new_combined_data$DIA_11_mm<-as.numeric(new_combined_data$DIA_11_mm)
+new_combined_data$TRT_code<-ifelse(new_combined_data$TRT=="RA10Y", "A", ifelse(new_combined_data$TRT=="CW10Y","B", "C"))
+new_combined_data$TRT_code<-as.factor(new_combined_data$TRT_code)
+new_combined_data$SUBPLOT_ID<-as.factor(paste(new_combined_data$TRT_code,new_combined_data$REP,new_combined_data$SUBPLOT, sep = ""))
+new_combined_data$Tree_ID<-paste(new_combined_data$SUBPLOT_ID,new_combined_data$TREE, sep = "_")
+#saveRDS(combined_data, file="C:/Users/showa/Documents/GitHub/Apiary_LRR/raw_data/combined_trt_data.Rds")
+#saveRDS(new_combined_data, file="C:/Users/showa/Documents/GitHub/Apiary_LRR/raw_data/Stem_maps_and_datasheets/new_combined_trt_data.Rds")
+#write.csv(combined_data, file="C:/Users/showa/Documents/GitHub/Apiary_LRR/raw_data/combined_trt_data.csv", row.names = FALSE)
+#write.csv(new_combined_data, file="C:/Users/showa/Documents/GitHub/Apiary_LRR/raw_data/Stem_maps_and_datasheets/new_combined_trt_data.csv", row.names = FALSE)
+```
+
+## Combining new and old datasets
+
+```{r, message=FALSE}
+#attempting to combine new_combined_data (transcribed) and combined_data (excell sheet from Anna)
+small_keep<-c("DIA_87_mm","DIA_95_mm","DIA_11_mm","STS_87","STS_95","STS_11","DAM1","Dead_YEAR","Tree_ID")
+new_combined_data_small<-as.data.frame(new_combined_data[,(colnames(new_combined_data) %in% small_keep)])
+#combined_data$Dead_YEAR<-as.double(NA)
+#combined_data$DIA_87_mm<-as.double(NA)
+#combined_data$HT_87<-as.double(NA)
+#combined_data$DIA_95_mm<-as.double(NA)
+#combined_data$HT_95<-as.character(NA)
+#combined_data$DIA_11_mm<-as.double(NA)
+#combined_data$HT_11<-as.character(NA)
+#combined_data$STS_87<-as.double(NA)
+#combined_data$STS_95<-as.double(NA)
+#combined_data$STS_11<-as.double(NA)
+test<-merge.data.frame(new_combined_data_small, combined_data, by= "Tree_ID", all.y = TRUE)
+# checking for instances when DIA_11_mm and ODBH (supposedly 2011) are more than 15 mm different
+# making a flag. Counding the flags. Subsetting the data for flags.
+test$DBH_diff<-(test$ODBH - test$DIA_11_mm)
+test$dbh_flag<- ifelse(abs(test$DBH_diff) >15,TRUE,FALSE)
+flag_count<-sum(test$dbh_flag, na.rm=TRUE)
+flag_count
+DBH_flags<-as.data.frame(test[which(test$dbh_flag==TRUE),c("Tree_ID","DIA_87_mm","DIA_95_mm","STS_11","OSTS","DIA_11_mm","ODBH","NDBH","DBH_diff","dbh_flag")])
+# renaming
+full_data<- as.data.frame(test)
+# checking when STS_11 and OSTS don't match, as with diameter above.
+full_data$STS_flag <- ifelse(full_data$STS_11!=full_data$OSTS, TRUE, FALSE)
+STS_flags<-as.data.frame(full_data[which(full_data$STS_flag==TRUE),c("Tree_ID","STS_87","STS_95","STS_11","OSTS","NSTS","DIA_87_mm","DIA_95_mm","DIA_11_mm","ODBH","NDBH")])
+STS_flag_count<-sum(full_data$STS_flag, na.rm=TRUE)
+STS_flag_count
+# subsetting to when STS_11=1 and separately when NSTS=1 
+STS_flags_1<-as.data.frame(STS_flags[which(STS_flags$STS_11==1),])
+STS_flags_2<-as.data.frame(STS_flags[which(STS_flags$NSTS==1),])
+# calculating differences in ODBH and NDBH to identify possible Dead trees that didn't grow between the 2 measurements
+full_data$new_dia_diff<-(full_data$NDBH - full_data$ODBH)
+full_data$nd_dif_flag<- ifelse(
+  (
+    abs(full_data$new_dia_diff) 
+    < 5 
+     ),1,0)
+nd_dif_flag_count<-sum(full_data$nd_dif_flag, na.rm=TRUE)
+nd_dif_flag_count
+# subsetting this data to trees which have OSTS or NSTS =1 contradicting their living status
+DIA_diff_sts<-as.data.frame(full_data[which((full_data$nd_dif_flag==1) & (full_data$NSTS=="1")),c("Tree_ID","STS_87","STS_95","STS_11","OSTS","NSTS","DIA_87_mm","DIA_95_mm","DIA_11_mm","ODBH","NDBH")])
+# checking for trees with ODBH greater than 5 mm larger than NDBH   #there are none
+#oops<-full_data[which(full_data$ODBH > (full_data$NDBH + 5)),"Tree_ID"]
+#Using ODBH values for missing DIA_11_mm values
+full_data$DBH_11<-ifelse(is.na(full_data$DIA_11_mm),full_data$ODBH,full_data$DIA_11_mm)
+#and for status values
+full_data$STS_2011<-ifelse(is.na(full_data$STS_11),full_data$OSTS,full_data$STS_11)
+ABC<- full_data[full_data$TRT=="RA10Y"|full_data$TRT=="CW10Y"|full_data$TRT=="DF0Y",]
+#write.csv(full_data, file="C:/Users/showa/Documents/GitHub/Apiary_LRR/raw_data/full_data.csv", row.names = FALSE)
+#saveRDS(full_data, file="C:/Users/showa/Documents/GitHub/Apiary_LRR/raw_data/full_data.Rds")
+```
+
+
+## Data Summarization
+
+```{r, message=FALSE}
+#full_data<- readRDS("C:/Users/showa/Documents/GitHub/Apiary_LRR/raw_data/full_data.Rds")
+#looking at entries which have notes
+#notes<-combined_data[which(is.na(combined_data$NOTE)==FALSE),]
+#glimpse(notes)
+#unique(notes$NOTE)
+#note_summary<-notes %>% group_by(NOTE, TRT) %>% summarise(count=n())
+#note_summary
+#plot_notes<-notes[which(notes$NOTE=="Tree already in Plot 5021"|notes$NOTE=="Tree on Plot 5035"|notes$NOTE=="Tree on Plot 5042"),]
+#plot_notes
+#subsetting the data to remove trees with notes indicating assignment to multiple plots
+#combined_data2<-combined_data[-which(combined_data$NOTE=="Tree already in Plot 5021"),]
+#summarizing tree count by TRT and REP
+#TRTxREP_summary<-full_data %>% group_by(TRT, REP, .drop=FALSE) %>% summarise(count=n())
+#TRTxREP_summary
+#
+##the following command shows the viridis palette with 10 values. 
+##scales::show_col(scales::viridis_pal()(10))
+#
+#ggplot(TRTxREP_summary,aes(x=TRT,y=count,fill=factor(REP)))+geom_col()+scale_fill_viridis_d()+ylab("Tree count")+xlab("Treatment")
+#
+##additionaly summarizing by subplot
+#TRTxREPxSub_summary<-full_data %>% group_by(TRT, REP, SUBPLOT, .drop=FALSE) %>% summarise(count=n())
+#TRTxREPxSub_summary
+#ggplot(TRTxREPxSub_summary,aes(x=factor(REP),y=count,fill=SUBPLOT )) +geom_col()+scale_fill_viridis_d()+ylab("Tree count")+xlab("Rep")+ #facet_grid(~TRT, scales = "fixed", space = "free_x", switch = "x") + geom_hline(yintercept = 170)+ geom_hline(yintercept = 34) + geom_hline(yintercept #= 68)+ geom_hline(yintercept = 102)+ geom_hline(yintercept = 136)
+##ggsave("C:/Users/showa/Documents/GitHub/Apiary_LRR/Trees_per_subplot.pdf")
+#
+##just ABC trts
+##additionaly summarizing by subplot
+#TRTxREPxSub_ABC<-ABC %>% group_by(TRT, REP, SUBPLOT, .drop=TRUE) %>% summarise(count=n())
+#TRTxREPxSub_ABC
+#ggplot(TRTxREPxSub_ABC,aes(x=factor(REP),y=count,fill=SUBPLOT )) +geom_col()+scale_fill_viridis_d()+ylab("Tree count")+xlab("Rep")+ facet_grid(~TRT, #scales = "fixed", space = "free_x", switch = "x") + geom_hline(yintercept = 170)+ geom_hline(yintercept = 34) + geom_hline(yintercept = 68)+ #geom_hline(yintercept = 102)+ geom_hline(yintercept = 136)
+##ggsave("C:/Users/showa/Documents/GitHub/Apiary_LRR/Summary_Graphs/ABC_Trees_per_subplot.pdf")
+#there appears to be an imbalance of trees between treatments
+#trying to look for duplicate TREE ID numbers
+#dupes<-combined_data[which(duplicated(combined_data$TREE)==TRUE),]
+#dupe_TRT<-dupes %>% group_by(TREE) %>% summarise(count=n())
+#dupe_full<-combined_data %>% group_by(TREE) %>% summarise(count=n())
+#dupe_full2<-dupe_full[which(dupe_full$count>1),]
+#glimpse(dupe_full2)
+#dupe_fullx<-combined_data2 %>% group_by(TREE) %>% summarise(count=n())
+#dupe_fullx2<-dupe_full[which(dupe_fullx$count>1),]
+#glimpse(dupe_fullx2)
+#this shows that there are 797 tree numbers that appear more than once in the dataset.  Are they supposed to be unique? removing the 9 with notes as to duplication reduced the total number of duplicates by 9, suggesting that there really are many duplicate measuremetns in the dataset.
+#creating a list of duplicated tree numbers and subsetting the dataset to look at only those to see patterns
+#dupe_trees<-as.tibble(dupe_full2[,1])
+#tree_dup_data<-combined_data[which(combined_data$TREE %in% dupe_trees$TREE),]
+#sorting by TREE ID
+#ordered_tree_dup_data<-tree_dup_data[order(tree_dup_data$TREE),]
+#saveRDS(ordered_tree_dup_data, file="C:/Users/showa/Documents/GitHub/Apiary_LRR/raw_data/duplicated_trees.Rds")
+#write.csv(ordered_tree_dup_data, file="C:/Users/showa/Documents/GitHub/Apiary_LRR/raw_data/duplicated_trees.csv", row.names = FALSE)
+#adding "duplicated" flag for tree IDs that are duplicated in the dataset
+#combined_data2$dup<-if_else(duplicated(combined_data2$TREE)==TRUE, "1","0")
+#TRTxREPxdup_summary<-combined_data2 %>% group_by(TRT, REP, dup, .drop=FALSE) %>% summarise(count=n())
+#TRTxREPxdup_summary
+#ggplot(TRTxREPxdup_summary,aes(x=REP,y=count,fill=dup ))+geom_col()+scale_fill_viridis_d()+ylab("Tree count")+xlab("Treatment")+ facet_grid(~TRT, scales = "fixed", space = "free_x", switch = "x")
+#TRTxREPxSUBxdup_summary<-combined_data2 %>% group_by(TRT, REP, SUBPLOT, dup, .drop=FALSE) %>% summarise(count=n())
+#TRTxREPxSUBxdup_summary
+#ggplot(TRTxREPxSUBxdup_summary,aes(x=SUBPLOT,y=count,fill=dup ))+geom_col()+scale_fill_viridis_d()+ylab("Tree count")+xlab("Subplot")+ facet_grid(rows=vars(REP), cols=vars(TRT), scales = "fixed", space = "free_x", switch = "x") + geom_hline(yintercept=34)
+#ggsave("C:/Users/showa/Documents/GitHub/Apiary_LRR/Duplicated_Trees_per_subplot.pdf")
+```
+
+```{r}
+#TRTxNSTS_summary<-combined_data %>% group_by(TRT, NSTS, .drop=FALSE) %>% summarise(count=n())
+#TRTxNSTS_summary
+#ggplot(TRTxNSTS_summary,aes(x=TRT,y=count,fill=NSTS ))+geom_col()+scale_fill_viridis_d()+ylab("Tree count")+xlab("Treatment")
+#
+#TRTxOSTS_summary<-combined_data %>% group_by(TRT, OSTS, .drop=FALSE) %>% summarise(count=n())
+#TRTxOSTS_summary
+##ggplot(TRTxOSTS_summary,aes(x=TRT,y=count,fill=OSTS ))+geom_col()+scale_fill_viridis_d()+ylab("Tree count")+xlab("Treatment")
+#ggplot(TRTxOSTS_summary,aes(x=TRT,y=count,fill=OSTS))+geom_col()+scale_fill_viridis_d()+ylab("Tree count")+xlab("Treatment")
+#
+#
+##TRTxDAM_summary<-combined_data %>% group_by(TRT, DAM1) %>% summarise(count=n())
+##TRTxDAM_summary
+#
+#DAM_summary<-combined_data %>% group_by(DAM1) %>% summarise(count=n())
+#DAM_summary
+##write.csv(DAM_summary, file="C:/Users/showa/Documents/LeBoldus_Lab/Laminated_Root_Rot/Apiariy_LRR/raw_data/DAM_summary.csv", row.names = FALSE)
+#
+#AMT_summary<-combined_data %>% group_by(AMT1) %>% summarise(count=n())
+#AMT_summary
+#
+#DAMxAMT_summary<-combined_data %>% group_by(DAM1, AMT1) %>% summarise(count=n())
+#DAMxAMT_summary
+#
+#POS_summary<-combined_data %>% group_by(POS1) %>% summarise(count=n())
+#POS_summary
+#
+#OR_summary<-combined_data %>% group_by(OR) %>% summarise(count=n())
+#OR_summary
+#
+##returning the entries for which AMT1 is 808, an invalid code
+##AMT_808<-combined_data[which(combined_data$AMT1 == 808),]
+##write.csv(AMT_808, file="C:/Users/showa/Documents/LeBoldus_Lab/Laminated_Root_Rot/Apiariy_LRR/raw_data/amt_808_data.csv", row.names = FALSE)
+#
+##fix
+#combined_data$AMT1[combined_data$AMT1 == 808]<-NA
+#
+##returning the entries for which NDBH is NA or 0 without explanation
+#DBH_NA<-combined_data[is.na(combined_data$NDBH),]
+#DBH_NA_no_explain<-DBH_NA[is.na(DBH_NA$AMT1),]
+##write.csv(DBH_NA_no_explain, file="C:/Users/showa/Documents/LeBoldus_Lab/Laminated_Root_Rot/Apiariy_LRR/raw_data/DBH_NA_no_explain_data.csv", #row.names = FALSE)
+#
+##returning the entries for which SP is NA
+##SP_0<-combined_data[is.na(combined_data$SP),]
+##fix
+#combined_data$SP<-"DF"
+##write.csv(SP_0, file="C:/Users/showa/Documents/LeBoldus_Lab/Laminated_Root_Rot/Apiariy_LRR/raw_data/SP_0_data.csv", row.names = FALSE)
+```
+
+
+# Read in New Full Data sheet
+```{r}
+full_data <- read_excel( "C:/Users/shawn/Desktop/full_data_06.xlsx")
+
+```
+
+## Converting to long data format
+```{r}
+#pivot to long data by old and new
+#pivoting data from wide to long format
+#checking similary of column types before combining
+#glimpse(full_data)
+#as.character  Tree_ID TREE LASTTREE  STS_87 STS_95  STS_11 STS_2011 OSTS  NSTS  DAM1.x(2011) DAM1.y(2020)
+full_data$Tree_ID<-as.character(full_data$Tree_ID)
+full_data$TREE<-as.character(full_data$TREE)
+full_data$LASTTREE<-as.character(full_data$LASTTREE)
+full_data$STS_87<-as.character(full_data$STS_87)
+full_data$STS_95<-as.character(full_data$STS_95)
+full_data$STS_11<-as.character(full_data$STS_11)
+full_data$STS_2011<-as.character(full_data$STS_2011)
+full_data$OSTS<-as.character(full_data$OSTS)
+full_data$NSTS<-as.character(full_data$NSTS)
+full_data$DAM1.x<-as.character(full_data$DAM1.x)
+full_data$DAM1.y<-as.character(full_data$DAM1.y)
+#as.double DIA_87_mm  DIA_97_mm DIA_11_mm DBH_11 ODBH NDBH
+full_data$DIA_87_mm<-as.double(full_data$DIA_87_mm)
+full_data$DIA_95_mm<-as.double(full_data$DIA_95_mm)
+full_data$DIA_11_mm<-as.double(full_data$DIA_11_mm)
+full_data$DBH_11<-as.double(full_data$DBH_11)
+full_data$ODBH<-as.double(full_data$ODBH)
+full_data$NDBH<-as.double(full_data$NDBH)
+#as.factor PLOT REP SUBPLOT TRT TRT_code  SUBPLOT_ID
+full_data$PLOT<-as.factor(full_data$PLOT)
+#full_data$REP<-as.factor(full_data$REP)
+full_data$SUBPLOT<-as.factor(full_data$SUBPLOT)
+full_data$TRT<-as.factor(full_data$TRT)
+full_data$TRT_code<-as.factor(full_data$TRT_code)
+full_data$SUBPLOT_ID<-as.factor(full_data$SUBPLOT_ID)
+#for diameters
+#long_data<- pivot_longer(combined_data, cols = c("ODBH","NDBH"), names_to = "YEAR", values_to = "DBH_mm")
+long_data<- pivot_longer(full_data, cols = c("DIA_87_mm","DIA_95_mm","DBH_11","NDBH"), names_to = "YEAR", values_to = "DBH_mm")
+#for status
+#status<-pivot_longer(combined_data, cols = c("OSTS","NSTS"), names_to = "YEAR", values_to = "STATUS")
+status<-pivot_longer(full_data, cols = c("STS_87","STS_95","STS_2011","NSTS"), names_to = "YEAR", values_to = "STATUS")
+#for height
+#height<-pivot_longer(combined_data, cols = c("OHT","NHT"), names_to = "YEAR", values_to = "HEIGHT")
+#for damage code with dummy variable for  because the data was not taken
+#combined_data$ODAM1<-NA
+#damage<-pivot_longer(combined_data, cols = c("ODAM1","DAM1"), names_to = "YEAR", values_to = "DAM")
+#for 2011 and 2020 damage codes with dummy variables for 87 95 because the status was not recorded in those years
+full_data$DAM87<-NA
+full_data$DAM95<-NA
+damage<-pivot_longer(full_data, cols = c("DAM87","DAM95","DAM1.x","DAM1.y"), names_to = "YEAR", values_to = "DAM")
+#combining
+long_data$STATUS<-as.character(status$STATUS)
+#long_data$HEIGHT<-as.character(height$HEIGHT)
+long_data$DAMAGE<-as.character(damage$DAM)
+#replacing numbers for "YEAR" and also adding a "YEAR" factor variable
+long_data$YEAR_dbl<-as.double(ifelse(long_data$YEAR=="DIA_87_mm", 1987,
+                                     ifelse(long_data$YEAR=="DIA_95_mm", 1995,
+                                            ifelse(long_data$YEAR=="DBH_11", 2011,
+                                                   ifelse(long_data$YEAR=="NDBH", 2020, NA)))))
+long_data$YEAR_fac<-as.factor(long_data$YEAR_dbl)
+#making descriptive status variable
+long_data$Tree_status<-as.character(ifelse(long_data$STATUS=="1", "Alive",
+                                     ifelse(long_data$STATUS=="3", "Dead", NA)))
+#and a suppression flag
+long_data$SUPP<-ifelse((long_data$STATUS=="3"|long_data$STATUS=="1"), (ifelse(long_data$DAMAGE=="400", "Suppressed", "Not")), NA)
+#combined suppressin and status
+long_data$SUP_MORT<- as.character(paste0(long_data$SUPP,long_data$Tree_status,sep=""))
+#and a root rot flag
+long_data$ROOT<-as.character(ifelse((long_data$DAMAGE=="806"|long_data$DAMAGE=="807"|long_data$DAMAGE=="808"), "ROT", NA))
+long_data$PW_R<-as.character(ifelse((long_data$DAMAGE=="806"|long_data$DAMAGE=="807"), 1, NA))
+long_data$PW<-as.character(ifelse((long_data$DAMAGE=="807"), 1, NA))
+#making live basal area calculation for each tree using status and diameter
+long_data$DBH_cm<-ifelse(long_data$STATUS=="1",long_data$DBH_mm/10 , NA)
+long_data$Live_BA_sq_m<-as.double(ifelse(long_data$STATUS=="1", (3.14159*(long_data$DBH_cm^2)/40000), NA))
+#creating DF_age variable based on treatment and estimated measurement year
+#long_data$DF_age<-as.numeric(ifelse(long_data$YEAR=="ODBH", #if old
+#                ifelse(long_data$TRT=="RA20Y"|long_data$TRT=="CW20Y",16, #if 20Y
+#                      ifelse(long_data$TRT=="DF0Y",36 #if 0Y
+#                          , 26)) #else/ if 10Y
+#          , #else/ if new
+#                ifelse(long_data$TRT=="RA20Y"|long_data$TRT=="CW20Y",25, #if 20Y
+#                      ifelse(long_data$TRT=="DF0Y",45 #if 0Y
+#                          , 35)))) #else/ if 10Y
+#####FIXED
+long_data$DF_age<-NA
+long_data$DF_age<-as.numeric(
+  ifelse( long_data$YEAR=="NDBH" #test 2020
+            , #yes 2020
+          ifelse((long_data$TRT=="RA20Y" | long_data$TRT=="CW20Y") #test 20Y
+            , 25  #yes 20Y
+            , #no 20Y
+            ifelse((long_data$TRT=="RA10Y" | long_data$TRT=="CW10Y") #test 10y
+              , 35  #yes 10Y
+              , 45 #no 10Y 
+            )# TRT 10 test close
+          ) #TRT 20 test Close
+          , #no 2020
+          ifelse( long_data$YEAR=="DBH_11",  #test 2011
+          ifelse( #yes 2011
+          (long_data$TRT=="RA20Y" | long_data$TRT=="CW20Y"), # test 20Y
+          16 #yes 20y
+          , #no 20 y
+          ifelse((long_data$TRT=="RA10Y" | long_data$TRT=="CW10Y"), #test 10y
+                 26, #yes 10y
+                 36) #no 10Y therefore DF
+          ) #close 20y test
+          , #no 2011
+  ifelse(long_data$YEAR=="DIA_95_mm", #test 95
+        ifelse( #yes 95
+          (long_data$TRT=="RA10Y" | long_data$TRT=="CW10Y"), #test 10YTRT
+          10, #yes 10Y TRT
+          NA #no 10Y TRT (and therefore not sampled in 1995)
+          )   #close TRT test
+         , #no 95
+  ifelse(long_data$YEAR=="DIA_87_mm", #test 87
+         ifelse( #yes 87
+           long_data$TRT=="DF0Y", #test DF
+           12, #yes DF
+           NA), #no DF (and therefore no to all treatments)
+  NA #no 87 (and therefor no to all dates)
+  ) # 87 close
+  ) # 95 close
+  ) # 11 close
+  ) # 2020 close
+) #numeric close
+long_data$FVS_age<-NA
+long_data$FVS_age<-ifelse(long_data$DF_age==10,0,ifelse(long_data$DF_age==12,0,ifelse(long_data$DF_age==26,16,ifelse(long_data$DF_age==35,25,ifelse(long_data$DF_age==36,24,ifelse(long_data$DF_age==45,35,NA))))))
+#subsetting to keep only relevant columns
+keep_cols<- c("Tree_ID","TREE","PLOT","REP","SUBPLOT","SUBPLOT_ID","TRT","TRT_code","YEAR_fac","YEAR_dbl","DF_age","Tree_status","DBH_mm","Live_BA_sq_m","STATUS","DAMAGE", "SUPP", "ROOT","PW","PW_R","FVS_age","SUP_MORT")
+long_data_keep<-long_data[,names(long_data) %in% keep_cols]
+long_data_keep<-long_data_keep[,keep_cols]
+ABC_long_keep<-long_data_keep[long_data_keep$TRT_code=="A"|long_data_keep$TRT_code=="B"|long_data_keep$TRT_code=="C",]
+#drop2<-c("OSTS","NSTS","OHLC","NHLC","DAM1","ODAM1")
+#long_data<-long_data[,!names(long_data) %in% drop2]
+#write.csv(long_data_keep, file="C:/Users/showa/Documents/GitHub/Apiary_LRR/raw_data/long_data_keep.csv", row.names = FALSE)
+#saveRDS(long_data_keep, file="C:/Users/showa/Documents/GitHub/Apiary_LRR/raw_data/long_data_keep.Rds")
+```
+
+
+
+# Second to last to run. Plot/Stand lvl summary
+
+```{r}
+#building from Woods Creek approach
+#creating unique tree ID variable of format TRT_REP_SUBPLOT_TREE
+long_data_keep$Tree_ID_TRS<-paste(long_data_keep$TRT_code,long_data_keep$REP,long_data_keep$SUBPLOT,long_data_keep$TREE, sep = "_")
+#creating unique subplotplot ID factor varaible of format TRT_REP_SUBPLOT
+long_data_keep$Subplot_ID_TRS<-as.factor(paste(long_data_keep$TRT_code,long_data_keep$REP,long_data_keep$SUBPLOT, sep = "_"))
+
+subplot_df_age<-long_data_keep %>% filter(!is.na(STATUS)) %>% group_by(Subplot_ID_TRS, DF_age,TRT, STATUS, .drop = TRUE) %>% summarise(count = n(), Live_BA_mpha = if(all(is.na(Live_BA_sq_m))) NA_real_ else sum(Live_BA_sq_m/0.0404686, na.rm=TRUE),PW=sum(!is.na(PW)), PW_R=sum(!is.na(PW_R)))
+subplot_df_year<-long_data_keep %>% filter(!is.na(STATUS)) %>% group_by(Subplot_ID_TRS, YEAR_dbl,TRT, STATUS, .drop = TRUE) %>% summarise(count = n(), Live_BA_mpha = if(all(is.na(Live_BA_sq_m))) NA_real_ else sum(Live_BA_sq_m/0.0404686, na.rm=TRUE),PW=sum(!is.na(PW)), PW_R=sum(!is.na(PW_R)))
+# 1 sq m = 10.7639 sq ft
+#subplot_df_age$Live_BA_sq_ft<-subplot_df_age$Live_BA_sq_m*10.7639
+#subplot_df_age$Live_BA_fpa<-subplot_df_age$Live_BA_sq_ft/.053
+#subplot_df_year$Live_BA_sq_ft<-subplot_df_year$Live_BA_sq_m*10.7639
+#subplot_df_year$Live_BA_fpa<-subplot_df_year$Live_BA_sq_ft/.053
+#adding the separate TMT, BLOCK, and PLOT columns
+subplot_df_age<-subplot_df_age %>% separate(Subplot_ID_TRS, c("TRT","REP","SUBPLOT"),"_",remove = FALSE)
+subplot_df_year<-subplot_df_year %>% separate(Subplot_ID_TRS, c("TRT","REP","SUBPLOT"),"_",remove = FALSE)
+#adding sq ft/acr in addition to sq m/ha  1m/ha = 4.356 ft/a
+subplot_df_age$Live_BA_fpa<-subplot_df_age$Live_BA_mpha*4.356
+subplot_df_year$Live_BA_fpa<-subplot_df_year$Live_BA_mpha*4.356
+
+subplot_df_age$Stand_ID_TR<-as.factor(paste(subplot_df_age$TRT,subplot_df_age$REP, sep = "_"))
+subplot_df_year$Stand_ID_TR<-as.factor(paste(subplot_df_year$TRT,subplot_df_year$REP, sep = "_"))
+
+PW_in_subplot_1012<-subplot_df_age %>% filter(DF_age==10|DF_age==12) %>% group_by(Subplot_ID_TRS, .drop = TRUE) %>% summarise(PW=sum(PW), PW_R=sum(PW_R))
+stand_df_age<- subplot_df_age %>% filter(!is.na(STATUS)) %>% group_by(Stand_ID_TR, DF_age, TRT, STATUS, .drop = TRUE) %>% summarise(count = sum(count, na.rm=TRUE), Live_BA_mpha = if(all(is.na(Live_BA_mpha))) NA_real_ else mean(Live_BA_mpha, na.rm=TRUE),  PW=sum(PW), PW_R=sum(PW_R))
+stand_df_year<- subplot_df_year %>% filter(!is.na(STATUS)) %>% group_by(Stand_ID_TR, YEAR_dbl, TRT, STATUS, .drop = TRUE) %>% summarise(count = sum(count, na.rm=TRUE), Live_BA_mpha = if(all(is.na(Live_BA_mpha))) NA_real_ else mean(Live_BA_mpha, na.rm=TRUE), PW=sum(PW), PW_R=sum(PW_R))
+#adding the separate REP column
+stand_df_age<-stand_df_age %>% separate(Stand_ID_TR, c(NA,"REP"),"_",remove = FALSE)
+stand_df_year<-stand_df_year %>% separate(Stand_ID_TR, c(NA,"REP"),"_",remove = FALSE)
+#stand_df_age$REP<-as.factor(stand_df_age$REP)
+subplot_ABC<- subplot_df_age[subplot_df_age$TRT=="A"|subplot_df_age$TRT=="B"|subplot_df_age$TRT=="C",]
+stand_ABC<- stand_df_age[stand_df_age$TRT=="A"|stand_df_age$TRT=="B"|stand_df_age$TRT=="C",]
+subplot_ABC_year<- subplot_df_year[subplot_df_year$TRT=="A"|subplot_df_year$TRT=="B"|subplot_df_year$TRT=="C",]
+stand_ABC_year<- stand_df_year[stand_df_year$TRT=="A"|stand_df_year$TRT=="B"|stand_df_year$TRT=="C",]
+subplot_ABC$SEV<-ifelse(subplot_ABC$REP=="0","5",subplot_ABC$REP)
+stand_ABC$SEV<-ifelse(stand_ABC$REP=="0","5",stand_ABC$REP)
+subplot_ABC$Treatment<-ifelse(subplot_ABC$TRT=="A",
+                            "10RA",
+                            ifelse(subplot_ABC$TRT=="B",
+                               "10CW", "DF"))
+stand_ABC$Treatment<-ifelse(stand_ABC$TRT=="A",
+                            "10RA",
+                            ifelse(stand_ABC$TRT=="B",
+                               "10CW", "DF"))
+#adding sq ft/acr in addition to sq m/ha  1m/ha = 4.356 ft/a
+stand_ABC$Live_BA_fpa<-stand_ABC$Live_BA_mpha*4.356
+subplot_ABC_year$SEV<-ifelse(subplot_ABC_year$REP=="0","5",subplot_ABC_year$REP)
+stand_ABC_year$SEV<-ifelse(stand_ABC_year$REP=="0","5",stand_ABC_year$REP)
+subplot_ABC_year$Treatment<-ifelse(subplot_ABC_year$TRT=="A",
+                            "10RA",
+                            ifelse(subplot_ABC_year$TRT=="B",
+                               "10CW", "DF"))
+stand_ABC_year$Treatment<-ifelse(stand_ABC_year$TRT=="A",
+                            "10RA",
+                            ifelse(stand_ABC_year$TRT=="B",
+                               "10CW", "DF"))
+#adding sq ft/acr in addition to sq m/ha  1m/ha = 4.356 ft/a
+stand_ABC_year$Live_BA_fpa<-stand_ABC_year$Live_BA_mpha*4.356
+
+```
+
+# Last to RUN.. write BA output
+```{r}
+output_prep<-filter(stand_ABC_year, STATUS=="1")
+#T1S2
+
+BA_T2S1<- filter(output_prep, TRT=="B" & SEV==1)
+BA_TMT2_STND1<-BA_T2S1[,c("Stand_ID_TR","REP","YEAR_dbl","TRT","count","Live_BA_mpha", "Live_BA_fpa","SEV")]
+write_csv(BA_TMT2_STND1, "C:/Users/shawn/Desktop/BA_TMT2_STND1.csv")
+#T2S2
+#BA_T2S2<- filter(output_prep, TRT=="B" & SEV==2)
+#BA_TMT2_STND2<-BA_T2S2[,c("Stand_ID_TR","REP","YEAR_dbl","TRT","count","Live_BA_mpha", "Live_BA_fpa","SEV")]
+#write_csv(BA_TMT2_STND2, "C:/Users/shawn/Desktop/BA_TMT2_STND2.csv")
+#T2S3
+
+```
