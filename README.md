@@ -3,10 +3,9 @@
 - Cleaned up file after the below steps were completed: `WC Final 2020 - 08_05_20_CLEANED.xlsx`
 - All trees that were removed were documented in: `edited_and_deleted_trees.xlsx`
 - File used for creating FVS input files: `WC Final 2020 - 08_05_20_CLEANED_FVS_INPUT.xlsx`
-- Basal area calculations for Forest Vegetation Simulator (FVS) and Western Root Disease Model (WRDM) comparison can be found in: 
+- Basal area calculations for Forest Vegetation Simulator (FVS) and Western Root Disease Model (WRDM) comparison can be found in:  ` mcmurtrs/WoodsCreek/Collected_Data`
 - All FVS/WRDM input files can be found in this directory: ` mcmurtrs/WoodsCreek/FVS_Input_Files`
 - All FVS/WRDM output and log files are in: ` mcmurtrs/WoodsCreek/FVS_Output_Files`
-- Files used for basal area calculations are within: ` mcmurtrs/WoodsCreek/Collected_Data`
 - Combined spreadsheets with basal area calculations and FVS/WRDM output values are located in: ` mcmurtrs/WoodsCreek/Combined_Outputs`
 
 
