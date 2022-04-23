@@ -6,6 +6,8 @@
 - Basal area calculations for Forest Vegetation Simulator (FVS) and Western Root Disease Model (WRDM) comparison can be found in: 
 - All FVS/WRDM input files can be found in this directory: ` mcmurtrs/WoodsCreek/FVS_Input_Files`
 - All FVS/WRDM output and log files are in: ` mcmurtrs/WoodsCreek/FVS_Output_Files`
+- Files used for basal area calculations are within: ` mcmurtrs/WoodsCreek/Collected_Data`
+- Combined spreadsheets with basal area calculations and FVS/WRDM output values are located in: ` mcmurtrs/WoodsCreek/Combined_Outputs`
 
 
 # Paramaters for FVS
