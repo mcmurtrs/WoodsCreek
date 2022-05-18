@@ -1,0 +1,479 @@
+
+
+         FOREST VEGETATION SIMULATOR     VERSION 3261 -- PACIFIC NW COAST PROGNOSIS             RV:20201010    05-09-2022  19:49:25
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+                                                OPTIONS SELECTED BY INPUT
+
+KEYWORD FILE NAME: e39b42e0-39e6-47bc-be5c-25c3d2d6db4c
+----------------------------------------------------------------------------------------------------------------------------------
+KEYWORD    PARAMETERS:
+--------   -----------------------------------------------------------------------------------------------------------------------
+
+STDIDENT
+           STAND ID= 3033                                                    TMT3__STAND3                                      
+
+STANDCN    DATA BASE CONTROL NUMBER=303
+
+MGMTID  
+           MANAGEMENT ID= A064
+
+INVYEAR    INVENTORY YEAR= 1990
+
+TIMEINT    ALL CYCLES;  PERIOD LENGTH=  5
+
+TIMEINT    CYCLE=  4; PERIOD LENGTH=  4
+
+TIMEINT    CYCLE=  5; PERIOD LENGTH=  1
+
+NUMCYCLE   NUMBER OF CYCLES=  7
+
+
+            
+
+DATABASE   DATABASE KEYWORDS:
+
+DSNOUT     DSN FOR OUTPUT DATA BASE IS e39b42e0-39e6-47bc-be5c-25c3d2d6db4c.db
+
+
+           * FVS_Summary, FVS_Compute, Mistletoe
+
+SUMMARY    SUMMARY VERSION 2 STATISTICS SENT TO DATABASE.
+
+COMPUTE    COMPUTE VARIABLES SENT TO SPECIFIED DATABASE.
+           ADD NEW VARIABLES TO EXISTING TABLE: YES
+           INCLUDE VARIABLES STARTING WITH UNDERSCORE: NO 
+
+MISRPTS    MISTLETOE INFORMATION FROM OUTPUT SENT TO SPECIFIED DATABASE.
+           CREATE TEXT FILE REPORTS: NO 
+
+END        END OF DATA BASE OPTIONS.
+
+
+            
+           * FVS_TreeList, FVS_Cutlist
+
+TREELIST   DATE/CYCLE=    0; DATA SET REFERENCE NUMBER =  3.; HEADING SUPPRESSION CODE = 0.
+           (0=WITH HEADING, OTHER VALUES=SUPPRESS HEADING).
+
+CUTLIST    DATE/CYCLE=    0; DATA SET REFERENCE NUMBER =  3.; HEADING SUPPRESSION CODE = 0.
+           (0=WITH HEADING, OTHER VALUES=SUPPRESS HEADING).
+
+DATABASE   DATABASE KEYWORDS:
+
+TREELIST   TREE INFORMATION FROM OUTPUT SENT TO SPECIFIED DATABASE.
+           CREATE TEXT FILE REPORT: NO 
+           SPECIES CODE OUTPUT FORMAT: NORMAL  
+
+CUTLIST    CUTS INFORMATION FROM OUTPUT SENT TO SPECIFIED DATABASE.
+           SPECIES CODE OUTPUT FORMAT: NORMAL  
+           CREATE TEXT FILE REPORT: NO 
+
+END        END OF DATA BASE OPTIONS.
+
+
+            
+
+DATABASE   DATABASE KEYWORDS:
+
+RDSUM      ROOT DISEASE SUMMARY TABLE SENT TO SPECIFIED DATABASE.
+
+END        END OF DATA BASE OPTIONS.
+
+
+            
+
+DATABASE   DATABASE KEYWORDS:
+
+RDDETAIL   ROOT DISEASE DETAIL TABLE SENT TO SPECIFIED DATABASE.
+
+END        END OF DATA BASE OPTIONS.
+
+
+            
+
+DATABASE   DATABASE KEYWORDS:
+
+RDBBMORT   ROOT DISEASE BARK BEETLE MORTALITY TABLE SENT TO SPECIFIED DATABASE.
+
+END        END OF DATA BASE OPTIONS.
+
+
+            
+
+STATS      STATISTICAL DESCRIPTION OF INPUT DATA WILL BE PROVIDED; CONFIDENCE LIMITS AT 0.05 LEVEL.
+
+DATABASE   DATABASE KEYWORDS:
+
+INVSTATS   INVENTORY STATISTICS TABLES SENT TO SPECIFIED DATABASE.
+
+END        END OF DATA BASE OPTIONS.
+
+
+            
+
+DELOTAB    TABLE NUMBER   1  SPECIFIED.  STAND COMPOSITION TABLE WILL BE DELETED.
+
+DELOTAB    TABLE NUMBER   2  SPECIFIED.  SAMPLE TREE TABLE WILL BE DELETED.
+
+DELOTAB    TABLE NUMBER   4  SPECIFIED.  ACTIVITY SCHEDULE TABLE WILL BE DELETED.
+
+DATABASE   DATABASE KEYWORDS:
+
+DSNIN      INPUT DATA BASE IS C:/FVS/pnw/FVS_Data.db
+
+STANDSQL   STANDSQL COMMAND FOR INPUT DATA BASE: C:/FVS/pnw/FVS_Data.db
+           SELECT * FROM FVS_StandInit WHERE Stand_CN = '%Stand_CN%'
+
+           STAND-LEVEL DATA BASE READ:
+           INV_YEAR:               1990
+           REGION:                    6
+           FOREST:                   12
+            COMPOSITE LOC:          612
+           AGE:                      67
+           INV_PLOT_SIZE:           10.
+           BRK_DBH:               999.0
+           NUM_PLOTS:                 5
+           NONSTK_PLOTS:              0
+           END OF DATA BASE READ.
+
+TREESQL    TREESQL COMMAND FOR INPUT DATA BASE: C:/FVS/pnw/FVS_Data.db
+           SELECT * FROM FVS_TreeInit WHERE Stand_CN = '%Stand_CN%'
+           STAND_ID           WAS IGNORED
+           STAND_CN           WAS IGNORED
+           PLOT_CN            WAS IGNORED
+           PLOT_ID            WAS USED
+           STANDPLOT_CN       WAS IGNORED
+           STANDPLOT_ID       WAS IGNORED
+           TREE_CN            WAS IGNORED
+           TREE_ID            WAS USED
+           TAG_ID             WAS IGNORED
+           SITE_TREE_FLAG     WAS IGNORED
+           TREE_COUNT         WAS USED
+           HISTORY            WAS USED
+           SPECIES            WAS USED
+           DIAMETER           WAS USED
+           DIAMETER_HT        WAS IGNORED
+           DG                 WAS USED
+           HT                 WAS USED
+           HTG                WAS USED
+           HTTOPK             WAS USED
+           HT_TO_LIVE_CROWN   WAS IGNORED
+           CRCLASS            WAS IGNORED
+           CRRATIO            WAS USED
+           DAMAGE1            WAS USED
+           SEVERITY1          WAS USED
+           DAMAGE2            WAS USED
+           SEVERITY2          WAS USED
+           DAMAGE3            WAS USED
+           SEVERITY3          WAS USED
+           DEFECT_CUBIC       WAS IGNORED
+           DEFECT_BOARD       WAS IGNORED
+           TREEVALUE          WAS USED
+           PRESCRIPTION       WAS USED
+           AGE                WAS USED
+           SLOPE              WAS USED
+           ASPECT             WAS USED
+           PV_CODE            WAS USED
+           PV_REF_CODE        WAS IGNORED
+           TOPOCODE           WAS USED
+           SITEPREP           WAS USED
+           NUMBER ROWS PROCESSED:   37
+
+END        END OF DATA BASE OPTIONS.
+
+RDIN       WESTERN ROOT DISEASE MODEL OPTIONS:
+
+RRTYPE        PHELLINUS    WILL BE SIMULATED.
+
+SAREA      STAND AREA =    0.50 ACRES
+
+RRINIT     ROOT DISEASE IS PHELLINUS   
+           ROOT DISEASE INITIALIZATION KEYWORD; ROOT DISEASE CENTERS ASSIGNED RANDOMLY 
+           INITIALIZATION WILL BE WITH USER-SUPPLIED DATA UNLESS THE RRTREIN KEYWORD IS USED IN THE RUNSTREAM
+           NUMBER OF CENTERS=  20
+           INFECTED TREES/ACRE IN DISEASED AREAS   =   85.00
+           UNINFECTED TREES/ACRE IN DISEASED AREAS =   85.00
+           PROPORTION ROOTS INFECTED=0.10 ;DISEASE AREA =   0.12 ACRES
+
+END        END OF ROOT DISEASE KEYWORDS
+
+******* WARNING: NO BARK BEETLES WERE SPECIFIED AND THE BBCLEAR KEYWORD WAS NOT USED.
+                 BARK BEETLES ARE ON USING THEIR DEFAULT VALUES AS FOLLOWS
+
+BBTYPE1    TYPE 1 BARK BEETLE IS ON EVERY YEAR. SPECIES =10.;  MINIMUM DBH= 8.00 INCHES
+           MINIMUM ELIGIBLE STEMS FOR EVENT =   150. STEMS/ACRE;   MORTALITY RATE = 0.100
+
+BBTYPE3    TYPE 3 BARK BEETLE IS ON EVERY YEAR SPECIES = 4.;  MINIMUM DBH=10.00  INCHES
+           MINIMUM ELIGIBLE STEMS FOR EVENT=     10. STEMS/ACRE   ;  MORTALITY RATE = 0.88
+           MINIMUM ROOT DISEASE INFECTION= 0.30
+
+BBTYPE4    TYPE 4 BARK BEETLE IS ON EVERY YEAR SPECIES =10.;  MINIMUM DBH= 4.00  INCHES
+           MINIMUM ELIGIBLE STEMS FOR EVENT=      1. STEMS/ACRE ; INFECTED MORTALITY= 0.750
+           MINIMUM ROOT DISEASE INFECTION=  0.40 UNINFECTED-WITHIN-PATCH MORTALITY=  0.30
+           UNINFECTED-FRINGE MORTALITY= 0.15 UNINFECTED-NON-PATCH MORTALITY=  0.01
+
+SPLABEL    STAND POLICY LABEL SET:
+           All_Stands
+
+PROCESS    PROCESS THE STAND.
+
+********   FVS09 WARNING:  PLOT COUNTS DO NOT MATCH DATA ON THE DESIGN RECORD; DESIGN RECORD DATA USED.
+                            PLOT COUNT=   6; NONSTOCKABLE COUNT=   0
+----------------------------------------------------------------------------------------------------------------------------------
+
+                                                OPTIONS SELECTED BY DEFAULT
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+TREEFMT    (I4,T1,I7,F6.0,I1,A3,F4.1,F3.1,2F3.0,F4.1,I1,3(I2,I2),2I1,I2,2I3,2I1,F3.0)      
+                                                                                           
+
+DESIGN     BASAL AREA FACTOR=   40.0; INVERSE OF FIXED PLOT AREA=   10.0; BREAK DBH=  999.0
+           NUMBER OF PLOTS=     5; NON-STOCKABLE PLOTS=     0; STAND SAMPLING WEIGHT=     5.00000
+           PROPORTION OF STAND CONSIDERED STOCKABLE=  1.000
+
+********   FVS14 WARNING:  HABITAT/PLANT ASSOCIATION/ECOREGION CODE WAS NOT RECOGNIZED; HABITAT/PLANT ASSOCIATION/ECOREGION SET TO DEFAULT CODE.
+
+           PLANT ASSOCIATION CODE USED IN THIS PROJECTION IS CHS133  
+
+STDINFO    FOREST-LOCATION CODE=     612; HABITAT TYPE= 40; AGE=   67; ASPECT AZIMUTH IN DEGREES=   0.; SLOPE=   5.%
+           ELEVATION(100'S FEET)=  7.0;  REFERENCE CODE=     
+
+SPECIES      SF      WF      GF      AF      RF      SS      NF      YC      IC      ES
+SDI MAX     950.    950.    950.    950.    950.    950.    950.    950.    950.    950.
+
+SPECIES      LP      JP      SP      WP      PP      DF      RW      RC      WH      MH
+SDI MAX     950.    950.    950.    950.    950.    950.    950.    950.    950.    950.
+
+SPECIES      BM      RA      WA      PB      GC      AS      CW      WO      WJ      LL
+SDI MAX     950.    950.    950.    950.    950.    950.    950.    950.    950.    950.
+
+SPECIES      WB      KP      PY      DG      HT      CH      WI      __      OT
+SDI MAX     950.    950.    950.    950.    950.    950.    950.    950.    950.
+
+*NOTE -- AT LEAST ONE DEFAULT MAXIMUM SDI EXCEEDED THE FOREST DEFAULT MAXIMUM. FOREST DEFAULT MAXIMUM OF  950. USED.
+          YOU MAY NEED TO SPECIFICALLY RESET VALUES FOR THESE SPECIES USING THE SDIMAX KEYWORD.
+
+                                  NATIONAL VOLUME ESTIMATOR LIBRARY EQUATION NUMBERS
+SPECIES CUBIC FOOT BOARD FOOT SPECIES CUBIC FOOT BOARD FOOT SPECIES CUBIC FOOT BOARD FOOT SPECIES CUBIC FOOT BOARD FOOT 
+------- ---------- ---------- ------- ---------- ---------- ------- ---------- ---------- ------- ---------- ---------- 
+  SF    616BEHW011 616BEHW011   WF    616BEHW015 616BEHW015   GF    616BEHW017 616BEHW017   AF    616BEHW019 616BEHW019
+  RF    616BEHW020 616BEHW020   SS    616BEHW098 616BEHW098   NF    616BEHW022 616BEHW022   YC    616BEHW042 616BEHW042
+  IC    616BEHW081 616BEHW081   ES    616BEHW093 616BEHW093   LP    616BEHW108 616BEHW108   JP    616BEHW116 616BEHW116
+  SP    616BEHW117 616BEHW117   WP    616BEHW119 616BEHW119   PP    616BEHW122 616BEHW122   DF    F00FW2W202 F00FW2W202
+  RW    616BEHW211 616BEHW211   RC    616BEHW242 616BEHW242   WH    F03FW2W263 F03FW2W263   MH    616BEHW264 616BEHW264
+  BM    616BEHW312 616BEHW312   RA    616BEHW351 616BEHW351   WA    616BEHW352 616BEHW352   PB    616BEHW375 616BEHW375
+  GC    616BEHW431 616BEHW431   AS    616BEHW746 616BEHW746   CW    616BEHW747 616BEHW747   WO    616BEHW815 616BEHW815
+  WJ    616BEHW064 616BEHW064   LL    616BEHW072 616BEHW072   WB    616BEHW101 616BEHW101   KP    616BEHW103 616BEHW103
+  PY    616BEHW231 616BEHW231   DG    616BEHW492 616BEHW492   HT    616BEHW500 616BEHW500   CH    616BEHW768 616BEHW768
+  WI    616BEHW920 616BEHW920   __    616BEHW000 616BEHW000   OT    616BEHW999 616BEHW999
+
+SITECODE   SITE INDEX INFORMATION:
+            SF=  139.;  WF=   98.;  GF=   98.;  AF=  139.;  RF=   98.;  SS=   98.;  NF=  139.;  YC=  139.; IC=  139.
+            ES=  139.;  LP=   98.;  JP=  139.;  SP=  139.;  WP=  139.;  PP=  139.;  DF=   98.;  RW=  139.; RC=   98.
+            WH=   98.;  MH=   28.;  BM=  104.;  RA=   49.;  WA=   90.;  PB=  209.;  GC=   97.;  AS=  104.; CW=  118.
+            WO=   96.;  WJ=   32.;  LL=   98.;  WB=   97.;  KP=  139.;  PY=   35.;  DG=   83.;  HT=   35.; CH=   70.
+            WI=   70.;  __=  139.;  OT=  139.
+           SITE SPECIES=DF CODE=   16
+
+INVENTORY POINT CROSS REFERENCE (FVS SEQUENTIAL POINT NUMBER = POINT NUMBER AS ENTERED IN THE INPUT DATA):
+  1=      61;   2=      62;   3=      63;   4=      64;   5=      65
+----------------------------------------------------------------------------------------------------------------------------------
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+                                          SUMMARY OF DISEASE INFORMATION READ IN ON INPUT
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+           DISEASE TYPE: W
+
+                   NUMBER OF INFECTED STUMPS         
+
+           SIZE CLASS      RESINOUS      NON-RESINOUS
+           ------------------------------------------
+             0- 12"         0.             0.
+            12- 24"         0.             0.
+            24- 48"         0.             0.
+            48-100"         0.             0.
+              >100"         0.             0.
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+CALIBRATION STATISTICS:
+
+
+                                                 DF    BM
+                                                ----  ----
+
+NUMBER OF RECORDS PER SPECIES                     36     1
+
+NUMBER OF RECORDS CODED AS RECENT MORTALITY        3     0
+
+NUMBER OF RECORDS WITH MISSING HEIGHTS            33     1
+
+NUMBER OF RECORDS WITH BROKEN OR DEAD TOPS         0     0
+
+NUMBER OF RECORDS WITH MISSING CROWN RATIOS       33     1
+
+NUMBER OF RECORDS AVAILABLE FOR SCALING
+THE DIAMETER INCREMENT MODEL                       0     0
+
+RATIO OF STANDARD ERRORS
+(INPUT DBH GROWTH DATA : MODEL)                 1.00  1.00
+
+WEIGHT GIVEN TO THE INPUT GROWTH DATA WHEN
+DBH GROWTH MODEL SCALE FACTORS WERE COMPUTED    0.00  0.00
+
+INITIAL SCALE FACTORS FOR THE
+DBH INCREMENT MODEL                             1.00  1.00
+
+NUMBER OF RECORDS AVAILABLE FOR SCALING
+THE SMALL TREE HEIGHT INCREMENT MODEL             0     0
+
+INITIAL SCALE FACTORS FOR THE SMALL TREE
+HEIGHT INCREMENT MODEL                          1.00  1.00
+
+NUMBER OF RECORDS WITH MISTLETOE                   0     0
+
+
+        GENERAL SPECIES SUMMARY FOR THE CRUISE (PER ACRE)
+
+  SPECIES        BOARD FEET   CUBIC FEET           TREES    BASAL AREA
+-------------------------------------------------------------------------
+ DF  =  DF          33024.0       5925.2            66.0         136.7
+ BM  =  BM            242.0         51.0             2.0           1.5
+
+
+                  DISTRIBUTION OF STAND ATTRIBUTES AMONG SAMPLE POINTS
+
+                              STANDARD  COEFF OF SAMPLE             95%           SAMPLING ERROR IN
+CHARACTERISTIC          MEAN DEVIATION VARIATION   SIZE     CONFIDENCE  LIMITS    PERCENT     UNITS
+----------------   --------- --------- --------- ------ ----------------------    -----------------
+TREES/ACRE             64.00     18.17      0.28      5     41.44        86.56      35.3       22.6
+CUBIC FEET/ACRE      5466.03   1327.04      0.24      5   3817.70      7114.36      30.2     1648.3
+BOARD FEET/ACRE     30186.00   7676.07      0.25      5  20651.52     39720.48      31.6     9534.5
+BASAL AREA/ACRE       127.19     28.91      0.23      5     91.28       163.10      28.2       35.9
+
+
+         FOREST VEGETATION SIMULATOR     VERSION 3261 -- PACIFIC NW COAST PROGNOSIS             RV:20201010    05-09-2022  19:49:25
+
+STAND POLICIES:   All_Stands
+
+STAND ID: 3033                          MGMT ID: A064                          TMT3__STAND3
+
+
+
+                                SUMMARY STATISTICS (PER ACRE OR STAND BASED ON TOTAL STAND AREA)
+--------------------------------------------------------------------------------------------------------------------------------------
+               START OF SIMULATION PERIOD                     REMOVALS             AFTER TREATMENT    GROWTH THIS PERIOD
+         --------------------------------------------- ----------------------- ---------------------  ------------------   MAI  ------
+         NO OF              TOP      TOTAL MERCH MERCH NO OF TOTAL MERCH MERCH              TOP  RES  PERIOD ACCRE MORT   MERCH FOR SS
+YEAR AGE TREES  BA  SDI CCF HT  QMD  CU FT CU FT BD FT TREES CU FT CU FT BD FT  BA  SDI CCF HT   QMD  YEARS   PER  YEAR   CU FT TYP ZT
+---- --- ----- --- ---- --- --- ---- ----- ----- ----- ----- ----- ----- ----- --- ---- --- --- ----  ------ ---- -----   ----- ------
+1990  67    68 138  195 154 129 19.3  5976  5576 33266     0     0     0     0 138  195 154 129 19.3       5  182     3    83.2 201 13
+1995  72    68 157  217 173 132 20.7  6871  6414 39068     0     0     0     0 157  217 173 132 20.7       5  171     5    89.1 201 13
+2000  77    67 175  235 190 135 21.9  7701  7212 44567     0     0     0     0 175  235 190 135 21.9       5  162    16    93.7 201 13
+2005  82    65 190  250 204 137 23.2  8431  7894 49436     0     0     0     0 190  250 204 137 23.2       4  156    56    96.3 201 12
+2009  86    62 198  256 210 139 24.2  8831  8265 52365     0     0     0     0 198  256 210 139 24.2       1  149    68    96.1 201 12
+2010  87    61 199  257 211 139 24.4  8912  8320 52723     0     0     0     0 199  257 211 139 24.4       5  151    77    95.6 201 12
+2015  92    58 206  262 217 141 25.4  9282  8694 55691     0     0     0     0 206  262 217 141 25.4       5  146    92    94.5 201 12
+2020  97    56 211  264 220 142 26.3  9551  8952 57967     0     0     0     0 211  264 220 142 26.3       0    0     0    92.3 201 12
+
+
+
+
+                                                     ACTIVITY SUMMARY 
+
+STAND ID= 3033                          MGMT ID= A064                          TMT3__STAND3                                      
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+CYCLE  DATE  EXTENSION  KEYWORD   DATE  ACTIVITY DISPOSITION  PARAMETERS:
+-----  ----  ---------  --------  ----  --------------------  --------------------------------------------------------------------
+
+   1   1990
+               RDIS     BBTYPE1   1990  NOT DONE                  10.0000     8.0000   150.0000     0.1000     0.0000
+               RDIS     BBTYPE3   1990  NOT DONE                   4.0000    10.0000    10.0000     0.8800     0.3000     0.0000
+               RDIS     BBTYPE4   1990  NOT DONE                  10.0000     4.0000     1.0000     0.7500     0.4000     0.3000
+                                                                   0.1500     0.0100     0.0000
+               BASE     CUTLIST   1990  NOT DONE                   3.0000     0.0000
+               BASE     TREELIST  1990  DONE IN 1994               3.0000     0.0000
+
+   2   1995
+               BASE     CUTLIST   1995  NOT DONE                   3.0000     0.0000
+               RDIS     BBTYPE1   1995  NOT DONE                  10.0000     8.0000   150.0000     0.1000     0.0000
+               RDIS     BBTYPE3   1995  NOT DONE                   4.0000    10.0000    10.0000     0.8800     0.3000     0.0000
+               RDIS     BBTYPE4   1995  NOT DONE                  10.0000     4.0000     1.0000     0.7500     0.4000     0.3000
+                                                                   0.1500     0.0100     0.0000
+               BASE     TREELIST  1995  DONE IN 1999               3.0000     0.0000
+
+   3   2000
+               BASE     CUTLIST   2000  NOT DONE                   3.0000     0.0000
+               RDIS     BBTYPE1   2000  NOT DONE                  10.0000     8.0000   150.0000     0.1000     0.0000
+               RDIS     BBTYPE3   2000  NOT DONE                   4.0000    10.0000    10.0000     0.8800     0.3000     0.0000
+               RDIS     BBTYPE4   2000  NOT DONE                  10.0000     4.0000     1.0000     0.7500     0.4000     0.3000
+                                                                   0.1500     0.0100     0.0000
+               BASE     TREELIST  2000  DONE IN 2004               3.0000     0.0000
+
+   4   2005
+               BASE     CUTLIST   2005  NOT DONE                   3.0000     0.0000
+               RDIS     BBTYPE1   2005  NOT DONE                  10.0000     8.0000   150.0000     0.1000     0.0000
+               RDIS     BBTYPE3   2005  NOT DONE                   4.0000    10.0000    10.0000     0.8800     0.3000     0.0000
+               RDIS     BBTYPE4   2005  NOT DONE                  10.0000     4.0000     1.0000     0.7500     0.4000     0.3000
+                                                                   0.1500     0.0100     0.0000
+               BASE     TREELIST  2005  DONE IN 2008               3.0000     0.0000
+
+   5   2009
+               BASE     CUTLIST   2009  NOT DONE                   3.0000     0.0000
+               BASE     TREELIST  2009  DONE IN 2009               3.0000     0.0000
+               RDIS     BBTYPE1   2009  NOT DONE                  10.0000     8.0000   150.0000     0.1000     0.0000
+               RDIS     BBTYPE3   2009  NOT DONE                   4.0000    10.0000    10.0000     0.8800     0.3000     0.0000
+               RDIS     BBTYPE4   2009  NOT DONE                  10.0000     4.0000     1.0000     0.7500     0.4000     0.3000
+                                                                   0.1500     0.0100     0.0000
+
+   6   2010
+               BASE     CUTLIST   2010  NOT DONE                   3.0000     0.0000
+               RDIS     BBTYPE1   2010  NOT DONE                  10.0000     8.0000   150.0000     0.1000     0.0000
+               RDIS     BBTYPE3   2010  NOT DONE                   4.0000    10.0000    10.0000     0.8800     0.3000     0.0000
+               RDIS     BBTYPE4   2010  NOT DONE                  10.0000     4.0000     1.0000     0.7500     0.4000     0.3000
+                                                                   0.1500     0.0100     0.0000
+               BASE     TREELIST  2010  DONE IN 2014               3.0000     0.0000
+
+   7   2015
+               BASE     CUTLIST   2015  NOT DONE                   3.0000     0.0000
+               RDIS     BBTYPE1   2015  NOT DONE                  10.0000     8.0000   150.0000     0.1000     0.0000
+               RDIS     BBTYPE3   2015  NOT DONE                   4.0000    10.0000    10.0000     0.8800     0.3000     0.0000
+               RDIS     BBTYPE4   2015  NOT DONE                  10.0000     4.0000     1.0000     0.7500     0.4000     0.3000
+                                                                   0.1500     0.0100     0.0000
+               BASE     TREELIST  2015  DONE IN 2019               3.0000     0.0000
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                                                  WESTERN ROOT DISEASE MODEL
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+                                 STAND ID= 3033                           MANAGEMENT ID= A064
+                         SUMMARY STATISTICS FOR ROOT DISEASE AREAS (PER ACRE BASED ON DISEASED AREA ONLY)
+----------------------------------------------------------------------------------------------------------------------------------
+                DISEASE STATISTICS         DEAD TREE CHARACTERISTICS        LIVE TREE CHARACTERISTICS
+                                          STUMPS      LOSSES FROM DISEASE
+           --------------------------   ------------  ------------------- -----------------------------------
+                                                                          UNINF    INFECTED         OVERALL
+                                                       NO OF   VOLUME
+                 NO   DISEASE  SPREAD          BA/    TREES   LOSSES     NO OF   NO OF    AVE   MERCH    BA/   NEWLY INFECTED
+                 OF    AREA     RATE   TOTAL   ACRE    KILLED  CU FT      TREES   TREES  %ROOTS  CU FT  ACRE     PROPORTION
+YEAR   AGE TYPE CENTS  ACRES   FT/YR   /ACRE  SQFT    /ACRE   /ACRE      /ACRE   /ACRE INFECTED /ACRE   SQFT INSIDE  EXPAND  TOTAL
+----------------------------------------------------------------------------------------------------------------------------------
+1990    67    W  20    0.12    0.00     0.0     0.0     0.0     0.0       34.0    34.0    10.8   5576.   138. 0.000   0.000   0.000
+1995    72    W  20    0.19    1.21     0.2     0.2     0.0     0.0       40.2    27.4    30.1   6416.   157. 0.000   0.219   0.111
+2000    77    W  20    0.26    1.20     1.3     0.8     1.1    12.8       43.4    22.8    42.8   7210.   175. 0.000   0.219   0.083
+2005    82    W  20    0.33    1.16     3.3     3.4     2.2   108.8       45.1    18.9    50.8   7860.   189. 0.000   0.219   0.063
+2009    86    W  20    0.39    1.12     6.4     9.5     3.6   299.4       46.7    14.1    51.3   8187.   196. 0.000   0.179   0.041
+2010    87    W  20    0.41    1.13     6.9    11.0     0.7    80.2       47.2    13.0    52.3   8239.   197. 0.000   0.048   0.002
+2015    92    W  20    0.46    1.13     9.1    18.7     3.1   446.1       47.7    10.1    51.4   8635.   205. 0.000   0.219   0.037
+2020    97    W  20    0.49    1.12    10.5    27.6     2.6   502.2       47.9     7.8    52.8   8922.   211. 0.000   0.219   0.015
