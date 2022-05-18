@@ -1,0 +1,94 @@
+---
+title: "Graphs_at_stand_level"
+author: "Shawn McMurtrey"
+date: "9/4/2021"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+---
+#Package
+```{r include=FALSE}
+# Load libraries we need for the assignment
+install.packages("fvsLoad")
+library(ggplot2)
+install.packages(tidyverse)
+install.packages(tidyr)
+library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(readxl)
+
+```
+
+
+
+#Data Files
+```{r}
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT1_BLK1.xlsx")
+
+fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT1_BLK2.xlsx")
+
+fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT1_BLK3.xlsx")
+
+fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT1_BLK4.xlsx")
+
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT1_BLK5.xlsx")
+
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT2/TMT2_BLK1.xlsx")
+
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT2/TMT2_BLK2.xlsx")
+
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT2/TMT2_BLK3.xlsx")
+
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT2/TMT2_BLK4.xlsx")
+
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT2/TMT2_BLK5.xlsx")
+
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT3/TMT3_BLK1.xlsx")
+
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT3/TMT3_BLK2.xlsx")
+
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT3/TMT3_BLK3.xlsx")
+
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT3/TMT3_BLK4.xlsx")
+
+#fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/Stand_Level_Graphs/TMT3/TMT3_BLK5.xlsx")
+```
+
+
+
+
+
+
+
+
+
+
+#TMT 1 BLK 1
+```{r}
+
+
+library(ggplot2)
+library(cowplot)
+
+#install.packages(scales)
+library(scales)
+library(viridis)
+TMT1_BA <- as.numeric(fvs_data_combined_TMT1$TMT1_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+ gg1 <- ggplot(data = fvs_data_combined_TMT1, aes(x = FULL_Year, y = TMT1_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    #geom_errorbar(data =  fvs_data_combined_TMT1, aes(ymin=TMT1_BA - TMT1_SE,  ymax=TMT1_BA + TMT1_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic() + labs(x = "Year") +  
+ylab(expression(paste(BA~m^2/ha)))  +  theme(legend.position = "none")
+gg1
+#ggsave("TMT1_BLK1.png", width = 4, height = 2)
+
+```
+
+
+

@@ -1,0 +1,137 @@
+---
+title: "Tables"
+author: "Shawn McMurtrey"
+date: "9/3/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+#Install Packages
+```{r setup, include=FALSE}
+install.packages("kableExtra")
+library(devtools)
+library(tidyverse)
+library(here)
+library(realxl)
+library(janitor)
+library(sf)
+library(scales)
+library(tigris)
+
+load_all()
+
+
+
+# For dev version
+# install.packages("devtools")
+devtools::install_github("haozhu233/kableExtra")
+```
+
+```{r}
+text_tbl <- data.frame(
+  Items = c("Live Western hemlock", "Live Douglas-fir", "Live other species", "Total live trees", "Total Basal of Douglas-fir", "Douglas-fir as proportion of total trees"),
+  Features = c(
+    "Mean", "\\", "SD", "Total",
+    "In eu urna at magna luctus rhoncus quis in nisl. Fusce in velit varius, posuere risus et, cursus augue. Duis eleifend aliquam ante, a aliquet ex tincidunt in. ", 
+    "Vivamus venenatis egestas eros ut tempus. Vivamus id est nisi. Aliquam molestie erat et sollicitudin venenatis. In ac lacus at velit scelerisque mattis. "),
+    TMT = c("TMT 1", "TMT 2", "TMT 3")
+  
+)
+# Column spec 
+# you may want to highlight a column (e.g. a “Total” column) by making it bold. 
+kable(text_tbl) %>% 
+  kable_styling(full_width = F) %>%
+  column_spec(1, bold = T, border_right = T) %>%
+  column_spec(2, width = "30em")
+```
+
+
+
+```{r}
+
+
+
+text_tbl <- data.frame(
+  Treatment = c("TMT 1", "TMT 2", "TMT 3", "TOTAL"),
+  Confirmed_LRR = c("92% (n = 23/25)", "80% (n = 20/25)" , "76% (n =19 /25)", "83% (n=62/75)")
+
+)
+# Column spec 
+# you may want to highlight a column (e.g. a “Total” column) by making it bold. 
+table1 <- kable(text_tbl) %>% 
+  kable_styling(full_width = F) %>%
+  column_spec(1, bold = T, border_right = T) %>%
+  column_spec(2, width = "10em")
+table1
+write.table(table1, file = "table1_wooop.jpg")
+```
+
+
+
+
+
+
+```{r}
+
+
+library(kableExtra)
+dt <- mtcars[1:5, 1:6]
+
+kbl(dt)
+
+
+dt %>%
+  kbl() %>%
+  kable_styling()
+
+dt %>%
+  kbl() %>%
+  kable_paper("hover", full_width = F)
+
+dt %>%
+  kbl(caption = "Recreating booktabs style table") %>%
+  kable_classic(full_width = F, html_font = "Cambria")
+
+
+dt %>%
+  kbl() %>%
+  kable_classic_2(full_width = F)
+
+
+mtcars[1:8, 1:8] %>%
+  kbl() %>%
+  kable_paper(full_width = F) %>%
+  column_spec(2, color = spec_color(mtcars$mpg[1:8]),
+              link = "https://haozhu233.github.io/kableExtra/") %>%
+  column_spec(6, color = "white",
+              background = spec_color(mtcars$drat[1:8], end = 0.7),
+              popover = paste("am:", mtcars$am[1:8]))
+
+
+mpg_list <- split(mtcars$mpg, mtcars$cyl)
+disp_list <- split(mtcars$disp, mtcars$cyl)
+inline_plot <- data.frame(cyl = c(4, 6, 8), mpg_box = "", mpg_hist = "",
+                          mpg_line1 = "", mpg_line2 = "",
+                          mpg_points1 = "", mpg_points2 = "", mpg_poly = "")
+inline_plot %>%
+  kbl(booktabs = TRUE) %>%
+  kable_paper(full_width = FALSE) %>%
+  column_spec(2, image = spec_boxplot(mpg_list)) %>%
+  column_spec(3, image = spec_hist(mpg_list)) %>%
+  column_spec(4, image = spec_plot(mpg_list, same_lim = TRUE)) %>%
+  column_spec(5, image = spec_plot(mpg_list, same_lim = FALSE)) %>%
+  column_spec(6, image = spec_plot(mpg_list, type = "p")) %>%
+  column_spec(7, image = spec_plot(mpg_list, disp_list, type = "p")) %>%
+  column_spec(8, image = spec_plot(mpg_list, polymin = 5))
+
+sometext <- strsplit(paste0(
+  "You can even try to make some crazy things like this paragraph. ", 
+  "It may seem like a useless feature right now but it's so cool ",
+  "and nobody can resist. ;)"
+), " ")[[1]]
+text_formatted <- paste(
+  text_spec(sometext, color = spec_color(1:length(sometext), end = 0.9),
+            font_size = spec_font_size(1:length(sometext), begin = 5, end = 20)),
+  collapse = " ")
+```
+

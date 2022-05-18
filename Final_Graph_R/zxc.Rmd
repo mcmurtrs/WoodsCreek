@@ -1,0 +1,131 @@
+---
+title: "Tables"
+author: "Shawn McMurtrey"
+date: "9/3/2021"
+output:
+  pdf_document: default
+  html_document: default
+---
+#Install Package
+```{r setup, include=FALSE}
+install.packages("kableExtra")
+
+# For dev version
+# install.packages("devtools")
+devtools::install_github("haozhu233/kableExtra")
+```
+
+
+#Import Data
+```{r cars}
+library(kableExtra)
+dt <- mtcars[1:5, 1:6]
+```
+
+## Including Plots
+```{r pressure, echo=FALSE}
+kbl(dt)
+```
+```{r}
+
+dt %>%
+  kbl() %>%
+  kable_styling()
+
+
+```
+
+```{r}
+
+dt %>%
+  kbl() %>%
+  kable_paper("hover", full_width = F)
+
+
+
+```
+
+```{r}
+dt %>%
+  kbl(caption = "Recreating booktabs style table") %>%
+  kable_classic(full_width = F, html_font = "Cambria")
+
+```
+```{r}
+dt %>%
+  kbl() %>%
+  kable_classic_2(full_width = F)
+```
+```{r}
+dt %>%
+  kbl() %>%
+  kable_minimal()
+
+```
+```{r}
+dt %>%
+  kbl() %>%
+  kable_material(c("striped", "hover"))
+```
+
+```{r}
+
+dt %>%
+  kbl() %>%
+  kable_material_dark()
+
+```
+
+```{r}
+kbl(dt) %>%
+  kable_styling(bootstrap_options = c("striped", "hover"))
+```
+
+```{r}
+kbl(dt) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed"))
+```
+```{r}
+kbl(dt) %>%
+  kable_styling(bootstrap_options = c("striped", "hover", "condensed", "responsive"))
+```
+
+
+
+```{r}
+kbl(dt) %>%
+  kable_paper(bootstrap_options = "striped", full_width = F)
+```
+
+```{r}
+kbl(dt) %>%
+  kable_styling(bootstrap_options = "striped", full_width = F, position = "left")
+```
+```{r}
+kbl(mtcars[1:10, 1:5]) %>%
+  kable_styling(fixed_thead = T)
+```
+```{r}
+kbl(dt) %>%
+  kable_classic() %>%
+  add_header_above(c(" " = 1, "TMT 1" = 2, "TMT 2" = 2, "TMT 3" = 2))
+```
+```{r}
+install.packages("finalfit")
+install.packages("rstan")
+install.packages("boot")
+library(finalfit)
+library(dplyr)
+
+# Load example dataset, modified version of survival::colon
+data(colon_s)
+
+# Table 1 - Patient demographics by variable of interest ----
+explanatory = c("age", "age.factor", "sex.factor", "obstruct.factor")
+dependent = "perfor.factor" # Bowel perforation
+colon_s %>%
+  summary_factorlist(dependent, explanatory,
+  p=TRUE, add_dependent_label=TRUE) -> t1
+knitr::kable(t1, row.names=FALSE, align=c("l", "l", "r", "r", "r"))
+```
+
