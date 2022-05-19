@@ -19,7 +19,7 @@ output:
   word_document: default
   pdf_document: default
 ---
-#Import the data yet again
+## Import the data yet again
 ```{r include=FALSE}
 # Load libraries we need for the assignment
 install.packages("fvsLoad")
@@ -33,7 +33,7 @@ library(readxl)
 
 ```
 
-#READ IN DATA FILES
+## READ IN DATA FILES
 ```{r}
 #Total Modelled Data
 fvs_data <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/FVS_data.xlsx")
@@ -50,7 +50,7 @@ fvs_data_combined_TMT3 <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/F
 
 
 
-#TMT1
+## TMT1
 ```{r}
 
 library(ggplot2)
@@ -75,7 +75,7 @@ ylab(expression(paste(BA~m^2/ha)))  +
  
 
 ```
-#TMT2
+## TMT2
 ```{r}
 gg2 <- ggplot(data = fvs_data_combined_TMT2, aes(x = FULL_Year, y = TMT2_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
   geom_point(position = position_dodge(0.3)) +    
@@ -91,7 +91,7 @@ ggsave("TMT2_FINAL.png")
 
 ```
 
-#TMT3
+## TMT3
 ```{r}
 
  
