@@ -1,0 +1,1807 @@
+TMT	BLOCK	PLOT	TREE	SPECIES	ORIG COND	85 DIA	85 COND	90 DIA	90 COND	95 DIA	95 COND	00 DIA	00 COND	09 DIA	09 COND	20 DIA	20 COND	2020 Notes	13 COND	NOTES 2013	NOTES    edited or added 2011 EH										
+1	1	A	1	HL	1	26.3	1	26.5	1	26.7	1	26.6	1	27	2	27.9	4	Tag #4133 - 15ft snag			09-SUPPRESSED	OK		"1= GREEN TREE, HEALTHY"							
+1	1	A	2	HL	1	23.5	1	24.1	1	25.6	1	25.3	1	26	4		4	15ft snag. Lots of G. applanatum near this tree			09- dead standing	OK		2= LIVE TREE WITH SYMPTOMS							
+1	1	A	3	HL	1	34.5	1	37.5	1	39	1	41.2	1	46.9	1			Missing				OK	GARMIN 60c  	3= PW							
+1	1	A	4	HL	1	37	1	38.4	1	40.5	1	42	1	46.1	1	50.9	2	Wind blown leaning against tree.				OK	NOTES 2009 FOR PLOT 1-1A: 	4= DEAD NOT PW							
+1	1	A	5	HL	1					16	1	17.1	1	20.2	2	24.4	2				09- suppressed	OK	"GPS  N44.53149°, W123.547626°"	5= STANDING DEAD PROBABLE BEETLES							
+1	1	A	6	HL	1	25.1	1	26.4	1	27.8	1	29.9	1	34.8	1	4+L4:R79.2	1					OK	ACCURACY + OR- 24 FT								
+1	1	A	7	DF	1	21.5	1	21.5	1	21.2	4		4	 	4		4				00-DEAD STANDING		OK	0= HARVESTED- STUMP							
+1	1	A	8	HL	1	40.7	1	41.1	1	41.5	1	44	1	48.9	1	60	1					OK									
+1	1	A	9	HL	1	71.4	1	76.4	1	81.2	1		3	 	3		3				00-DEAD ROOTROT DOWNPW+HA										
+1	1	A	10	HL	1	28.5	1	29.6	1	30.7	1		3	 	3		3				00-DEAD ROOTROT DOWNPW+HA										
+1	1	A	11	HL	1	49.4	1	51.4	1	52.5	1		3	 	3		3				00-DEAD ROOTROT DOWNPW+HA										
+1	1	A	12	HL	1	46.7	1	46.6	1	47.3	1	44.5	1					All other trees are missing from this site - 2020			95-huge sweep; 09 gone? What does the 1995 note mean	OK									
+1	1	A	13	RA						40.4	1	41.5	1	42.3	1							OK									
+1	1	A	14	RA						46.5	1	47	1	48.4	1							OK									
+1	1	A	15	RA						30.6	1	31.1	1	 	4		4				"00-BROKEN TOP-ALIVE?; 09 probably down, assumed dead"			OK							
+1	1	A	16	RA						28.5	1			 	4		4				00-GONE UNDER 9? MISSING			OK							
+1	1	A	17	RA						56.3	1	57.9	1	61	1							OK									
+1	1	A	18	HL												18.2	1	New tree added to plot - 2020													
+1	1	B	1	DF	1	22.4	1	22.4	3	22.4	3			 	3		3				95-Pw? Broken at 6'	OK									
+1	1	B	2	DF	1	60.2	1	63	1	66.3	1	69.7	1	74	1	80.2	1					OK									
+1	1	B	3	DF	1	28.4	1	27.8	3	27.7	3			18.8	4	33.5	4	Standing dead			95-Pw? Top out	OK									
+1	1	B	4	DF	1	64.5	1	66.8	1	69.5	1	73.1	1	76.8	1	84.1	1					OK									
+1	1	B	5	DF	1	58.5	1	60.1	1	62.2	1	64.6	1	66	1	69.8	1				0= HARVESTED- STUMP	OK									
+1	1	B	6	DF	1	24.1	4	23.7	4		4		4		4		4				"1= GREEN TREE, HEALTHY"	OK									
+1	1	B	7	DF	1	27.5	4	27.2	4		4		4		4		4				2= LIVE TREE WITH SYMPTOMS	OK									
+1	1	B	8	DF	1	29.1	1	29.2	1	29.8	1	29.8	1	30	4		4	2020 - dead standing			3= PW	OK									
+1	1	B	9	DF	1	41.3	1	42.6	1	43.9	1	44.9	1	47.5	1	48.4	1				4= DEAD NOT PW	OK									
+1	1	B	10	DF	1	61.3	1	64.3	1	66.3	1	70	1	73.8	1	82.9	1				5= STANDING DEAD PROBABLE BEETLES	OK									
+1	1	B	11	DF	1	44.8	1	46.7	1	48.8	1	50.5	1	51.5	1	54.6	1					OK									
+1	1	B	12	HL												16.2	1					OK		GPS NOTES 2009: 		FOR PLOT 1-1B					
+1	1	B	13	DF	1	47.2	1	49.8	1	51	1	53.4	1	56.3	1	58.6	1					OK		GARMIN 60c  WAYPOINT 87							
+1	1	B	14	DF	1	31.3	1	35.3	1	35.7	1		4		4		4	2020 - snag			00-BROKEN		OK	ACCURACY + OR - 23 FT							
+1	1	B	15	DF	1	46.5	1	48.9	1	52.2	1	54.5	1	58.5	1	64.6	1					OK		"N44.53076°, W123.54675°"							
+1	1	B	16	DF	1	36.9	1	38.3	1	39	1		4	37.5	4		4	2020 - snag			00-BROKEN		OK								
+1	1	B	17	DF	1	37.7	1	35.5	1	27.5	4		4		4		4	2020 - snag			95-Am	OK									
+1	1	B	18	DF	1	57.5	1	60.3	1	63.9	1	66.5	1	71	1	77	1					OK									
+1	1	B	19	DF	1	51.8	1	54.2	1	56.7	1	58.8	1	61.5	1	67.2	1					OK									
+1	1	B	21	DF	1	54.7	1	57.4	1	61.1	1	64.4	1	69.5	1	76.6	1					OK									
+1	1	B	22	RC	1			18	1	18.6	1	19	1	15.8	4		4				0= HARVESTED- STUMP	OK									
+1	1	B	25	RC	1	15.7	1							17.5	4		4	Snag		24 - DF down for a while. 2020	2= LIVE TREE WITH SYMPTOMS	OK									
+1	1	B	26	RC	1	19.7	1	19.9	1	19.6	1	20.4	1	21.3	1	23.5	1				3= PW	OK									
+1	1	B	27	RC	1		4		3		1			 	4		4				4= DEAD NOT PW	OK									
+1	1	B	28	RC	1							16.2	1	 	4		4				5= STANDING DEAD PROBABLE BEETLES	OK									
+1	1	B	30	DF	1	36.8	1	37.1	1	37.5	1	38.1	1	37.8	1	38.5	1					OK									
+1	1	C	1	DF	1	45	1	47.9	1	51.2	1	54.1	1	58.2	1	62	1					OK									
+1	1	C	2	DF	1	44.2	1	45.1	1	47.7	1	48.9	1	50.9	1	53.3	1					OK									
+1	1	C	4	HL	1	27.3	1	28	1	29.8	1	31.5	1	35.5	1	38.6	1					OK									
+1	1	C	5	HL	1	19.5	1	19.5	1	20.2	1	21.1	1	21.9	1	23.8	1					OK									
+1	1	C	6	HL	1	19.4	1	20.1	1	21.2	1	22.5	1	24.3	1	26.4	1					OK									
+1	1	C	7	HL	1									 	4		4					OK									
+1	1	C	8	DF	1	73	1	76.7	1	80.3	1	84.9	1	91.5	1	98	1					OK									
+1	1	C	9	HL	1	20.8	1	21.8	1	22.9	1	24.7	1	 	4		4				09- on the ground	OK									
+1	1	C	10	DF	1	43.1	1	45.6	1	47.5	1	48.6	1	51.2	1	55.3	1					OK			GPS NOTES 2009: PLOT 1-1C						
+1	1	C	12	DF	1	27.3	1	27.6	1	28.5	1	28.2	4	 	4		4				00-DEAD STANDING-NO PW; 09 broken below dbh			OK	ACCURACY + OR- 25FT						
+1	1	C	13	HL												15.8	1				09- suppressed	OK			"N44.53120°, W123.54173°"						
+1	1	C	14	HL	1	26.7	1	27.3	1	18.3	1	30	1	32.3	1	34.1	1					OK									
+1	1	C	15	HL	1	41.5	1	43.1	1	44.8	1	47.3	1	50.6	1	53.1	1					OK									
+1	1	C	17	DF	1	24.7	1	25.2	1	25.2	1	25.9	1	25.5	4	 	4	Dead fallen snag			09- Dead top off	OK									
+1	1	C	19	DF	1	66.9	1	69	1	71	1	73.8	1	 	3		3				09- confirmed PW	OK									
+1	1	C	20	DF	1	62.5	1	64.7	1	67.2	1	70.8	1	75.1	1	80.1	1	Tag 4864				OK									
+1	1	C	21	DF	1	25.8	1	26.3	1	26.3	1	26.9	1	26.8	1	25.6	1					OK									
+1	1	C	23	HL	1	21	1	21.3	1	21.9	1	23.6	1	26.3	1	28.8	1					OK									
+1	1	C	24	DF	1	46.5	1	50.5	1	55	1	59	1	66.5	1	73.9	1					OK									
+1	1	C	25	DF	1	24.7	1	24.6	1	24.5	1		4	24.8	4		4	Snag			95- has beeltes   00-DEAD STANDING-NO PW; 09- top off			OK							
+1	1	C	26	HL	1	29.7	1	30.2	1	30.1	1	30.9	1	 	4		4				00-INJURED BY FALLING PW(OFF PLOT)				OK						
+1	1	C	27	HL	1	16.8	1	16.9	1	17.4	1	18.4	1	18.3	2	18	4	Snag			"00-INJURED BY FALLING PW(OFF PLOT), 09 suppressed"				OK						
+1	1	C	28	HL	1	31	1	31.7	1	33.2	1	34.6	1	36.7	1	40.8	1					OK									
+1	1	C	29	DF	3		3		3		3		3	 	3		3					OK									
+1	1	C	30	DF	1	37.8	1	41.1	1	45.3	1	48.3	1	56.4	1	66	1					OK									
+1	1	C	31	HL	1	25.8	1	25.8	1	26.7	1	27.5	1	29.2	1	33.2	1					OK									
+1	1	D	1	DF	1	65.8	1	67.7	1	70.7	1	74.2	1	79.5	1	83.8	1	Tag #4651				OK									
+1	1	D	2	DF	1	47.4	1	48.5	1	50.3	1	52.5	1	54.8	1	57.7	1					OK									
+1	1	D	3	DF	1	27.1	1	27.8	1	28.2	1	29	1	29	4		4	Snag			09- DEAD STANDING	OK									
+1	1	D	6	DF	1	67.5	1	68.3	1	73	1	74.7	1	81	1	86.2	1					OK									
+1	1	D	7	DF	1	20.8	1	20.5	1	21	4		4		4		4				95-beetles suppressed; 09- DEAD STANDING	OK									
+1	1	D	8	DF	1	66.5	1	70.3	1	73.1	1	76.5	1	80.1	1	85	1					OK									
+1	1	D	10	DF	1	54.5	1	55.9	1	54.6	1	58.4	1	61.9	1	65	1				09 UNMARKED E CEPT DBH LINE ASSUMING THIS IS TREE 10 FROM PLACEMENT IN THE STAND AND SIZE APPEARS TO BE CORRECT	OK									
+1	1	D	11	RC	1	28	1	28.5	1	29.4	1	30.2	1	33.9	1	32.8	1					OK									
+1	1	D	12	DF	3		3		3		3		3	 	3		3					OK									
+1	1	D	13	DF	1	18.7	1	18.9	1	19.1	4		4		4		4				95-Am present  00-STANDING; 09 DEAD STANDING		OK								
+1	1	D	14	DF	1	63.2	1	68.2	1	73.2	1	77.8	1	85.8	1	94.5	1					OK									
+1	1	D	15	HL	1	22.9	1	23.1	1	28.8	1	24.6	1	24.8	1	25.1	1				2= LIVE TREE WITH SYMPTOMS	OK	NOTES 2009 FOR PLOT 1-1D: 								
+1	1	D	16	HL	1	27.3	1	27.2	1	27.2	1	27.6	1	27.3	1	28.1	1				3= PW	OK	"GPS  N44.53032°, W123.54843°"								
+1	1	D	17	HL	1	22.8	1	23.2	1	24	1	24.8	1	26.1	1	28	1				4= DEAD NOT PW	OK	ACCURACY + OR- 22 FT								
+1	1	D	18	DF	1	35.1	1	36.3	1	38.9	1	38.3	1	40.5	1	40.3	1					OK	GARMIN 60c  		WAYPOINT88						
+1	1	D	19	DF	1	23.5	1	23.3	4	26	4		4		4		4				95-stem break; 09 BROKEN AT 6FT	OK									
+1	1	D	20	DF	1	56.6	1	59.5	1	62.6	1	66.1	1	70.2	1	77.3	1					OK									
+1	1	D	21	DF			3		3		3		3	 	3		3					OK									
+1	1	D	22	DF	1	38.6	1	38.5	1	38.7	1		3	 	3		3				00-SNAP-PW; 09 PW SAMPLED		OK								
+1	1	D	23	DF	1	44.9	1	47.1	1	50.3	1	53.5	1	57.2	1	62.5	1					OK									
+1	1	D	24	DF	1	40.7	1	41.7	1	42.4	1	43	1	43.5	2	43.7	2				0= HARVESTED- STUMP	OK									
+1	1	D	25	DF	1	47.7	1	49.8	1	50.2	1	52.4	1	56.4	1	59.6	1				"1= GREEN TREE, HEALTHY"	OK									
+1	1	D	26	HL	1					16.3	1	17.7	1	19.6	1	21.2	1				5= STANDING DEAD PROBABLE BEETLES	OK									
+1	1	E	1	DF	1	38.7	1	40.2	1	42.3	1	43.2	1	44.3	1	46.2	1	Tag#4543				OK									
+1	1	E	2	DF	1	33.9	1	34.7	1	35.5	1	37.2	1	37.6	1	38.6	2	Resinosous				OK									
+1	1	E	3	DF	1	54.7	1	57.4	1	59.4	1	61.9	1		1	70.4	1				09- DBH AS 51.5CM?	OK									
+1	1	E	4	DF	1	60.2	1	64.9	1	67.8	1	70	1	78.5	1	87.7	1					OK									
+1	1	E	5	HL	1	16.7	1	16.8	1	18	1	18.5	1	19	1	18.7	1				95-twin stem with 22	OK			GPS NOTES 2009: PLOT 1-1E						
+1	1	E	6	RC	1	61	1	61.8	1	62.7	1	67.5	1	69.8	1	77	1	 				OK			GARMIN60C  WAYPOINT 1-1E						
+1	1	E	7	DF	1	29	1	31.3	1	31.5	1	34.1	1	35.8	1	36	1				0= HARVESTED- STUMP	OK			"ACCURACY, NOT RECORDED"						
+1	1	E	8	DF	1	16.2	1	16.3	3		3		3	 	3		3				"1= GREEN TREE, HEALTHY"	OK			"N44.53027, W123.54727"						
+1	1	E	9	DF	1	58.4	1	62.7	1	67	1	72.2	1	77	1	84	2	Thin crown.			2= LIVE TREE WITH SYMPTOMS	OK									
+1	1	E	10	HL	1	40	1	40.8	1	39.7	1	40.3	1	40.8	1	39.2	1				95-twin stem with 21	OK			NOTE: SITE D ALMOST DUE WEST OF 						
+1	1	E	11	DF			3		3		3		3	 	3		3				3= PW	OK			"THIS SITE (273°), ON MAP D APPEARS"						
+1	1	E	12	DF			3		3		3		3	 	3		3				4= DEAD NOT PW	OK			NORTH OF E						
+1	1	E	13	DF	1	29.8	1	29.8	3		3		3	 	3		3				5= STANDING DEAD PROBABLE BEETLES	OK									
+1	1	E	14	DF	1	50.6	1	54	1	58	1	61.3	1	67.5	1	73	1					OK									
+1	1	E	15	RC	1					16.6	1	17.8	1	19	1	20.1	1					OK									
+1	1	E	16	DF	1	21.4	1	21.7	1	22.2	4		4		4		4	Dead now -2020			95-suppressed	OK									
+1	1	E	17	DF	1	26.3	1	26.2	3		3		3	 	3		3	Dead now -2020				OK									
+1	1	E	18	DF	1	60.8	1	64.3	1	66.2	1	69.6	1	74	1	79.1	1					OK									
+1	1	E	19	DF	4		4		4		4		4		4		4					OK									
+1	1	E	20	DF	4		4		4		4		4		4		4					OK									
+1	1	E	21	HL						39.8	1	42.8	1	42.2	1	41.6	1				95-twin stem with 10	OK									
+1	1	E	22	HL						16.9	1	17.1	1	17.5	1	17.5	1	#24 - HL - 9.6 DBH. Positive LRR stump near 			95-twin stem with 5	OK									
+1	2	A	1	DF	1	50.3	1	54.1	1	56.9	1	60.8	1	65.2	2	71.1	2				0= HARVESTED- STUMP	OK									
+1	2	A	2	DF	1	44.7	1	46.9	1	49	1	51.3	1	54	1	57	1				"1= GREEN TREE, HEALTHY"	OK									
+1	2	A	4	HL	1	16.6	1	17.5	1	19	1	21.2	1	24.3	1	27.5	1					OK			"N44.53659, W 123.53177 IN DEGREES"						
+1	2	A	5	DF	1	63.7	1	65.7	1	69	1	73.4	1	78	2	86.7	2				3= PW	OK			FOR PLOT 1-2A						
+1	2	A	6	RC	1							17.1	1	19.7	1	21.5	1					OK									
+1	2	A	7	DF	1	56.5	1	59	1	61.3	1	63.7	1	68	1	76	1				4= DEAD NOT PW	OK									
+1	2	A	8	DF	1	35.1	1	35.2	1	35.3	1	35.5	1	35.7	2	35.7	2				5= STANDING DEAD PROBABLE BEETLES	OK									
+1	2	A	9	DF	1	61	1	63.9	1	66.2	1	70	1	76.4	1	83.1	2					OK									
+1	2	A	10	DF	1	48.1	1	50.2	1	52.8	1	54.5	1	55.8	1	56.1	2				00-OLD PW ON PLOT		OK								
+1	2	A	11	DF	1	45.4	1	47.1	1	49.2	1	51.4	1	55.3	1	57.9	2					OK									
+1	2	A	12	DF	1	33.1	1	33.6	1	35	1	34	1	34.3	2	34.2	2					OK									
+1	2	A	13	DF			3		3		3		3	 	3		3					OK									
+1	2	A	14	RC	1					20.1	1	26.2	1	30.5	1	34	1					OK	confirmed as RC from other spread sheet. LS								
+1	2	A	15	RC	2		3		3		3		3	 	3		3				missing	OK									
+1	2	A	16	DF	1	30.3	1	30.8	1	31	1	31.3	1	32	3		3				09- possible pw could not confirm from sample	OK	4 OR 3 COND								
+1	2	A	17	DF	1	57.9	1	61.3	1	63.5	1	66.8	1	66.8	3		3				09- PW CONFIRMED	OK									
+1	2	A	18	DF	1	60.3	1	63.5	1	65	1	65.9	1	70	2	75	2					OK									
+1	2	A	19	DF	1	36.9	1	38.5	1	40.3	1	42	1	46.2	1	45.2	1					OK									
+1	2	A	20	RA			1	37.1	1	36.8	1	37.1	1	 	4		4				missing	OK	ACCURACY + OR- 30 FT								
+1	2	A	23													15.8	1	"New tree, not previously included, on boarder"													
+1	2	A	26													18.9	1	"New tree, not previously included, on boarder"													
+1	2	B	1	DF	1	22.4	1	22.4	1	22.4	3		3	 	3		3				00-DEAD STANDING		OK								
+1	2	B	2	DF	1	53.2	1	55.8	1	58.1	1	60	1	61.6	3		3				09- PW CONFIRMED	OK									
+1	2	B	3	DF	1	39.2	1	40.8	1	31.5	1	42.4	1	45	2	42.4	2				"00-OLD PW ON PLOT, 09- ALIVE TOP OFF"		OK								
+1	2	B	4	DF	1	30.7	1	30.5	1	31	4		4		4		4				"95-shares base with live tree, 09-TOP OFF DEAD"	OK									
+1	2	B	5	DF	3		3		3		3		3	 	3		3					OK									
+1	2	B	6	DF	1	34.1	1	34.6	1	36.3	1	36	1	37.6	2	38.6	2					OK									
+1	2	B	7	DF	1	35.4	1	36.3	1	37	1	38.2	1	39.5	2	40	2				09-RIGHT NE T TO DEAD TREE #2	OK		GPS NOTES 2009: GARMIN 60c  							
+1	2	B	8	DF	1	44.7	1	47.2	1	49.4	1	51.8	1	55.6	1	59.1	1				09-FORKS AT 10M	OK		WAYPOINT 37							
+1	2	B	9	DF	1	33.5	1	34.5	1	35.6	1	36.4	1	39.1	2	39.2	2					OK		"N44.536665, W123.53136"							
+1	2	B	10	DF	1	52.8	1	55.8	1	58.9	1	62.2	1	57.8	1	73.7	1				0= HARVESTED- STUMP	OK		FOR PLOT 1-2B							
+1	2	B	11	DF	1	34.3	1	35.8	1	37.1	1	38.1	1	39.8	2	40.6	2				"1= GREEN TREE, HEALTHY"	OK									
+1	2	B	12	DF	1	36.5	1	38.4	1	39.8	1	40.8	1	42.4	1	42.9	1				2= LIVE TREE WITH SYMPTOMS	OK									
+1	2	B	13	DF	1	43.5	1	47	1	50.5	1	54.1	1	61	1	69.9	1				3= PW	OK									
+1	2	B	14	DF	1	18.7	1	18.5	1	18.5	4		3	 	3		3				4= DEAD NOT PW	OK									
+1	2	B	15	DF	1	32.8	1	35	1	36.4	1	38.3	1	40.7	2	41.5	2				5= STANDING DEAD PROBABLE BEETLES	OK									
+1	2	B	16	DF	1	25	3		3		3		3	 	3		3					OK									
+1	2	B	17	DF	1	19.2	3		3		3		3	 	3		3					OK									
+1	2	B	18	DF	1	35.4	1	35.6	1	36.7	1	35.8	1	35.8	4		3				09-dead standing bEeTLES?	OK									
+1	2	B	19	DF	1	51.3	1	55.1	1	59.4	1	61.6	1	67.3	1	75.2	1					OK									
+1	2	B	20	DF	1	54.7	1	58.9	1	63	1	68.7	1	74.8	1	81	1					OK									
+1	2	B	21	DF	1	30.9	1	31.1	1	31.5	4		4		4		4				"95-crown dead, shares base w/20, 09- DEAD STANDING TOP OFF ATTACHED TO #20"	OK									
+1	2	B	22	DF	1	28.3	1	28.9	1	28.9	3		3	 	3		3				"00-STANDING, 09-DIED OF PW BY 2000"										
+1	2	B	23	RC	1	15.6	1	16.5	1	16.9	1	17.3	1	18	2						09- TOP DEAD	OK									
+1	2	B	24	DF	1	50.6	1	54.7	1	58.3	1	60.7	1	65.4	1							OK									
+1	2	C	1	DF	1	43.7	1	44.1	1	44.3	1	44.4	1	45.9	2	48.5	2				09-beatles	OK									
+1	2	C	2	DF	1	60	1	62.5	1	64.4	1	69.2	1	74.2	1	82.5	1				09- some beatles	OK									
+1	2	C	3	DF	1	33.4	1	34.7	1	35.6	1	36.8	1	37.2	2	41.1	2				09-some beatles	OK									
+1	2	C	4	DF	1	26.6	1		4		4		4	 	4		4					OK									
+1	2	C	5	DF	1	42.5	1	44.4	1	46.5	1	49.2	1	54.4	1	65.3	1					OK									
+1	2	C	6	DF	1	24.3	1	24.5	1	26.5	1		4		4		4				"00-DEAD STANDING, 09- broken dead"		OK								
+1	2	C	7	DF	1	29.5	1	30.8	1	31.8	1	32.2	1	32.9	1	35.7	1					OK									
+1	2	C	8	DF	1	36.5	1	37.6	1	39.1	1	40.5	1	42.6	1	46.2	1					OK									
+1	2	C	9	DF	1	31.2	1	31.6	1	32.1	1	32.2	1	32.2	4						09- dead	OK		GPS NOTES 2009: FOR PLOT 1-2C							
+1	2	C	10	DF	1	41.1	1	43.5	1	45.3	1	47.7	1	51.2	1	61.2	1				09- attached to dead tree	OK		"N44.53584, W123.53346 IN DEGREES"							
+1	2	C	11	DF	1	44	1	46.7	1	48.8	1	50.9	1	55	1	66	1					OK		WAYPOINT 35 GARMIN 60c 							
+1	2	C	12	DF	1	27.8	1	28.1	1	29.3	4		4	 	4		4					OK		ACCURACY + OR - 25 FT							
+1	2	C	13	DF	1	45.7	1	47.2	1	49	1	50.8	1	53.8	2	57.1	2				09- beatles	OK									
+1	2	C	14	DF	1	33	1	33.6	1	34	1	34.3	1	34.3	2	37.4	2				09- beatles	OK									
+1	2	C	15	DF	1	43.4	1	45.9	1	49.4	1	51.7	1	56.5	2	66.6	2				09-beatles	OK									
+1	2	C	16	DF	1	38.4	1	39.2	1	41.2	1	41.8	1	42.7	2	47	2				09-beatles	OK									
+1	2	C	17	DF	1	35.7	1	37.2	1	38.2	1	39.5	1	41	2	44.6	2				09-beatles	OK									
+1	2	C	18	DF	1	34.2	1	35.5	1	37.5	1	38.1	1	39.5	2	43.7	2				09-beatles	OK									
+1	2	C	19	DF	1	35.6	1	37.6	1	39.3	1	41.2	1	44.5	1	47.6	1					OK									
+1	2	C	20	DF	1	42.5	1	45.1	1	47.3	1	50.8	1	54.6	1	63.3	1					OK									
+1	2	C	21	DF	1	35.1	1	36	1	36.9	1	38.2	1	40.4	1	43.7	1					OK									
+1	2	C	22	DF	1	22.2	1	22.4	4		4		4	22.5	4		4				09- broken dead	OK									
+1	2	C	23	DF	1	34.7	1	35.8	1	36.6	1	37.2	1	38.4	2	41.3	2					OK									
+1	2	C	24	DF	1	53.1	1	55.6	1	58.2	1	60.7	1	65.4	1	67.8	1				0= HARVESTED- STUMP	OK									
+1	2	C	25	DF	1	20.9	1		4		4		4	 	4		4				"1= GREEN TREE, HEALTHY"	OK									
+1	2	C	26	DF	1	37.2	1	38.7	1	40	1	41.4		44.6	2		4				2= LIVE TREE WITH SYMPTOMS	OK									
+1	2	C	27	DF	1	32	1	34.2	1	35.9	1	37.7	1	40	1	46.8	1				3= PW	OK									
+1	2	C	28	DF	3		3		3		3		3		3		3				4= DEAD NOT PW	OK									
+1	2	C	29	DF	3		3		3		3		3		3		3				5= STANDING DEAD PROBABLE BEETLES	OK									
+1	2	D	1	DF	1	53.8	1	57.1	1	59.9	1	64.7	1	70.4	1	80.7	1	Tag #4977				OK									
+1	2	D	2	DF	1	56.1	1	58.2	1	61.3	1	64.9	1	73.4	1	79.7	1					OK									
+1	2	D	3	DF	1	45.9	1	48	1	47.2	1	51.8	1	55.8	2	61.3	2				09- SUPPRESSED ???	OK		GPS NOTES 2009: FOR PLOT 1-2D 							
+1	2	D	4	DF	1	53	1	56.9	1	60.8	1	64	1	70.7	1	81.2	1					OK		GARMIN 60c  WAYPOINT 33							
+1	2	D	5	HL	1	39.1	1	40.4	1	42.8	1	46.3	1	50.7	1	55.7	1				5= STANDING DEAD PROBABLE BEETLES	OK		"N44.53625, W123.5482 IN DEGREES"							
+1	2	D	6	DF	1	35.5	1	35.8	1	37.6	1	37	1	38.3	2	39.4	2	Thin crown.			09- VERY SUPPRESSED WITH BOWING TRUNK	OK									
+1	2	D	7	DF	1	44.4	1	47.1	1	49.5	1	53.2	1	 	4		4	Snag at 15 feet. Split could not measure.			09-SPLIT DOWN OVER THE DBH TOP OFF	OK									
+1	2	D	8	DF	1	69.5	1	71.2	1	72.8	1	75.6	1	80.7	1	85.7	1					OK									
+1	2	D	9	DF	1	36.3	1	36.6	1	36.9	1	37.2	1	37.3	2	38.4	2				09- SUPPRESSED	OK									
+1	2	D	10	DF	1	52.7	1	55.5	1	57.9	1	62.2	1	67.7	1	76.4	1					OK									
+1	2	D	11	DF	1	52	1	55.3	1	57.1	1		4	 	4		4	Tall snag.			00-STANDING DEAD-BEETLES+?-PW ALL AROUND					OK					
+1	2	D	12	DF	1	55.2	1	57	1	57.3	1		4	57.7	4		4	Tall hollow snag			00-STANDING DEAD-BEETLES+?-PW ALL AROUND- 09 DEAD STANDING					OK					
+1	2	D	13	DF	1	32	1	32.5	1	33.7	1		4	56.1	4		4				00-STANDING DEAD-BEETLES+?-PW ALL AROUND 09-DEAD STANDING SPLIT OVER DBH AREA MAY EFFECT SIZE					OK					
+1	2	D	14	DF	1	19.2	1		1		3		3	 	3		3					OK									
+1	2	D	15	DF	1	50.8	1	54	1	57	1	59.1	1	65	1	69.9	1					OK									
+1	2	D	16	DF	1	60.1	1	63.2	1	65.3	1	65.5	1	72.5	2	80	2	09 measurement wrong? Lots of resinous.			09- LOTS OF SAP AND BLACK FUNGUS ON THE BARK AND AREA WITHOUT BARK	OK									
+1	2	D	17	DF	1	51.8	1	54.3	1		3		3	 	3		3					OK									
+1	2	D	18	DF	3		3		3		3		3	 	3		3				0= HARVESTED- STUMP	OK									
+1	2	D	19	DF	3		3		3		3		3	 	3		3				"1= GREEN TREE, HEALTHY"	OK									
+1	2	D	20	DF	3		3		3		3		3	 	3		3				2= LIVE TREE WITH SYMPTOMS	OK									
+1	2	D	21	DF	3		3		3		3		3	 	3		3				3= PW	OK									
+1	2	D	22	DF	3		3		3		3		3	 	3		3				4= DEAD NOT PW	OK									
+1	2	D	24	HL												18	1	"New tree, not previously included, on boarder"													
+1	2	D	25	HL												22.8	1	"New tree, not previously included, on boarder"													
+1	2	D	29	HL												22.3	1														
+1	2	E	1	DF	1	56.7	1	59.2	1	60.6	1	64.7	1	69.4	1	76.4	1				"09- YELLLOW JACKET NEST AT THE BASE OF THE TREE, STEP CAREFULLY"	OK									
+1	2	E	2	DF	1	32.9	1	34.1	1	35.3	1	36.4	1	38.2	2	41.1	2	Tag #4984				OK									
+1	2	E	3	DF	1	29.6	1	30.2	1	30.9	1	31.2	1	32	2	32.5	2				0= HARVESTED- STUMP	OK									
+1	2	E	4	DF	1	36	1	36.9	1	38	1	39	1	40.6	1	41.1	1				"1= GREEN TREE, HEALTHY"	OK									
+1	2	E	5	DF	1	22.9	1	23	1	23.1	4		4	 	4		4				2= LIVE TREE WITH SYMPTOMS	OK	GPS NOTES 2009: GARMIN 60c 								
+1	2	E	6	DF	1	36.9	1	38.5	1	41.5	1	42.4	1	45.4	1	47.7	3				3= PW	OK	FOR PLOT 1-2E WAYPOINT 32								
+1	2	E	7	DF	1	26	1	27.2	1	28	1	28.4	1	28.6	2	29.1	2				4= DEAD NOT PW	OK	"N44.53580, W123.53504"								
+1	2	E	8	DF	1	26.3	1	26.1	4		4		4	 	4		4				5= STANDING DEAD PROBABLE BEETLES	OK	ACCURACY + OR- 30 FT								
+1	2	E	9	DF	1	49.5	1	52.7	1	55.8	1	59.1	1	65	1	72.9	1					OK									
+1	2	E	10	DF	1	43.8	1	45.9	1	47.3	4		4	 	4		4				09- TOP OFF DEAD STANDING HAS FUNGUS 	OK									
+1	2	E	11	DF	1	24.1	1	24.1	4													OK									
+1	2	E	12	DF	1	32.8	1	33.1	1	32.2	4		4	 	4		4				09- DEAD STANDING TOP OFF	OK									
+1	2	E	13	DF	1	48.2	1	52	1	53.3	4		4	 	4		4					OK									
+1	2	E	14	DF	1	29.8	1	29.9	4		4		4	 	4		4					OK									
+1	2	E	15	DF	1	30.8	1	32.7	1	34.4	1	35.9	1	38.7	1	43	1					OK									
+1	2	E	16	DF	1	52.8	1	55.8	1	57.5	1	63.7	1	67.5	1	79	1					OK									
+1	2	E	17	DF	1	37.3	1	38.5	1	38.4	1	38.4	1	39	2	39.5	2					OK									
+1	2	E	18	DF	1	56.8	1	59.3	1	59.5	1	64.5	1	69.9	1	76.4	1					OK									
+1	2	E	19	DF	1									 	4		4	missing 2020			missing	OK									
+1	2	E	20	DF	1	43.3	1	46.7	1	50.2	1	52.7	1	57.2	1	62.4	1					OK									
+1	2	E	23	HL						16.4	1	21.3	1	26.8	1	31.5	1					OK									
+1	2	E	26													19.4	1														
+1	2	E	29													23.6	1	Nurse Log													
+1	3	A	1	HL	1	23.3	1	24.1	1	25.2	1	25.9	1	27.4	1	29.1	1	Tag 4944				OK									
+1	3	A	2	DF	1	29.4	1	29.8	1	30	1	30.1	1	30.6	4		4	Dead			09-DEAD STANDING	OK									
+1	3	A	3	DF	1	45	1	47.7	1	48.8	1	52.4	1	56.1	1	60.4	1					OK									
+1	3	A	4	DF	1	37.6	1	38.9	1	40.5	1	41.9	1	44.3	1	46.8	1					OK									
+1	3	A	5	HL	1	29.7	1	32	1	33.4	1	35.1	1	37	1	37.7	1				09- species HL	OK									
+1	3	A	6	DF	1	38.8	1	43.6	1	45.4	1	48.3	1	54.3	1	61.3	1					OK									
+1	3	A	7	DF	1	28.8	1	29.2	1	29.5	1	29.5	1	29.8	2	29.8	4	"Dead, snag"				OK		"Notes 2009: GPS Coordinates +- 27ft.,N 44.52576, W123.54476"							
+1	3	A	8	DF	4		4	45	4		4		4	 	4		4				"00-BROKEN TOP-09- on ground repainted, broken below DBH"		OK	For plot 1-3A		Garmin 60c  waypoint79					
+1	3	A	9	DF	1	23.9	1	25.2	1	26.5	1	26.8	1	27.2	2	28.4	4	"Dead, snag"			09- almost no crown	OK									
+1	3	A	10	DF	1	37.2	1	39.4	1	41.4	1	43.5	1	46.4	1	49.5	1					OK									
+1	3	A	11	DF	1	41.2	1	42.9	1	44.1	1	46	1	48.3	1	49.9	1					OK									
+1	3	A	12	DF	1	36.1	1	37.1	1	38.3	1	39.5	1	42.2	1	45.5	1					OK									
+1	3	A	13	DF	1	19.4	1	19.8	1	20.5	1		4	 	4		4				00-DEAD STANDING-09-standing dead		OK								
+1	3	A	14	DF	1	17.7	1	17.8	3		4		4	 	4		4					OK									
+1	3	A	15	DF	1	19.4	1	19.6	1	19.6	1		4	 	4		4				00-DOWN-ROOT ROT-BROWN ROT NOT PW				OK						
+1	3	A	16	DF	1	41.2	1	44.6	1	45.8	1	49.2	1	54	1	58.5	1				0= HARVESTED- STUMP	OK									
+1	3	A	17	DF	1	22.8	1	23.5	1	24.5	1	24.4	1	25.1	1	25.4	1				"1= GREEN TREE, HEALTHY"	OK									
+1	3	A	18	HL	1	20.7	1	21.2	1	21.9	1	22.4	1	23.8	1	25.3	1					OK									
+1	3	A	19	DF	1	22.3	1	23.3	1	24.5	1	24.8	1	25.8	1	25.8	4	"Dead, snag"			2= LIVE TREE WITH SYMPTOMS	OK									
+1	3	A	20	DF	1	26.6	1	27.9	1	29.2	1	29.5	1	30.3	1	30.7	2	Thin crown			3= PW	OK									
+1	3	A	21	DF	1	55.7	1	58.3	1	61	1	64.1	1	69.2	1	74.4	1				4= DEAD NOT PW	OK									
+1	3	A	22	HL	1	18.9	1	19.3	1	19.7	1	20.3	1	21.3	1	22.9	1				09-lost top previously	OK									
+1	3	A	23	DF	1	28.3	1	29	1	29.1	1	29.3	1	29.4	4		4	"Dead, snag"			5= STANDING DEAD PROBABLE BEETLES	OK									
+1	3	A	24	DF	1	33.5	1	36.4	1	38.9	1	41.2	1	45.8	1	50	1					OK									
+1	3	B	1	HL	1	27.7	1	28.2	1	28.8	1	28.7	1	29.2	1	29.2	1	Tag 4712				OK									
+1	3	B	2	HL	1	35.8	1	36.6	1	36.2	1	35.9	1	37.4	1	36.4	1	Double top			09- branches at 15ft	OK									
+1	3	B	3	DF	1	60	1	63	1	65.9	1	68.9	1	74.6	1	79.9	1					OK									
+1	3	B	4	DF	1	54.8	1	57.7	1	60.6	1	63.1	1	68.4	1	73.7	1				09- codominate with #3	OK									
+1	3	B	5	DF	1	31.8	1	32.2	1	32.5	1	32.3	4		4		4	"Dead, snag"			"00-DEAD STANDING-NO OBV. ECTO, 09- down broken at DBH"				OK						
+1	3	B	7	RC	1	16.4	1	16.3	2	16.5	1	16.3	1	16.6	2	16.4	2					OK									
+1	3	B	8	DF	1	35.5	1	37	1	36.9	1	37.5	1	38.8	1	39	1					OK		For plot 1-3B							
+1	3	B	9	HL	1	31.5	1	31.6	1	32.6	1	33.1	1	34.8	1	34.9	1					OK		"2009 GPS Notes: + or - 19ft, N44.52694, W 123.54548, in degrees, waypoint 80 Garmin 60c "							
+1	3	B	10	DF	1	70	1	72.9	1	76.3	1	79.7	1	86.7	1	98.8	1					OK									
+1	3	B	11	HL	1	27.1	1	27.6	1	27.9	1	28.6	1	29.5	2	30.2	2				09- scar down side	OK									
+1	3	B	12	DF	1	48.4	1	50.8	1	52.7	1	54.9	1	59.5	1	63.4	1				0= HARVESTED- STUMP	OK									
+1	3	B	13	DF	1	52.2	1	55.6	1	56	1	58.8	1	63.6	1	67.8	1				"1= GREEN TREE, HEALTHY"	OK									
+1	3	B	14	RA	1	17.9	4		4		4		4	 	4		4														
+1	3	B	15	RA	1	30.6	1	30.8	1	30.8	1		4	 	4		4					00-DEAD STANDING OK									
+1	3	B	16	DF	1	37.7	1	39.6	1	41.5	1	43.6	1	45.5	1	47.8	1				2= LIVE TREE WITH SYMPTOMS	OK									
+1	3	B	17	DF	3		3		3		3		3		3		3				3= PW	OK									
+1	3	B	18	DF	3		3		3		3		3		3		3				4= DEAD NOT PW	OK									
+1	3	B	19	HL	1	25.7	1	25.5	1	25	1	25.5	4	25.2	4	25.2	3	"Dead, snag, LRR!"			"00-DEAD STANDING, 09- dead standing hollow OK"										
+1	3	B	20	DF	1	21.7	1	21.7		21.5	3		3		3		3				5= STANDING DEAD PROBABLE BEETLES	OK									
+1	3	B	21	DF	3		3		3		3		3		3		3					OK									
+1	3	B	22	HL	1	29.9	1	29.8	1	29.9	1	30.3	1	30.8	1	31.2	1				09- crown damaged year ago decent releaf area	OK									
+1	3	B	23	HL	1	48.8	1	51.4	1		1	56.3	1	 	4		4				09- down across creek	OK									
+1	3	B	24	DF	1	17.7	4		4					 	4		4					OK									
+1	3	B	25	HL	1	27.5	1	28.2	1	28.6	1	29.3	1	 	1						yellow jackets	OK									
+1	3	B	26	HL	1	20	1	20.4	1	21.5	1	22.1	1	 	1						yellow jackets	OK									
+1	3	B	27	HL	1	46.2	1	47.4	1	48.8	1	50.8	1	 	1						yellow jackets	OK									
+1	3	B	28	HL	1	16.1	1	15.7	1		4		4	 	4		4					OK									
+1	3	B	29	HL						17	1	17.1	1	 	1						yellow jackets	OK									
+1	3	B	30	HL						16.6	1	17.3	1	17.1	2	 		Missing			yellow jackets at the base of this grouping of trees	OK									
+1	3	C	1	HL	1	38.1	1	41.3	1	44	1	46.5	1	50.1	1	53.8	1					OK									
+1	3	C	2	DF	1	56.8	1	60	1	62.6	1	65	1	69.2	1	73.5	1					OK									
+1	3	C	3	RA	1	20.2	4		4		4		4	 	4		4					OK									
+1	3	C	4	DF	1	68.8	1	71.8	1	75.7	1	77.5	1	83.1	1	87	1					OK									
+1	3	C	5	DF	1	56.4	1	58.3	1	59.6	1	62.2	1	65.4	1	67.1	1					OK		GPS NOTES 2009: + OR - 30FT 							
+1	3	C	6	BM	4	20.5	4		4		4		4	 	4		4					OK		GARMIN 60c  WAYPOINT 77 							
+1	3	C	7	HL	1	48.1	1	49.3	1	51.4	1	52	1	54	1	56.8	1					OK		"N 44.52836, W 123.54231"							
+1	3	C	8	DF	1	23.2	1	23		23.3	1	23.1	1	23.7	4		4	Dead and downed.			09-DEAD STANDING	OK		 IN DEGREES							
+1	3	C	9	RA	1	18	1	17.9	4		4		4	 	4		4					OK		FOR PLOT 1-3C							
+1	3	C	10	DF	1	63.8	1	65.8	1	67.4	1	69.7	1	72.9	1	76.6	1	Double top.				OK									
+1	3	C	11	HL	1	54.4	1	56.3	1	58.5	1	61.1	1	64	1	67.1	1					OK									
+1	3	C	12	DF	1	68.6	1	73.4	1	78.3	1	82.1	1	90	1	100.1	1					OK									
+1	3	C	13	DF	1	52.8	1	55.6	1	58.1	1	61	1	66.1	1	71	1					OK									
+1	3	C	14	GF	1	50.2	1	51.7	1	52.9	1	53.9	1	54.8	1	54.5	1	Tag#4662			09 - flagging	00-PROB. NOBLE FIR OK									
+1	3	C	15	HL												17.9	1	Added - 20													
+1	3	D	1	HL	1	58	1	60.3	1	62.6	1	65.4	1	69.5	1	74.7	1				4= DEAD NOT PW	OK									
+1	3	D	2	DF	1	60.2	1	62.6	1	64.5	1	67.1	1	70.7	1	74.5	1				09- RED FLAGGING	OK									
+1	3	D	3	HL	1	51.5	1	52.7	2	55.4	1	58	1	62.5	1	65.2	1	Double stem			5= STANDING DEAD PROBABLE BEETLES	OK	GPS NOTES FOR 2009: PLOT 1-3D								
+1	3	D	4	DF	1	64	1	65.3	1	67.2	1	68.8	1	72	1	75.7	1					OK	GARMIN 60c  WAYPOINT 76 								
+1	3	D	5	DF	1	69	1		3		3		3	 	3		3				0= HARVESTED- STUMP	OK	"N44.52796, W 123.54221 IN DEGREES"								
+1	3	D	6	DF	1	66.8	1	69.3	1	71.1	1	73	1	76.5	1	80.3	1				"1= GREEN TREE, HEALTHY"	OK	ACCURACY + OR- 21 FT								
+1	3	D	7	DF	1	64	1	66.3	1	69.5	1	73.1	1	79.1	1	86	1				2= LIVE TREE WITH SYMPTOMS	OK									
+1	3	D	8	HL	1	42.1	1	44.3	1	47.3	1	49.3	1	52.7	1	55.9	1	Tag 4165				OK									
+1	3	D	9	DF	1	58.9	1	60.2	1	63.6	1	64.4	1	67.8	1	70.6	1				3= PW	OK									
+1	3	E	1	DF	1	41.7	1	43.3	1	43.7	3		3	 	3		3	"Dead, snag"			"09-standing dead, metal tag"	00-BROKEN DEAD STANDING OK									
+1	3	E	2	DF	1	24	1	26.7	1	29.6	1	31.8	1	37.5	1	42.6	1					OK									
+1	3	E	3	HL	1	25.7	1	29.9	1	34.7	1	39	1	45.2	1	49.9	1	Tag 4478				OK									
+1	3	E	4	DF	3	34.9	3		3		3		3	 	3		3					OK									
+1	3	E	5	HL	1	28.6	1	32.5	1	36	1	40.3	1	46.4	1	52	1					OK	GPS NOTES FOR 2009: PLOT 1-3E 								
+1	3	E	6	HL	1	27.3	1	31.2	1	35.5	1	40	1	46.6	1	52.8	1					OK	GARMIN 60c  WAYPOINT 78								
+1	3	E	7	DF	1	30.5	1			34.2	1	36.1	1	39	1	41.8	1				09- BROKEN TOP LONG TIME AGO	OK	"N44.52541, W 123.54413 IN DEGREES"			ACCURACY + OR- 31FT					
+1	3	E	8	DF	1	22.5	1	23.6	1	24.7	1	25.8	1	28.4	1	28.5	1				09- SUPPRESSED	OK									
+1	3	E	9	DF	1	49.7	1	52.5	1	55.4	1	57.7	1	60.5	1	65.5	1	" 12.5 meters from DF 1, could be out"				OK									
+1	3	E	10	HL	2	32.7	2	34.4	1	35.1	2	36.2	2	35.8	2	35.9	2	"Leaning, possible rot"			09- leaning on big DF	00-ALIVE-PW OK									
+1	4	B	1	DF	1	36.2	1	37.8	1	39.7	1	41.4	1	44.5	1	49.4	1	Tag 4664				OK									
+1	4	B	2	RA	1	40.3	1	40.3	1	39.7	1	40.6	1		4		4				"09- PROBABLY DEAD, DOWNED ALDER AT ASSUMED POSITION OF TREE 2, BARK HAS BEEN CHEWED OFF"	OK									
+1	4	B	3	DF	1	35.4	1	37.5	1	39	1	41.2	1	44.6	1	48.9	1					OK									
+1	4	B	4	RA	1	28.8	1	28.7	1		4		4	 	4		4					OK									
+1	4	B	5	BM	1	24.6	1	25.8	1	25.3	1	25.4	1	27.2	2	26.5	2					OK									
+1	4	B	6	DF	1	51.6	1	54	1	55.7	1	59.2	1	64.1	1	66.6	1					OK									
+1	4	B	7	DF	1	48.9	1	50	1	52.5	1	55	1	58.2	1	60.3	1					OK									
+1	4	B	8	DF	1	20.2	4		4		4		4	 	4		4					OK									
+1	4	B	9	DF	1	24	1	23.9	1	23.9	4				4	 	4	Missing			09-TREE BROKEN TOP OFF	OK	NOTES 2009 FOR PLOT 1-4B: 								
+1	4	B	10	DF	1	55.3	1	58.4	1	61.2	1	64.8	1	70.3	1	75.3	1				09- SOME INSECT DAMAGE	OK	"GPS N44.53904°, W 123.52497°; ACCURACY +OR- 24 FT,  WAYPOINT #46 GARMIN 60C "								
+1	4	B	11	DF	1	31.1	1	31	1	31	1	31	1	33	2	31.2	2	Dead standing				OK									
+1	4	B	12	DF	1	60.8	1	63.5	1	65.3	1	65.8	1	69	1	72.9	1					OK									
+1	4	B	13	DF	1	27.6	1	27.3	4		4		4	 	4		4					OK									
+1	4	B	14	DF	1	81.7	1	84.1	1	86.7	1	91.1	1	97.3	1	109.9	1					OK									
+1	4	B	15	DF	1	25.8	1	25	4		4		4		4	 	4	Missing				OK									
+1	4	B	16	DF	1	68.5	1	73.1	1	77	1	81.9	1	88.7	1	98.4	1					OK									
+1	4	B	17	DF	1	29.1	1	29	1	30.2	1	28.8	1	28.8	4		4	"Dead, snag"			09- DEAD STANDING; BEATLES	OK									
+1	4	B	18	DF	1	31.6	1	31.4	1	32.5	4		4		4		4	"Dead, snag"			09- DEAD STANDING; BEATLES	OK									
+1	4	B	19	BM	1	28.3	1	29	1	30	1	30.8	1	32.5	1	34.2	1					OK									
+1	4	B	20	DF	1	19.8	3		3		3		3		3		3					OK									
+1	4	B	39	DF												24.8	1	"New tree, not previously included, on boarder, snag"													
+1	4	C	1	DF	1	35.5	1	37.5	1	39.8	1	42.5	1	46.7	1	52.1	1	Tag 4831				OK									
+1	4	C	2	DF	1	29.5	1	29.7	1	29.7	4		4	29.4	4		4	"Dead, snag"			09-DEAD STANDING BEATLES	OK									
+1	4	C	3	DF	1	27.9	1	28.9	1	29.7	1	30.2	1	31.8	1	33.6	1					OK									
+1	4	C	4	DF	1	24.1	1	23.9	1	25.2	1		4	 	4		4					OK									
+1	4	C	5	DF	1	28.3	1	28.9	1	30.7	1	30.4	1	31.1	2	33.4	2					OK									
+1	4	C	6	DF	1	17.8	1	17.3	4		4		4	 	4		4					OK									
+1	4	C	7	DF	1	24.1	1	24.9	1	25.8	1	26.7	1	29.4	2	30.4	2				09- SUPPRESSED	OK									
+1	4	C	8	DF	1	35.5	1	36.5	1	38.5	1	38.4	1	39.9	2	42.4	2				09- SUPPRESSED???	OK									
+1	4	C	9	DF	1	30.2	1	32.2	1	35.7	1	37.5	1	41.8	2	47	2				09-SUPPRESSED???	OK									
+1	4	C	11	DF	1	23.8	1	24.2	1	24.7	1	25.6	1	28.2	2	29.5	2				09- SUPPRESSED???	OK									
+1	4	C	12	DF	1	38.4	1	40.1	1	42.1	1	44.5	1	47.1	1	52.5	1				09- CONNECTED TO #13	OK									
+1	4	C	13	DF	1	21.2	1	21.1	1	22.3	1	21.4	1	22.7	2	23	2					OK									
+1	4	C	14	DF	1	38.5	1	40.9	1	43.5	1	45.8	1	50	1	55.3	1					OK									
+1	4	C	15	DF	1	21.2	1	21.5	1	23.9	1	24.8	1	29.3	2	33.8	2				09- suppressed	OK									
+1	4	C	16	DF	1	23.1	1	23.4	1	23.6	1	24.3	1	25.3	2	28.7	2	Broken top			09- TREE HAS SPLIT TRUNKS WITH ONE DEAD	OK									
+1	4	C	17	DF	1	27	1	27.7	1	28.4	1	29.5	1	33.5	2	35.2	2				09- suppressed	OK									
+1	4	C	18	DF	1	26.9	1	27.5	1	28.2	1	29.8	1	33.2	2	36.7	2				09- suppressed	OK									
+1	4	C	19	DF	1	46.9	1	50.4	1	53.3	1	55.2	1	 	3		3	"Fallen, confirmed LRR"			09- SUSPECTED DEAD	OK									
+1	4	C	20	DF	1	35.8	1	37	1	38	1		4	 	4		4					OK									
+1	4	C	21	DF	1	16.5	1		4		4	 	4	 	4		4					OK									
+1	4	C	22	DF	1	22.6	1	22.9	1	22.9	1	23	1	 	4		4				09- SUSPECTED DEAD	OK									
+1	4	C	23	DF	1	43.8	1	46.8	1	49.8	1	52.8	1	55.2	1	60.9	1					OK									
+1	4	C	24	DF	1	22.4	1		4		4	 	4	 	4		4					OK									
+1	4	C	25	CH	1	22.6	1	22.7	1		4		4	 	4		4					OK									
+1	4	C	26	CH	1	21.6	1	17.3	1		4		4	 	4		4					OK									
+1	4	C	27	WI	1	17.4	4		4		4		4	 	4		4					OK									
+1	4	C	28	DF	1	28.6	1	29.2	1	29.7	1	30.4	1	31.6	2	31.2	2	Supressed			09-SUPPRESSED	OK									
+1	4	C	29	DF	1	25.2	1	26	1	27.1	1	27.9	1	29.5	2	29.2	2				09-SUPPRESSED	OK									
+1	4	C	30	DF	1	29.5	1	30.7	1	30.9	1	32.4	1	33	2	35.1	2				09-SUPPRESSED	OK									
+1	4	C	31	DF	1	26.5	1	26.5	1	26	4		4	 	4		4	Snag			09-DEAD STANDING BEATLES	OK									
+1	4	C	32	CH	1	24.1	1	24.6	1	24.9	1		4		4		4				missing	OK									
+1	4	C	33	DF	1	26	1	27.1	1	27.4	1	29.5	1	28.5	2	28.6	2	"Suppressed, leaning"			09-LEANING	OK									
+1	4	C	34	DF	1	41.6	1	43.5	1	26.2	1	44.5	1	53.6	1	58.8	1					OK									
+1	4	D	1	BM	1	32.1	1	32.5	1	33.3	1	33.5	1	33.7	4		4	"Dead, snag"				OK									
+1	4	D	2	BM	1	17.9	1	17.8	1	18	1	18.2	1	18.6	1			"Site has LRR, confirmed by previous surveys"				OK									
+1	4	D	3	DF	1	35	1	36.5	1	37.5	1	38.1	1	38.6	4		4	Tag 4402				OK									
+1	4	D	4	DF	1	29.2	1	32	1	35.2	1	38.5	1	42.7	2	45.4	2					OK									
+1	4	D	5	DF	1	20	1	20	1	20	4		4	 	4		4					OK									
+1	4	D	6	DF	1	45.8	1	50.6	1	55.3	1	58.2	1	63.9	1	70.1	1					OK									
+1	4	D	7	DF	1	21.8	1	21.8	1	21.9	3		3	 	3		3					OK									
+1	4	D	8	DF	1	25.4	1	28.2	1	30.8	1	33.4	1	37.4	1	44.6	1					OK		GPS NOTES 2009: FOR SITE 							
+1	4	D	9	DF	1	21.9	1	24.1	1	25.8	1	28	1	30	1	35.8	2	Supressed				OK		"1-4D, GARMIN 60c  "							
+1	4	D	10	DF	1	78.3	1	79.2	1	82.2	1	85.7	1	85.6	1	96.3	1					OK		WAYPOINT 48 ACCURACY +OR - 35FT							
+1	4	D	11	DF	1	21.2	1	21.8	1	22.3	1	22.2	1	22.8	2	23.6	2					OK		"N44.53768, W123.52311 IN DEGREES"							
+1	4	D	12	DF	1	23.8	1	24.4	1	24.6	1	24.8	1	25.2	2	26.6	2					OK									
+1	4	D	13	DF	3		3		3		3		3		3		3	Missing			09- this is tree #27	OK									
+1	4	D	14	DF	3		3		3		3		3		3		3					OK									
+1	4	D	15	DF	3		3		3		3		3		3		3					OK									
+1	4	D	16	DF	3		3		3		3		3		3		3					OK									
+1	4	D	17	DF	3		3		3		3		3		3		3					OK									
+1	4	D	18	DF	3		3		3		3		3		3		3					OK									
+1	4	D	19	DF	3		3		3		3		3		3		3					OK									
+1	4	D	20	DF	3		3		3		3		3		3		3					OK									
+1	4	D	21	DF	3		3		3		3		3		3		3					OK									
+1	4	D	22	DF	3		3		3		3		3		3		3					OK									
+1	4	D	23	DF	3		3		3		3		3		3		3					OK									
+1	4	D	24	DF	3		3		3		3		3		3		3					OK									
+1	4	D	25	DF	3		3		3		3		3		3		3					OK									
+1	4	D	26	DF	3		3		3		3		3		3		3					OK									
+1	4	D	27	BM						18.7	1	20	1	22.2	1						09- THIS IS TREE #13	OK									
+1	4	D	28	HL												18.6	1	"New tree, not previously included, on boarder"													
+1	4	E	1	DF	1	71.7	1	75.9	1	78.4	1	83.1	1	90.5	1	103.5	1	Tag 4941				OK									
+1	4	E	2	DF	1	21.9	1	21.7	1	21.7	1		4	 	4		4					OK									
+1	4	E	3	DF	1	80.3	1	84.1	1	88.5	1	92.9	1	101.2	1	111.9	1					OK									
+1	4	E	4	DF	1	34.1	1	34.4	1	35.3	1		3	 	3		3					OK									
+1	4	E	5	RA	1	32.2	1	33.3	1	31.6	1	32.7	1	32.5	1	33	1					OK			GPS NOTES 2009: GARMIN 60C 						
+1	4	E	6	RA	1	26.8	1	26.6	1		4		4	 	4		4					OK			ACCURACY + OR - 30FT						
+1	4	E	7	RA	1	18.2	4		4		4		4	 	4		4					OK			WAYPOINT 49						
+1	4	E	8	BM	1	30	1	30.7	1	32	1	32.5	1	32.4	4		4					OK			"N44.53769, W123.52261"						
+1	4	E	9	RC	1	22	1	23.1	1	24.5	1	27	1	29.2	1	33.8	1					OK			FOR PLOT 1-4E						
+1	4	E	10	RA	1	32.2	1	32.8	1	33.5	1	33.9	1	34	1	34.4	1	Snag				OK									
+1	4	E	11	RC	1	22.8	1	23.9	1	25	1	27.1	1	31	1	36.4	1					OK									
+1	4	E	12	DF	1	21.5	1		4		4		4	 	4		4					OK									
+1	4	E	13	RA	1	29.1	1	29.1	1	29	1		4	 	4		4					OK									
+1	4	E	14	DF	1	69.8	1	73.9	1	77.8	1	83.3	1	91.4	1	102.2	1					OK									
+1	4	E	15	DF	1	34.7	1	35.2	4		4		4		4		4	"Dead, snag"				OK									
+1	4	E	16	RA	1	27.9	1	28	1	28	4		4	 	4		4					OK									
+1	4	E	17	BM	1	27.9	1	28.4	1	29.2	1	30.4	1	32.2	1	37	1					OK									
+1	4	E	18	DF	1	60.3	1	63.2	1	67.1	1	69.8	1	76.6	1	84.9	1					OK									
+1	4	E	19	RA	1	21.9	1	21.5	1	21.1	1		4	 	4		4					OK									
+1	4	F	1	DF	1	46.3	1	49	1	52	1	54.8	1	59.6	1	64.9	1	Tag 4623				OK									
+1	4	F	2	DF	1	50.9	1	54.2	1	56.7	1	59.6	1	63.6	1	71.9	1					OK									
+1	4	F	3	DF	1	35.1	1	34.8	1	34.9	1	35	1	35.1	2	36.8	2				09- possible mistletoe	OK									
+1	4	F	4	DF	1	23.8	4		4		4		4	23	4	 	4	Missing			"09-barely standing, dead"	OK									
+1	4	F	5	DF	1	30	1	31.5	1	33.3	1	35.8	1	37.1	4		4	"Snag, 20' tall"			09- standing dead	OK									
+1	4	F	6	DF	1	16.9	4		4		4		4	 	4		4					OK									
+1	4	F	7	DF	1	18.5	4		4		4		4	 	4		4					OK									
+1	4	F	8	DF	1	32.5	1	33.3	1	34.2	1	34.5	1	34.9	2	36.4	4	Dead standing			09- scar at DBH measured above the damage	OK									
+1	4	F	9	DF	1	18.3	1	19.4						18.4	4		4	Snag			09- standing dead	OK		GPS NOTES 2009: GARMIN 60C 							
+1	4	F	10	DF	1	45.5	1	48.6	1	51.4	1	54.5	1	60	1	67.6	1					OK		ACCURACY + OR - 27FT							
+1	4	F	11	DF	1	27.6	1	27.6	1	27.9	1	28.2	1	28.9	2	30	2	Supressed				OK		WAYPOINT 47							
+1	4	F	12	DF	1	29.1	1							27.8	4		4	Snag			09- standing dead	OK		"N44.53844, W123.52321 IN DEGREES"							
+1	4	F	13	DF	1	32.3	1	33.5	1	35.5	1	37.4	1	38.8	1	40	1				09- lost top in ice storm possible and again recently	OK		FOR PLOT 1-4F							
+1	4	F	14	DF	1	27.5	1	28	1	27.5	4		4	27.8	4		4	Snag			09- woodpecker holes and standing dead	OK		PLOT NOTES: THIS SITE IS SPREAD OUT 							
+1	4	F	15	DF	1	52.3	1	56.2	1	60.5	1	65	1	71.8	1	78.7	1					OK		ON HILL AND DOWN INTO DRAW							
+1	4	F	16	DF	1	16.7	3		3		3		3	 	3		3					OK									
+1	4	F	17	DF	1	21.8	1	22	1	21.5	4		4		4	 	4	"Dead, snag"			09- standing dead	OK									
+1	4	F	18	DF	1	17.2	3		3		3		3		3		3					OK									
+1	4	F	19	DF	1	18.8	3		3		3		3		3		3	Snag			09-standing dead	OK									
+1	4	F	20	DF	1	24.1	3		3		3		3		3		3					OK									
+1	4	F	21	BM	1	42.1	1	42.2	1	42.2	1	42.3	1	43.4	1	42.2	1					OK									
+1	4	F	22	BM	1	38	1	38.4	1	39	1	40	1	41.8	1	42.7	1					OK									
+1	4	F	23	BM	1	32.8	1	32.2	1	32	1	31.9	1	32.5	1	32.5	1					OK									
+1	4	F	24	BM	1	24.3	1	24	1	24	1	23.9	1	25	1	25.1	1					OK									
+1	4	F	25	RA	1	51.4	1	51.3	1	52	1		4	 	4		4				09-snag standing dead in draw	OK									
+1	4	F	26	BM	1	29.9	1	30.1	1	30.5	1	32.1	1	33	1	28.3	1				09- in draw	OK									
+1	4	F	27	RA	1	51.5	1	51.4	1	51.5	1	51.8	1	 	4		4				"09- found similar sized RA down in presumed location, no paint visible"	OK									
+1	4	F	28	DF	1	57.2	1	60.9	1	66.9	1	70.3	1	77.6	1	86	1					OK									
+1	4	F	30	BM	1	25.7	1	25.7	1	25.5	4		4	 	4		4					OK									
+1	4	F	31	BM							1	28.4	1	28.8	1						"09- part of the clump of 5 BM #21-24, seems strange that it would be a part of this group but that was the # previously painted on tree"	OK									
+1	5	A	1	DF	1	24.6	1	25	1	25	4		4		4		4	Snag			09- standing dead	OK									
+1	5	A	2	BM	1	24.2	1	24.5	1	24.3	1	27.5	1	 	4						09- broken below DBH	OK									
+1	5	A	3	BM	1	18.1	1					15.6	1	17.5	1	19	1					OK									
+1	5	A	4	DF	3	16.5	3		3		3		3	 	3		3					OK									
+1	5	A	5	DF	1	44.6	1	48.5	1	53.1	1		3	 	3		3					OK									
+1	5	A	6	DF	1	29.7	2	29.7	3		3		3	 	3		3					OK			GPS NOTES 2009: 						
+1	5	A	7	DF	1	57.7	1	59.6	1	59.6	3		3	 	3		3					OK			FOR PLOT 1-5A						
+1	5	A	8	DF	1	30.1	1	29.2	1	30.7	4		4		4		4	Dead & down			09- standing dead	OK			ACCURACY + OR - 23FT						
+1	5	A	9	DF	1	39.4	1	41.5	1	43.9	1	46	1	49.8	1	53.8	1					OK			"N44.53298°, W123.53431°"						
+1	5	A	10	DF	1	42.5	1	44.6	1	46.7	1	49.8	1	51.4	1	55.2	1					OK			GARMIN 60C  WAYPOINT 44						
+1	5	A	11	DF	1	52.2	1	55.5	1	57.6	1	59.4	1	 	3		3				09- down PW	OK									
+1	5	A	12	DF	1	52.5	1	54.7	1	56.7	1	56.6	1	60	1	65.9	1	Tag 4131				OK									
+1	5	A	13	DF	1	26.7	1	27.1	4		4		4	 	4		4					OK									
+1	5	A	14	DF	3		3		3		3		3		3		3					OK									
+1	5	A	15	DF	3		3		3		3		3		3		3					OK		This site has had continueing incidences of PW 							
+1	5	A	16	DF	3		3		3		3		3		3		3					OK		throughout the entire time of data collection							
+1	5	A	17	DF	3		3		3		3		3		3		3					OK		It also has a lot of very slow growing DF							
+1	5	A	18	DF	3		3		3		3		3		3		3					OK		I suspect PW in even the 1 condition DFs 2009							
+1	5	A	19	DF	3		3		3		3		3		3		3					OK									
+1	5	A	20	DF	3		3		3		3		3		3		3					OK									
+1	5	B	1	DF	1	25.4	1	25.4	1	25.6	1	25.4	1	25.9	2	27.1	2	suppressed				OK									
+1	5	B	2	DF	1	20.6	1	20.9	1	21.1	4		4		4		4				09- standing dead	OK									
+1	5	B	4	DF	1	34.5	1	36.9	1	40.2	1	42.7	1	47.1	1	53.8	1					OK									
+1	5	B	5	CH	1	25.2	1	25.2	4	25.4	4		4	 	4		4					OK									
+1	5	B	6	DF	1	34.4	1	36.5	1	38.4	1	40	1	42.5	1	46.7	1					OK									
+1	5	B	7	DF	1	21.8	1	23.1	1	24.5	1	24.6	1	24.5	2	25.6	2				09- SUPPRESSED	OK									
+1	5	B	8	DF	1	26.4	1	26.8	1	27.2	1	28.9	1	28.5	2	29.9	2				09-SUPPRESSED	OK									
+1	5	B	9	DF	1	34.5	2	34.8	2	34.9	3		3	 	3		3					OK									
+1	5	B	10	DF	1	21.2	1	21.5	1	22.5	1	24.1	1	25.6	2	27.7	2				09-SUPPRESSED	OK									
+1	5	B	11	DF	1	24.2	1	25.6	1	26.7	1	27.5	1	28.8	1	30.5	1					OK									
+1	5	B	12	DF	1	32.4	1	34.3	1	36.8	1	38.8	1	41.9	1	47.1	1					OK									
+1	5	B	13	DF	1	18.7	1	18.8	1	19.2	1		4	19.1	4		4	snag			09-STANDING DEAD	OK									
+1	5	B	14	DF	1	27.8	1	29.9	1	31.7	1	33.3	1	36.2	1	41	1					OK									
+1	5	B	15	DF	1	16	1	16.2	1	17	1		4		4		4				09-STAnding dead	OK									
+1	5	B	16	DF	1	23.8	1	24.7	1	25.4	1	25.7	1	26	2	27.2	2				09-SUPPRESSED	OK									
+1	5	B	17	DF	1	21.2	1	22.2	1	22	1	21.4	1	20.9	2	22	2				09- MOVED DBH UP 2 INCHES DUE TO SCAR	OK		GPS NOTES 2009: FOR PLOT 1-5B							
+1	5	B	18	DF	1	34.4	1	36.9	1	39.5	1	41.7	1	45.6	1	51.9	1				09- scar at DBH 	OK		GARMIN 60C  WAYPOINT 45							
+1	5	B	19	DF	1	19.6	1	20	1	20.2	1	19.8	1	19.8	4		4	Tall snag			09- NEWLY DEAD RED FOLIAGE	OK		ACCURACY + OR - 22FT							
+1	5	B	20	DF	1	35.7	1	38.4	1	40.6	1	43	1	47.3	1	52.5	1					OK		"N44.53361°, W123.53293°"							
+1	5	B	21	DF	1	16	1	15.9	1	16	1	15.7	1		4						09- standing dead	OK									
+1	5	B	22	DF	1	32.7	1	35	1	36.3	1	38.1	1	40.3	1	43.7	1					OK									
+1	5	B	23	DF	1	24	1	25.2	1	26.5	1	27.8	1	29.8	2	30.9	2				"09- SUPPRESSED, 1/2 A CROWN"	OK									
+1	5	B	25	DF	1	19.1	1	19.5	1	19.7	1	19.7	1	19.9	2		2					OK									
+1	5	B	26	DF	1	15.6	4		4		4		4	 	4		4					OK									
+1	5	B	27	DF	1	36.6	1	39.4	1	42.4	1	45.7	1	50.8	1		1					OK									
+1	5	B	28	DF	1	20	1	20.4	1	20.6	1	21.1	1	21.8	2		2					OK									
+1	5	B	30	DF	1	19.4	1	19.3	4		4		4		4		4				"09- standing dead,top gone"	OK									
+1	5	B	31	DF	1	34.8	1	36.2	1	38.4	1	37.4	1	38.5	1	41	1					OK									
+1	5	B	32	DF	1	34.8	1	36.6	1	38.4	1	39.7	1	43.6	1	48.2	1					OK									
+1	5	B	33	DF	1	36.1	1	38	1	40.1	1	42.8	1	45.5	1						09- adequate crown scar under DBH	OK									
+1	5	B	35	DF	1	26.7	1	28	1	29.7	1	31.2	1	33.9	2	35.6	2					OK									
+1	5	B	36	BM	1	30.1	1	31.1	1	32.3	1	33.8	1	37	1		1					OK									
+1	5	B	37	DF	1		1	33.1	1	36	1	38.1	1	42	1	44.9	1					OK									
+1	5	B	38	DF	1	16	1	16	1	16.9	4		4		4		4				09- high snap dead standing	OK									
+1	5	B	39	DF	1	17.8	1	17.8	1	18	1		4	18	4		4				09- high snap dead standing	OK									
+1	5	B	40	DF	1	17.4	1	17.5	1	17.7	4		4		4		4				09- dead standing	OK									
+1	5	B	41	DF	1	20	1	20.7	1	21.5	1	21.5	1	21.8	2	22.1						OK									
+1	5	B	42	DF	1	17	1	17.1	1	16.9	4		4	 	4		4				09- on ground	OK									
+1	5	B	43	DF	1	32.7	1	34.5	1	36	1	38	1	40.7	1	43.7	1					OK									
+1	5	B	44	DF	1	23.7	1	23.9	1	24.1	1	24.5	1	25	2	25.1	2					OK									
+1	5	B	45	DF	1	38.8	1	42	1	45	1	47.3	1	51.9	1	57.4	1					OK									
+1	5	B	46	DF	1	50.5	1	52.7	1	54.5	1	56.7	1	59.5	1	62.1	1					OK									
+1	5	B	47	DF	1	19.8	1	20.7	1	21.5	1	22	1	23.5	2	25						OK									
+1	5	C	1	DF	1	42.3	1	46.2	1	50.2	1	53	1	58.8	1	60.8	1	Tag #4030				OK									
+1	5	C	2	DF	1	25.8	1	26.3	1	27.6	1	29.2	1	30.9	2	32.8	2				09-SOMETHING CHEWING THE TREE LOTS OF SAP FLOWING OUT OF THE BASE	OK									
+1	5	C	3	DF	1	20.8	1	20.8	1	20.7	1	20.8	1	20.9	2	21.5	2				09- TOP OFF	OK									
+1	5	C	4	DF	1	42.3	1	45.6	1	48.6	1	52.7	1	57.7	1	60.2	1					OK									
+1	5	C	5	DF	1	47	1	49.7	1	53	1	53.6	1	57.7	1	62.1	1				09- HIT BY TREE # 21 	OK									
+1	5	C	6	DF	1	26.2	1	25.9	4		4		4	 	4		4				09- PALIATED ACTIVITY	OK									
+1	5	C	7	DF	1	33	1	35.1	1	37.3	1	37.9	1	40.9	1	44.2	1				09- leaning	OK									
+1	5	C	8	DF	1	17.1	4		4		4		4	 	4		4					OK									
+1	5	C	9	DF	1	29.9	1	33.8	1	34.9	1	34.5	1	35.5	2	36.2	2				09- HIT BY FALL OF TREE	OK									
+1	5	C	10	DF	1	28	1	29.4	1	30.4	1	31.4	1								09- BELIEVED TO BE FOUND PAINTED 10?? BURIED UNDER FALLEN TREE#21	OK									
+1	5	C	11	DF	1	15.6	4		4		4		4	 	4		4					OK									
+1	5	C	12	DF	1	19	1	19.1	1	19	1	19	1	18.7	4		4				09- DEAD STANDING	OK									
+1	5	C	13	DF	1	19.6	4		4		4		4	 	4		4				09- BROKEN BELOW DBH 	OK		GPS NOTES 2009: FOR PLOT 1-5C							
+1	5	C	14	DF	1	20.2	1	20.3	1	20.6	1	20.6	1	20.5	4						09- DEAD	OK		ACCURACY + OR - 40FT							
+1	5	C	15	DF	1	18	1	18	1	18	1	18.3	1	18.2	4						09- DEAD STANDING	OK		GARMIN 60C  WAYPOINT 42							
+1	5	C	16	DF	1	38.4	1	40.6	1	42.3	1	44	1	45.4	2	43.4	2				09- SPLIT TOP NOT MUCH LEAF AREA	OK		"N44.53431°, W123.53539°"							
+1	5	C	17	DF	1	39.1	1	41.6	1	43.7	1	46	1	49.8	1	55.1	1				09- SCAR AT DBH	OK									
+1	5	C	18	DF	1	36.3	1	38.9	1	40.5	1	42.5	1	46.3	1	46.3	1					OK									
+1	5	C	19	DF	1	17.8	1	17.6	3		3		3		3		3					OK									
+1	5	C	20	DF	1	19.6	1		3		3		3		3		3				DOWN	OK									
+1	5	C	21	DF	1	34.1	1	34.8	1	35.9	1	35.9	1	 	4						"09- BROWN CUBICAL ROT, BEATLES"	OK									
+1	5	C	22	DF	1	15.6	4		4		4		4	 	4		4					OK									
+1	5	C	23	DF	1	21.2	1	20.9	1	21	1	21.2	1	21.4	4		4				09- DEAD STANDING	OK									
+1	5	C	25	DF	1	23.3	1	24.2	1	24.7	1	25.9	1	27.3	2	23.1	2				09-TREE FALLEN ON IT DBH HAD TO BE TAKEN LOWER THAN MARK	OK									
+1	5	C	26	DF	1	29.8	1	33.1	1	34.4	1	36	1	37.3	2	39	2				09- leaning	OK									
+1	5	C	27	DF	1	16.9	4		4		4		4	 	4		4				09- BROKEN BELOW DBH ROTTEN HOLLOW	OK									
+1	5	C	28	DF	1	16.7	1	16.8	4		4		4	 	4		4					OK									
+1	5	C	29	DF	1	20.5	1	20.3	3		3		3	 	3		3					OK									
+1	5	C	30	DF	1	22.1	1	22.3	1	22.1	4		4	 	4		4					OK									
+1	5	C	31	DF	1	48.1	1	50.2	1	52.4	1	55.4	1	60.5	1	67.4	1				09- RECENTLY HIT BY FALLEN TREE	OK									
+1	5	C	32	DF	1	22.5	1	23.3	1	24	1	24.4	1	24.8	2							OK									
+1	5	C	33	DF	1	16.6	1	16.6	1	16.4	3		3	 	3		3				09- DEAD STANDING	OK									
+1	5	C	34	DF	1	19	1	19.1	1	19.1	1	19.3	1	19.1	4		4				09- DEAD STANDING	OK									
+1	5	C	35	DF	1	20.5	1	20.7	1	20.9	1	20.9	1	21	2	20.6	2					OK									
+1	5	C	36	DF	1	23.3	1	24	1	24.4	1	24.6	1	24.7	2	24.7	2					OK									
+1	5	C	38	DF	1	17.2	1	17.6	1	17.8	1	18.9	1	19.1	2	20	2				09- #38&#39 GROWN TOGETHER	OK									
+1	5	C	39	DF	1	36.7	1	40.2	1	43.1	1	46.7	1	53	1	60.9	1				09- #38&#39 GROWN TOGETHER	OK									
+1	5	C	40	DF	1	20.5	1	21.6	1	22	1			 	4		4				missing	OK									
+1	5	C	42	HL												22.2	1	"Not previously included, new tree"													
+1	5	D	1	DF	1	42.9	1	44.7	1	46.3	1	48	1	51	1	57.5	1					OK									
+1	5	D	2	DF	1	30.2	1	30.8	1	32.8	1	31.8	1	32.5	2	36.1	2	20-decent looking				OK									
+1	5	D	3	DF	1	34.3	1	35.5	1	36.7	1	37.3	1	38.3	1	42.9	1					OK									
+1	5	D	4	DF	1	16.4	3		3		3		3	 	3		3	20- Missing				OK									
+1	5	D	5	DF	1	24.3	1	25.2	1	24.3	4		4		4		4	"09- BROKEN, DEAD"			"09- BROKEN, DEAD"	OK									
+1	5	D	6	DF	1	38.3	1	39.7	1	42.6	1	43	1	46.1	1	51.5	1					OK									
+1	5	D	7	DF	1	26.5	1	27.4	1	27.5	1	27.5	1	28.2	1	31.1	1					OK									
+1	5	D	8	DF	4		3		3		3		3		3		3	"09- BROKEN, DEAD, 20- Missing"			"09- BROKEN, DEAD"	OK									
+1	5	D	9	DF	1	44	1	46	1	47	1	49.4	1	51.9	1	57.5	1					OK									
+1	5	D	10	DF	1	28.7	1	28.5	1	28.3	1	28.6	1	28.7	2	32.3	3	20- DEAD LRR				OK									
+1	5	D	11	DF	1	30.3	1	31.3	1	31.3	4		4	 	4		4	"09- ON THE GROUND, DEAD, 20- Missing"			"09- ON THE GROUND, DEAD"	OK									
+1	5	D	12	DF	1	30.4	1	31.6	1	33.1	1	33.9	1	35.9	1	40	1					OK									
+1	5	D	13	DF	1	27	1	27.7	1	27.4	1	28.6	1	28.4	4		4	20- Missing				OK									
+1	5	D	14	DF	1	40.7	1	42.5	1	44.6	1	46.3	1	49.3	1	55.8	1					OK		GPS NOTES 2009: FOR PLOT 1-5D							
+1	5	D	15	DF	1	43.3	1	45	1	46.8	1	48.3	1	52.3	1	60.9	1					OK		GARMIN 60C  WAYPOINT 39							
+1	5	D	16	DF	1	42.7	1	45.7	1	48.2	1	51.1	1	55.6	1	64.4	1					OK		ACCURACY + OR- 25FT							
+1	5	D	17	DF	1	36.1	1	37.8	1	39.5	1	40.9	1	43.4	1	48.4	1					OK		"N44.53504°, W123.53333°"							
+1	5	D	18	DF	1	36.2	1	37.3	1	38.7	1	38.8	1	39.6	1	44.1	1					OK									
+1	5	D	19	DF	1	19	1	19.1	1	19.7	4		4		4			"09- BROKEN, DEAD, 20- Missing"			"09- BROKEN, DEAD"	OK									
+1	5	D	20	DF	1	32.9	1	34.3	1	35.7	1	36.7	1	38.3	1	42.9	1					OK									
+1	5	D	21	DF	1	35.9	1	39.3	1	42.1	1	45.1	1	50.8	1	64.4	1	20- Merged with #36 at the base				OK									
+1	5	D	22	DF	1	41.1	1	43.2	1	45.7	1	48.3	1	53.2	1	62.7	1					OK									
+1	5	D	23	DF	1	40.5	1	42.6	1	44.5	1	47.2	1	51.9	1	59.7	1					OK									
+1	5	D	24	DF	1	22	4		4		4		4	 	4		4	20- Missing				OK									
+1	5	D	25	DF	1	21.2	4		4		4		4	 	4		4	20- Missing				OK									
+1	5	D	26	DF	1	27.2	1	27.4	1	27.8	1	27.2	1	28	4		4	20- Snag Armillaria				OK									
+1	5	D	27	DF	1	19.8	4		4		4		4	 	4		4					OK									
+1	5	D	28	DF	1	29.2	1	30.6	1	32.3	1	33.5	1	35.3	1		1					OK									
+1	5	D	29	DF	1	24.2	1	24.3	1					 	4			missing			missing	OK									
+1	5	D	30	DF	1	37.5	1	39.8	1	42.5	1	45.1	1	49.3	1		1					OK									
+1	5	D	31	DF	1	22.2	2	21.8	4		4		4	 	4		4					OK									
+1	5	D	32	DF	1	35	1		3		3		3	 	3		3					OK									
+1	5	D	33	DF	1	25.5	4		4		4		4	 	4		4					OK									
+1	5	D	34	DF	1	45.5	1	56	1	59.1	1	62.2	1	66.2	1		1					OK									
+1	5	D	35	DF	1	22.4	1	22.9	1	23.1	1	23	1	23	2							OK									
+1	5	D	36	DF						30	1	31.2	1	32.1	1							OK									
+1	5	F	1	DF	1	25.9	1	27.3	1	29.1	1	30	1	33	1	35.2	1					OK									
+1	5	F	2	DF	1	26.1	1	25.9	4					 			3	LRR confirmed!! Broken below DBH 				OK									
+1	5	F	3	DF	1	46.2	1	49.3	1	51.8	1	54.8	1	58.2	1	65	1					OK									
+1	5	F	4	DF	1	25	1	25.4	1	22.2	1	26.7	1	 	4		3	LRR confirmed.			09- BROKEN OFF BELOW DBH	OK									
+1	5	F	5	DF	1	30.3	1	31.6	1	33.2	1	33.5	1	35	1	35.8	1					OK									
+1	5	F	6	DF	1	33.5	1	35.4	1	37.2	1	39	1	42	1	44.7	1					OK									
+1	5	F	7	DF	1	33.5	1	35.8	1	38.1	1	40.2	1	44	1	48.4	1					OK									
+1	5	F	8	DF	1	32.1	1	33.3	1	35.8	1	35.7	1	39.6	1	39	1					OK									
+1	5	F	9	DF	1	30	1	31.1	1	32.2	1	33	1	35.2	2	36.7	1				"09- NOT MUCH LEAF AREA, HALF A CROWN"	OK									
+1	5	F	10	DF	1	25.3	1	26	1	26.2	1	26.3	1	26.2	4		4				09- STANDING DEAD	OK									
+1	5	F	11	DF	1	29.1	1	30.4	1	31.6	1	32.5	1	34.5	1	35.5	1					OK									
+1	5	F	12	DF	1	17	3		3		3		3	 	3		3					OK									
+1	5	F	13	DF	1	44.6	1	47.8	1	50.6	1	54.2	1	58.8	1	68.6	1					OK									
+1	5	F	14	DF	1	27.3	1	28.5	1	29.7	1	30.6	1	33.1	1	34.4	1					OK			GPS NOTES 2009: FOR PLOT 1-5F						
+1	5	F	15	DF	1	33.9	1	35.5	1	36.4	1	37	1	38.6	1	41.2	1				09- LEANING 1/2 A CROWN	OK			GARMIN 60Cc  WAYPOINT 33						
+1	5	F	16	DF	1	20.7	1	20.7	1	21.8	1	20.9	1	21.2	4	23.1	4	10 ft snag			09- STANDING DEAD	OK			ACCURACY + OR - 30FT						
+1	5	F	17	DF	1	25.1	1	25.5	1	25.7	1	25.7	1	25.8	4		4	7 ft snag			09 STANDING DEAD	OK			"N44.53455°, W123.53311°"						
+1	5	F	18	DF	1	17.8	3	17.8	3		3		3	 	3		3					OK									
+1	5	F	19	DF	1	35.3	1	36.5	1	38.3	1	38.9	1	40.2	1	34.2	1					OK									
+1	5	F	20	DF	1	26.9	1	27.6	1	29	1	29.2	1	29.5	2	30.9	2					OK									
+1	5	F	21	DF	1	39.1	1	41.6	1	44.1	1	46.5	1	50.7	1	55	1				09 DAMAGED AT DBH	OK									
+1	5	F	23	DF	1	18.3	1	18.2	1	19	4		4		4		4	Snag			09- STANDING DEAD	OK									
+1	5	F	24	DF	1	42.7	1	45.7	1	48.8	1	51.2	1	55.2	1	60.9	1				09 -HAPPY FACE	OK									
+1	5	F	25	DF	1	24.7	1	25.3	1	26.3	1	25.9	1	26	2	27.3	2					OK									
+1	5	F	26	DF	1	26.2	1	27.5	1	29.8	1	29	1	30.5	1	32	1				09- PLOT TREE	OK									
+1	5	F	27	DF	1	22.9	1	23.1	1	23.3	4		4		4		4	Snag				OK									
+1	5	F	29	DF	1	36.7	1	38.7	1	41.5	1	42.3	1	46.3	1	49.8	1					OK									
+1	5	F	30	DF	1	23.2	1	23.1	1	24.5	1		4	24.2	4		4	Tall snag			09- STANDING DEAD	OK									
+1	5	F	31	DF	1	41.2	1	44.7	1	48	1	51.5	1	57.4	1							OK									
+1	5	F	32	DF	1	25.4	1	25.8	1	26.7	1	26.2	1	26.5	2	27.3	4	Tall standing dead. 				OK									
+1	5	F	33	DF	1	19.9	1	19.9	4					 	3		3				"09- ON THE GROUND, PW"	OK									
+1	5	F	34	DF	1	26.9	1	27.8	1	29.4	1	28.5	1	29.1	2	30.3	2					OK									
+1	5	F	35	DF	1	17.2	1	17.1	4		4		4	 	4		4					OK									
+1	5	F	36	DF	1	19.7	1	19.6	4		4		4	19.5	4		4				09- STANDING DEAD	OK									
+1	5	F	37	DF	1	23.4	1	24	1	25.5	1	24.7	1	25	2	26	2					OK									
+1	5	F	38	DF	1	27	1	28.5	1	30	1	31.1	1	32.9	1	34.7	1					OK									
+1	5	F	39	DF	1	28.5	1	29.6	1	30.9	1	31.9	1	33.9	1	35.6	1					OK									
+1	5	F	40	DF	1	21.3	1		1	22.2	1	22.3	1	22.8	2	22.5	2				09- VERY SMALL CROWN	OK									
+1	5	F	41	DF	1	16.2	2	15.9	4		4		4		4		4				09- STANDING DEAD	OK									
+1	5	F	42	DF	1	17.6	1	17.5	4		4		4	17.5	4		4				09- STANDING DEAD	OK									
+1	5	F	43	DF	1	20.2	1	20.4	1	20.8	4		4	20.4	4		4	Broken top			09- STANDING DEAD	OK									
+1	5	F	44	DF	1	32.2	1	34	1	34.7	1	36	1	39.1	1	41.9	1					OK									
+2	1	A	1	DF	1	49.6	1	50	1	52	1	53	1	58.8	1	61.5	1	Tagged 4823				OK									
+2	1	A	2	DF	1	46.8	1							 								OK									
+2	1	A	3	DF	1		1	73.3	1	76.3	1	79.8	1	86.8	1	99.2	1					OK									
+2	1	A	4	DF	1	62.1	1	64	1	65.6	1	68.2	1	77.4	1	85.6	1					OK									
+2	1	A	5	DF	1	41.3	1	43.3	1	45.7	1	48.1	1	54.5	1	60.5	1					OK									
+2	1	A	6	HL	1	54.1	1							 								OK									
+2	1	A	7	DF	1	23.4	1							 								OK									
+2	1	A	8	DF	3		3		3		3		3	 	3		3					OK	NOTES FOR PLOT 2-1A 								
+2	1	A	9	DF	1	44	1							 								OK	"GPS N44.52843°, W123.54678°"								
+2	1	A	10	HL	1	28.7	1							 								OK	ACCURACY + OR- 34FT								
+2	1	A	11	DF	1	41.5	1							 								OK									
+2	1	A	12	RC	1	17	1							 								OK									
+2	1	A	13	DF	1	32.3	1							 								OK									
+2	1	A	14	DF	1	62.9	1	66.1	1	68.8	1	71.2	1	76.9	1	83	1					OK									
+2	1	A	15	DF	1	59.2	1	62.7	1	65.7	1	70	1	74.4	1	80.9	1					OK									
+2	1	A	16	DF	1	58.7	1							 								OK									
+2	1	A	17	DF	3		3		3		3		3	 	3		3					OK									
+2	1	A	18	HL	1	36	1	38.3	1	43.3	1	48.7	1	56.5	1	64.1	1					OK									
+2	1	A	19	HL												17.1	1	"Not previously included, new tree"													
+2	1	B	1	DF	1	58	1	60.5	1	63.9	1	67.1	1	73.6	1	83.2	1	Tag #4870				OK									
+2	1	B	2	DF	1	29.6	1							 								OK									
+2	1	B	3	DF	1	44.8	1							 								OK									
+2	1	B	4	DF	1	69.1	1	72.4	1	75.6	1	80.2	1	86.4	1	93.6	1	Tag #4870				OK	NOTES 2009: GPS FOR PLOT 2-1B								
+2	1	B	5	DF	1	35.3	1							 								OK	GARMIN 60C  WAYPOINT 71								
+2	1	B	6	DF	1	63.5	1	65.5	1		3		3	 	3		3					OK	"N44.52924°, W123.54663°"								
+2	1	B	7	DF	1	38.3	1	39.1	1	41.5	1	45.1	1	48	2						09- scar through DBH	OK	ACCURACY + OR- 27FT								
+2	1	B	8	DF	1	35.3	1		3		3		3	 	3		3					OK									
+2	1	B	9	DF	3		3		3		3		3	 	3		3					OK									
+2	1	B	10	DF	1	42.6	1	44.8	1	47.2	1	50.8	1	57.8	1	63.3	1					OK									
+2	1	B	11	DF	1	50.5	1	53.9	1	56.5	1	60.2	1	66.6	1	75.5	1		73.5			OK									
+2	1	B	12	DF	1	25.5	1	27.2	1	29.4	1	33.2	1	36.6	4						09- no top	OK									
+2	1	B	13	DF	1	48.3	1							 								OK									
+2	1	B	14	DF	3		3		3		3		3	 	3		3					OK									
+2	1	B	15	DF	3		3		3		3		3	 	3		3					OK									
+2	1	B	16	DF	1	35	1							 								OK									
+2	1	B	17	HL	1	17.8	2	17.9	2	21.2	1	25.1	1	28.5	2	28.2	2				"09- only hemlock on the plot that could be plot tree severly leaning so that original dbh is on ground, repianted '17?'"	OK									
+2	1	B	18	RC	1	16.8	1	18.3	1	23.4	1	31.3	1	42.1	1	55.2	1					OK									
+2	1	C	1	DF	1	63	1							 								OK									
+2	1	C	2	DF	1	44.5	1							 								OK									
+2	1	C	3	NF	1	25	1			27.3	4		4	 	4		4				09- DEAD STANDING	OK									
+2	1	C	4	DF	3		3		3		3		3	 	3		3					OK									
+2	1	C	5	DF	1	27.6	1							 								OK									
+2	1	C	6	DF	1	18.3	1							 								OK									
+2	1	C	7	DF	1	31.9	1	33.3	1	36.2	1	39.9	1	44.5	1	49.3	1					OK									
+2	1	C	8	DF	1	61.4	1							 								OK		GPS NOTES 2009: FOR PLOT 2-1C							
+2	1	C	9	DF	1	33.6	1							 								OK		GARMIN 60C  WAYPOINT 73							
+2	1	C	10	DF	1	25.8	1							 								OK		ACCURACY + OR- 22FT							
+2	1	C	11	DF	1	53.8	1	56.5	1	61	1	64.5	1	70.9	1	77.1	1					OK		"N44.52973°, W123.54653°"							
+2	1	C	12	DF	1	23.5	3		3		3		3	 	3		3					OK									
+2	1	C	13	DF	1	48.2	1	50	1	52.7	1	57.2	1	62.7	1	68	1					OK									
+2	1	C	14	DF	3									 	3		3					OK									
+2	1	C	15	DF	3									 	3		3					OK									
+2	1	C	16	DF	1	33	1		3		3		3	 	3		3					OK									
+2	1	C	17	DF	1	38.9	1		3		3		3	 	3		3					OK									
+2	1	C	18	DF	1	27.6	3		3		3		3	 	3		3					OK									
+2	1	C	19	DF	1	43.9	1		3		3		3	 	3		3					OK									
+2	1	C	20	DF	3		3		3		3		3	 	3		3					OK									
+2	1	C	21	DF	1	44	1	48.5	1	53.9	1	60.2	1	69	1	77.8	1					OK									
+2	1	C	22	DF	3		3		3		3		3		3		3					OK									
+2	1	C	23	DF	3		3		3		3		3		3		3					OK									
+2	1	C	24	DF	3		3		3		3		3		3		3					OK									
+2	1	C	25	DF	1	22.5	1	23	1	23.7	1	25	1	26.6	2	26.7	4	Dead standing				OK									
+2	1	C	26	DF	3		3		3		3		3		3		3					OK									
+2	1	D	2	NF	1	19.8	1							 								OK									
+2	1	D	3	DF	1	22.7	1							 								OK									
+2	1	D	4	DF	3		3		3		3		3		3		3					OK									
+2	1	D	5	HL	1	29.1	1							 								OK									
+2	1	D	6	DF	2	24.5	1	25.8	1	27.8	1	30.1	1	34	2	37.8	2					OK	GPS NOTES 2009: 		PLOT2-1D						
+2	1	D	7	DF	1	36.1	1							 								OK	GARMIN 60C  WAYPOINT 			#75					
+2	1	D	8	HL	1	39.7	1							 								OK	ACCURACY + OR- 30FT								
+2	1	D	9	DF	1	64	1	65	1	68.8	1	73.1	1	79.5	1	89.1	1					OK	"N44.52741°, W123.54684°"								
+2	1	D	10	DF	1	68.1	1	69.2	1	76.1	1	76.7	1	83.6	1	92.5	1					OK									
+2	1	D	12	HL	1	16.4	1							 								OK									
+2	1	D	13	DF	1	50.7	1							 								OK									
+2	1	D	14	HL	1	58.5	1	60.2	1	60.6	1	63	1	64.6	1	65.3	1					OK									
+2	1	D	15	HL	1	19.5	1							 								OK									
+2	1	D	16	HL	1	20.1	1							 								OK									
+2	1	D	17	HL	1	37.1	1	38.2	1	42.2	1	45.1	1	50	1	55.5	1				09- scar through DBH	OK									
+2	1	D	18	HL	1	46.9	1							 								OK									
+2	1	D	19	DF	3		3		3		3		3		3		3					OK									
+2	1	D	20	HL	1	31	1							 								OK									
+2	1	D	21	HL	1	24.1	1							 								OK									
+2	1	D	22	DF	1	56.4	1							 								OK									
+2	1	D	23	DF	1	22.7	1							 								OK									
+2	1	D	24	HL	1	43.5	1							 								OK									
+2	1	D	25	HL	1	20.6	1							 								OK									
+2	1	D	26	DF	1	25.4	1							 								OK									
+2	1	E	1	HL	1	41.1	1	42.7	1	44.4	1	47.1	1	50.8	1	53.2	1	Taged 4862				OK									
+2	1	E	2	DF	1	21.5	1	21.4	1	21.1	1	21.1	1	21	4		4	Snag broken at 6 feet			09- DEAD STANDING	OK									
+2	1	E	3	HL	1	25.3	1							 								OK									
+2	1	E	4	HL	1	23.6	1							 								OK									
+2	1	E	5	DF	1	42	1	44.3	1	47.4	1	50.5	1	55.8	1	67.6	1					OK									
+2	1	E	6	DF	1	18.5	3	18.4	3	3		3		3		3						OK									
+2	1	E	7	DF	1	33.8	1							 								OK									
+2	1	E	8	DF	1	24.1	1							 								OK									
+2	1	E	9	HL	1	24	1							 								OK									
+2	1	E	10	DF	1	56.3	1							 								OK									
+2	1	E	11	HL	1	16.5	1			20.4	1	24.1	1	29.2	1	32.1	2	Still leaning			09- LEANING	OK									
+2	1	E	13	DF	1	51.4	1	52.4	1	54.2	1	56.4	1	60.8	1	65.9	1					OK				GPS NOTES 2009: 		PLOT 2-1E			
+2	1	E	14	HL	1	26	1							 								OK				GARMIN 60C  WAYPOINT 			#74		
+2	1	E	15	DF	1	28.6	1	30.2	1	31.7	1			38.5	1	43.2	1					OK				ACCURACY + OR- 25FT					
+2	1	E	16	DF	1	21.7	1							 								OK				"N44.52769°, W123.54808°"					
+2	1	E	17	DF	1	33.2	1	34.8	1	37	1	39	1	43.1	1	48.3	1					OK									
+2	1	E	18	DF	1	19.2	1	18.6	3		3		3	 	3		3					OK									
+2	1	E	19	HL	1	20.7	1	20.9	1	21.8	1	23.4	1	25.1	1	26.3	1					OK									
+2	1	E	20	DF	1	26.7	1	27.1	1	27.7	1	28.3	1	29.5	1	30.2	1					OK									
+2	1	E	21	HL	1	25.2	1	25.2	3		3		3	 	3		3					OK									
+2	1	E	22	HL	1	16	1	16.1	1	16.5	1	17.6	1	18	2	18	2	"Snag, 20 feet standing "			09- BARK STRIPPED AND LEANING	OK									
+2	1	E	23	HL	1	50.1	1	51.8	1	54.8	1	59	1	63.2	1	66.9	1					OK									
+2	1	E	24	HL	1	42.5	1							 								OK									
+2	1	E	25	HL	1	16.7	1							 								OK									
+2	1	E	26	DF	1	47.4	1	48.9	1	50.9	1	53.7	1	57.6	1	63.4	1					OK									
+2	1	E	27	HL	1	24.3	1	24	1	24.8	1	26	1	27.2	1	29.3	1					OK									
+2	1	E	28	HL	1	21.7	1							 								OK									
+2	1	E	29	DF	1	39.7	1	40.5	1	42.8	1	46	1	50.2	1	56	1				09- MOVED DBH ABOVE SCAR	OK									
+2	1	E	30	DF	1	30.4	1							 								OK									
+2	1	E	31	HL	1	28.3	1							 								OK									
+2	1	E	32	DF	1	40.3	1	42	1	42.2	1	45.9	1	49.6	1	51.1	1					OK									
+2	1	E	33	HL	1	44.8	1	46.4	1	50	1	52.7	1	55.8	1	58.8	1					OK									
+2	1	E	34	HL	1	17.6	1	17.7	1	18.2	1	18.7	1	18.9	1	19.1	1	Broken top			09- TOP OFF	OK									
+2	1	E	35	HL	1	16.7	1	16.8	1	18	1	18.7	1	19.9	1	20.9	1				09- BRANCHING AT 2'	OK									
+2	1	E	36	DF	1	44.2	1	46.6	1	48.2	1	51.1	1	57.1	1	62.1	1					OK									
+2	1	E	39	DF	1	25.3	1							 								OK									
+2	1	E	40	HL	1	39	1	40	1	43.1	1	46.3	1	50.9	1	55	1					OK									
+2	1	E	41	HL	1	34.5	1							 								OK									
+2	1	E	42	HL	1	20.3	1	20.5	1	22.9	1	25.5	1	28.6	1	30.6	1	Double top				OK									
+2	1	E	43	DF	1	21.3	1							 								OK									
+2	1	E	44	DF	1	20.8	1							 								OK									
+2	2	A	1	DF	1	25.7	4							 								OK									
+2	2	A	2	DF	1	18.6	3		3		3		3	 	3		3					OK									
+2	2	A	3	DF	1	32.7	3		3		3		3	 	3		3					OK									
+2	2	A	4	DF	1	31.3	1			32.7	4		4		4		4					OK									
+2	2	A	5	DF	1	61	1	61	1	64	1	67.3	1	72	1	74.1	1					OK									
+2	2	A	6	DF	1	47.5	1	47.5	1	58	1	65	1	75.2	1	81.6	1	Tag#4825. Believe to have found polypore near this tree.				OK									
+2	2	A	7	DF	1	24.5	1			24.5	4		4		4		4				09- DEAD STANDING	OK									
+2	2	A	8	DF	1	16.3	1			15.8	4		4	 	4		4					OK									
+2	2	A	9	DF	1	28.4	1	28.4	1	31.2	1	32.5	1	32.4	4		4				09- DEAD ON GROUND	OK									
+2	2	A	10	DF	1	31.9	3		3		3		3	 	3		3					OK									
+2	2	A	11	DF	1	25.3	1			27.8	3		3		3		3	LRR - 2020 6 ft snag			09-DEAD STANDING REPAINTED	00-STILL STANDING OK									
+2	2	A	13	DF	1	23.6	4		4		4		4	 	4		4					OK				GARMIN 60C  WAYPOINT 			#50		
+2	2	A	14	DF	1	23.5	1	23.5	1	24.3	1		4	 	4		4					00-DEAD BROKEN TOP-OTHER?				ACCURACY + OR - 26FT					
+2	2	A	15	DF	1	21.7	4		4		4		4	 	4		4					OK				"N44.53714°, W123.52576°"					
+2	2	A	16	DF	1	35.5	1	35.5	1	40.6	1	42.4	1	44.5	2	47.3	2				09- DAMAGED BY FALLEN TREE	00-BLACK SOOTY SUNKEN CANKERS									
+2	2	A	17	DF	1	56.8	1	56.8	1	67.5	1	71.9	1	80.3	1	90.5	1					OK									
+2	2	A	18	DF	1	34.6	1	34.6	1					 								OK									
+2	2	A	19	DF	1	62.1	1	62.1	1	69.5	1	75.9	1	88.4	1	92.5	1					OK									
+2	2	A	20	BM						25.1	1	26.7	1	27	1	28	1					OK									
+2	2	A	21	BM						21	1	22.4	1	22.2	1	25.4	1				"09- PAINTED # VERTICALLY TOOK DBH RIGHT ABOVE #, COULD EFFECT"	OK									
+2	2	A	22	BM						20.5	1		4	 	4		4					00-DEAD OK									
+2	2	A	23	BM						22.3	1	26.9	1	28.2	1	27.8	1					OK									
+2	2	A	24	BM						24.3	1	29	1	29.9	1	34.6	1					OK									
+2	2	A	25	BM						42	1	45	1	 	4		4				09- DOWNED MAPLES WHERE MAPLES ARE FORKED	00-FORKED EST.									
+2	2	A	26	BM						60	1	48	1	 								OK									
+2	2	B	1	DF		100.2	1	101	1	101.7	1	104.1	1	104.9	1	108.2	1	Tag#4744			09- WOLF TREE	OK									
+2	2	B	2	DF		47.3	1	50.1	1	53.6	1	57.9	1	64.8	1	68.7	1					OK									
+2	2	B	3	DF		30.2	1							 								OK									
+2	2	B	4	DF		24.7	1							 								OK									
+2	2	B	5	DF		24.8	1							 								OK									
+2	2	B	6	DF		28.7	1	29.5	1	31.2	1	31	1	32.4	2	34.7	2				09- CONNECTED TO #7	OK									
+2	2	B	7	DF		38.9	1	41.5	1	45.5	1	49.5	1	54.4	2	59.2	2					OK									
+2	2	B	8	DF		16.9	1							 								OK									
+2	2	B	9	DF		21.8	1	24	1	26.5	1	28.7	1	33	1	35.2	1					OK									
+2	2	B	10	DF		22.1	1	24.1	1	26.8	1	28.7	1	31.7	1	34.6	1					OK									
+2	2	B	11	DF		16.1	1							 								OK									
+2	2	B	12	DF		24.3	1	26.8	1	29.3	1	30.5	1	34.6	1	35.6	1					OK									
+2	2	B	13	DF		17.4	1							 								OK									
+2	2	B	14	DF		26.3	1							 								OK			GPS NOTES 2009: 		FOR PLOT 2-2B-ALT				
+2	2	B	15	DF		36.8	1	40.1	1	43.8	1	48.5	1	55.2	1	62.7	1					OK			GARMIN 60C  WAYPOINT 			52			
+2	2	B	16	DF		30.9	1							 								OK			ACCURACY + OR - 15FT						
+2	2	B	17	DF		20.9	1	23	1	22.6	1	26.7	1	29.2	2	31.9	2					OK			"N44.53630°, W123.52744°"						
+2	2	B	18	DF		22.3	1							 								OK									
+2	2	B	19	DF		30	1							 								OK									
+2	2	B	20	DF		18.6	1							 								OK									
+2	2	B	21	DF		23.4	1							 								OK									
+2	2	B	22	DF		47.3	1	51.6	1	56.2	1	59.4	1	66	1	71.4	1					OK									
+2	2	B	23	DF		32.5	1	35.1	1	36.3	1	39.6	1	39.5	2	40.4	2	Tall snag.				OK									
+2	2	B	24	DF		19.8	1							 								OK									
+2	2	B	25	DF		57.9	1	61.6	1	64.8	1	69.3	1	75.8	1	84	1					OK									
+2	2	C	1	DF	1	78.5	1							 								OK									
+2	2	C	2	DF	1	64.6	1							 								OK									
+2	2	C	3	DF	1	84	1	91.5	1	97.3	1	106.9	1	119.2	1	127.8	4	Tall massive snag. Recently dead 7/23/20.				OK			GPS NOTES 2009: 		PLOT 2-2C				
+2	2	C	4	DF	1	53.9	1	58.6	1	65.8	1	71.9	1	82.8	1	92.8	1	Big black scar			09- BIG BLACK SCAR	OK			GARMIN 60C  WAYPOINT 			#53			
+2	2	C	5	DF	1	44.6	1	46.9	1	50	2	52.1	2	54.8	2	56.6	3	Blown over leaning against Acer. Confirmed LRR from steal hypha and hand lens 7/23/20 - 2020			"09- LEANING BETWEEN BIGLEAF MAPLE, UPROOTING"	00-SOOTY STUFF PW OK			ACCURACY + OR - 25FT						
+2	2	C	6	DF	1	45.2	1	52.7	1	59.5	1	67.8	1	78.4	1	95	1	Tag#4606			"09- BIG SCAR ON UPHILL SIDE THROUGH DBH, PLOT TREE"	00-OLD WOUND OK			"N44.53628°, W123.52625°"						
+2	2	D	1	DF	1	35.5	1							 								OK									
+2	2	D	2	DF	1	52.7	1	55.3	1	57.5	1	59.1	1	57.1	2			Missing			"09- MADE NEW DBH LINE COULD NOT FIND OLD DBH, WIMPY CROWN"	00-THIN GROWN? OK									
+2	2	D	3	DF	1	23.7	1							 								OK									
+2	2	D	4	DF	1	51.5	1	53.7	1	54.9	1	56.5	1	 	4		4				"09- Down on ground, presumed, could not find missing"	OK									
+2	2	D	5	DF	1	29	1							 								OK									
+2	2	D	6	DF	1	36.8	1							 								OK									
+2	2	D	7	DF	1	32.2	1							 								OK									
+2	2	D	8	DF	1	33.8	1							 								OK									
+2	2	D	9	DF	1	41	1							 								OK									
+2	2	D	10	DF	3		3		3		3		3		3		3					OK									
+2	2	D	11	DF	3		3		3		3		3		3		3					OK									
+2	2	D	12	DF	1	54.6	1	56.4	1	59.8	1	62.5	1	63.5	2			Missing			09- SMALL CROWN	OK									
+2	2	D	13	DF	1	37	1	39.8	1	44.2	1		3		3		3					00-DOWN PW OK				GPS NOTES 2009: 		PLOT 2-2D			
+2	2	D	14	DF	3		3		3		3		3		3		3					OK				GARMIN 60C  WAYPOINT 			#62		
+2	2	D	15	DF	3		3		3		3		3		3		3					OK				ACCURACY + OR- 32 FT					
+2	2	D	16	DF	3		3		3		3		3		3		3					OK				"N44.53477°, W123.52699°"					
+2	2	D	17	DF	1	32.2	1	33.8	1		4		3		3		3					00-PW									
+2	2	D	18	DF	1	55.4	1	58.2	1	60.3	1	61.2	1	 	3		3				09- DOWN ON THE GROUND PW CONFIRMED	OK									
+2	2	D	19	DF	1	17.5	1							 								OK									
+2	2	D	20	DF	1	40.2	1							 								OK									
+2	2	D	21	DF	1	31.8	1							 								OK									
+2	2	D	22	DF	1	45.5	1	46.4	1	51.5	1	53	1	58.5	1	63	1					OK									
+2	2	D	23	DF	1	27.3	1							 								OK									
+2	2	D	24	DF	1	38.4	1	40.4	1	42.1	1	43.5	1	 	4						09- ON THE GROUND FOUND AND REPAINTED	OK									
+2	2	D	25	DF	1	39.8	1							 								OK									
+2	2	E	1	DF	1	30.4	1							 								OK									
+2	2	E	2	DF	1	31.9	1							 								OK									
+2	2	E	3	DF	1	20.7	1							 								OK									
+2	2	E	4	DF	1	16.9	4							 								OK									
+2	2	E	5	DF	1	34	1	36.6	1	39.2	1	41.4	1	44.9	1	46.1	1	Wolf tree.				OK									
+2	2	E	6	DF	1	16.1	4		4		4		4	 	4		4					OK									
+2	2	E	7	DF	1	50.7	1	52.8	1	54	1	57.3	1	62.7	1	69.3	1					OK									
+2	2	E	8	DF	1	48.8	1	52	1	55.3	1	58.5	1	62.8	1	68.9	1					OK									
+2	2	E	9	DF	1	36.9	1							 								OK				GPS NOTES 2009: 		PLOT 2-2E			
+2	2	E	10	DF	1	17.3	4		4		4		4	 	4		4					OK				GARMIN 60C  WAYPOINT 			61		
+2	2	E	11	DF	1	21.6	1							 								OK				ACCURACY + OR- 22FT					
+2	2	E	12	DF	1	24.2	1							 								OK				"N44.53486°, W123.52763°"					
+2	2	E	13	DF	1	57.8	1	61.4	1	65.8	1	70.5	1	80.3	1	90.8	1					OK									
+2	2	E	14	DF	1	15.7	4		4		4		4	 	4		4					OK									
+2	2	E	15	DF	1	25.9	1							 								OK									
+2	2	E	17	DF	1	23.1	1	23.1	4	23.4	1	23.7	1	24	2	24.2	2	Thin crown				00-HAS SCAR-SMALL CROWN OK									
+2	2	E	18	DF	1	19.8	1							 								OK									
+2	2	E	19	DF	1	29.5	1							 								OK									
+2	2	E	20	DF	1	20.7	1							 								OK									
+2	2	E	21	DF	1	27.5	1							 								OK									
+2	2	E	22	DF	1	27	1							 								OK									
+2	2	E	23	DF	1	38.6	1							 								OK									
+2	2	E	24	DF	1	35.1	1							 								OK									
+2	2	E	25	DF	1	24.2	1							 								OK									
+2	2	E	26	DF	1	24.6	1	25.8	1	30.3	1	32.4	1	35.9	1	39.3	1					OK									
+2	2	E	27	DF	1									 								OK									
+2	3	A	1	DF	1	60.1	1	61.5	1	64.2	1	67.5	1	71	1	76.2	1					OK									
+2	3	A	2	DF	3		3		3		3		3	 	3		3				95-no sign of PW	OK									
+2	3	A	3	DF	1	60.5	1	63.6	1	65.4	1	66.1	1	70.8	1	74.1	1					OK									
+2	3	A	4	DF	1	36.1	1							 								OK									
+2	3	A	5	DF	1	49.6	1							 								OK									
+2	3	A	6	DF	1	45.9	1							 								OK									
+2	3	A	7	DF	1	48	1							 								OK									
+2	3	A	8	DF	1	25	4							 								OK			GPS NOTES 2009: 		PLOT 2-3A				
+2	3	A	9	DF	3									 								OK			GARMIN 60C  WAYPOINT 			#67			
+2	3	A	10	DF	1	70.7	1	73.5	1	77.4	1	80.5	1	85.6	1	94.5	1					OK			ACCURACY + OR - 24FT						
+2	3	A	11	DF	1	47.3	1	48.8	1	48.8	1	50.1	1	54.9	1	59.5	1					OK			"N44.53155°, W123.53811"						
+2	3	A	12	DF	1	43.5	1							 								OK									
+2	3	A	13	DF	1	65	1							 								OK									
+2	3	A	14	DF	1	43.1	1	44.9	1	46	1	47.2	1	49.4	2	52.4	2					OK									
+2	3	A	15	DF	3		3		3		3		3	 	3		3					OK									
+2	3	A	18	HL												23	1	Added to plot													
+2	3	A	20	HL												21	1	Added to plot													
+2	3	A	21	HL												20.7	1	Added to plot													
+2	3	A	22	HL												23	1	Added to plot													
+2	3	A	23	HL												18.3	1	Added to plot													
+2	3	C	1	DF	1	63.5	1	66.4	1	69.8	1	73.8	1	78.4	1	89	1	Tag# 4642				OK									
+2	3	C	2	DF	1	44.6	1							 								OK									
+2	3	C	3	DF	1	67.3	1	69.1	1	71.7	1	78.7	1	81.1	1	90	1					OK									
+2	3	C	4	DF	1	64.9	1	66.2	1	68.7	4			 								OK									
+2	3	C	5	DF	1	32.2	1							 								OK									
+2	3	C	6	DF	1	48.4	1							 								OK									
+2	3	C	7	DF	1	67.1	1	69.9	1	74.5	1	80.2	1	85.9	1	95	1					OK					GPS NOTES 2009: 		PLOT 2-3C		
+2	3	C	8	DF	1	59.7	1	62.4	1	65.5	1	68.9	1	74.6	1	81.8	1					OK					GARMIN 60C  WAYPOINT 			#66	
+2	3	C	9	CH	1	37.4	1							 								OK					ACCURACY + OR- 20FT				
+2	3	C	10	DF	1	31.7	1	32.8	1	34.2	1	36.9	1	41.5	2	45	2					OK					"N44.53188°, W123.53881°"				
+2	3	C	11	DF	3		3		3		3		3	 	3		3					OK									
+2	3	C	12	DF	1	26.3	1							 								OK									
+2	3	C	13	DF	3		3		3		3		3	 	3		3					OK									
+2	3	C	14	DF	3		3		3		3		3	 	3		3					OK									
+2	3	C	15	DF	1	69.5	1	72	1	74.9	1	79.2	1	85	1	93.9	1					OK									
+2	3	C	17	HL										23.9	1	33.9	1					OK									
+2	3	D	1	DF	1	48.8	1	48.8	1	49.5	1	50	1	50.5	2	51.4	2	Tag #4124			09- SMALL CROWN	OK									
+2	3	D	2	DF	3		3		3		3		3	 	3		3					OK									
+2	3	D	3	DF	1	50.4	1							 								OK									
+2	3	D	4	DF	1	57.2	1		1	62.9	1	66.8	1	72.2	1	77.3	1				95-no paint or tag - now painted #4	OK									
+2	3	D	5	DF	1	27	1							 								OK									
+2	3	D	6	DF	1	35	1	35.5	1	36.4	1	37.2	1	37.9	2	38.5	2					OK									
+2	3	D	7	DF	1	31.3	4		4		4		4	 	4		4					OK		GPS NOTES 2009: 		PLOT 2-3D					
+2	3	D	8	DF	1	48.9	1	50.4	1	54.7	1	57.1	1	62	1	65.5	1					OK		GARMIN 60C  WAYPOINT 			#68				
+2	3	D	9	DF	1	25	1							 								OK		ACCURACY + OR- 20FT							
+2	3	D	10	DF	1	81	1							 								OK		"N44.53175°, W123.53728"							
+2	3	D	11	DF	1	41	1							 								OK									
+2	3	D	12	DF	1	36.2	1							 								OK									
+2	3	D	13	DF	1	79.6	1	79.2	1	84	1	88.2	1	93.4	1	100.9	1					OK									
+2	3	D	14	DF	3		3		3		3		3	 	3		3					OK									
+2	3	D	15	DF	1	57.1	1							 								OK									
+2	3	D	16	DF	4	27.4	4		4		4		4	 	4		4					OK									
+2	3	D	17	DF	1	68.6	1	72.2	1	76.5	1	82.5	1	89.2	1	97.9	1					OK									
+2	3	D	18	DF	3		3		3		3		3	 	3		3					OK									
+2	3	D	19	HL												18.9	1	Added to plot													
+2	3	E	1	DF	3		3		3					 								OK									
+2	3	E	2	DF	1	70	1	71.2	1	74.5	1	78.2	1	 	1						"09 PROBABLY DEAD FOUND RECENTLY DOWN TREE OF CORRECT SIZE, UNABLE TO SEE #"	OK									
+2	3	E	3	DF	1	59.5	1							 								OK	NOTES 2009:								
+2	3	E	4	DF	1	47.7	1	49	1	51.5	1	54	1	57.8	1	67.3	1				09 TREE IS SOMEWHAT DAMAGED MAY OR MAY NOT BE SIGNIFICANT	OK	"GPS FOR 2-3E N44.53427 °, W123.53642° "								
+2	3	E	5	DF	1	63.2	1	65.1	1	67.5	1	69.7	1	74.3	1	87	1					OK	ACCURACY + OR- 26FT								
+2	3	E	6	DF	1	70.5	1	72.5	1	77.7	1	81.6	1	 	3		3				"09 PROBABLY DEAD FOUND RECENTLY DOWN TREE OF CORRECT SIZE, UNABLE TO SEE #  PW????"	OK	WAYPOINT 41 GARMIN60C 								
+2	3	E	7	DF	1	28.3	1							 								OK									
+2	3	E	8	BM	1	34.6	1							 								OK									
+2	3	E	9	BM	1	21.5	4		4		4		4	 	4		4					OK									
+2	3	E	10	DF	1	33.6	1							 								OK									
+2	3	E	11	DF	1	37.7	1							 								OK									
+2	3	E	12	DF	2	28.9	4		4		4		4	 	4		4					OK									
+2	3	E	13	DF	1	26	1							 								OK									
+2	3	E	14	DF	1	29.8	4		4		4		4	 	4		4					OK									
+2	3	E	15	DF	1	49.3	1	51.3	1	56.5	1	58.8	1	64.6	1	72.6	1	"Tag 4706, Stem scar"			09- SCAR	OK									
+2	3	E	16	DF	1	37	1							 								OK									
+2	3	E	17	DF	1	19.3	1							 								OK									
+2	3	E	18	DF	1	16.4	4		4		4		4	 	4		4					OK									
+2	3	E	19	DF	1	22.1	4							 								OK									
+2	3	E	20	DF	3		3		3		3		3		3		3					OK									
+2	3	E	21	DF	3		3		3		3		3		3		3					OK									
+2	3	F	1	DF	1	52.9	1	57.1	1	61	1	65.8	1	73.5	1	80.7	1	Tag# 4227				OK									
+2	3	F	2	DF	1	39.6	1							 								OK									
+2	3	F	3	DF	1	44.9	1	48.5	1	51.8	1	50.8	1	56.75	1	57.8	1					OK									
+2	3	F	4	DF	1	37.2	1	39.5	1	41.8	1	45	1	51	1	55.9	1					OK									
+2	3	F	5	DF	1	35	1							 								OK									
+2	3	F	6	DF	1	47	1	49.7	1	53.8	1	59.5	1	65.3	1	75.6	1					OK									
+2	3	F	7	DF	1	50.2	1							 								OK									
+2	3	F	8	DF	1	25.6	4		4		4		4	 	4		4					OK	NOTES 2009:								
+2	3	F	9	DF	1	41	1	43.6	1	47.1	1	51.3	1	56.5	1	65	1					OK	"GPS FOR 2-3F N44.53395 °, W123.53703° "								
+2	3	F	10	BM	1	33.1	1	35	1	38.3	1	42.1	1	46.8	1	48.3	1					OK	ACCURACY + OR- 33FT								
+2	3	F	11	DF	1	49.6	1	51.2	1	51.2	3		3	 	3		3					OK	WAYPOINT 40 GARMIN60C 								
+2	3	F	12	DF	1	30.4	1							 								OK									
+2	3	F	13	DF	1	25.1	1							 								OK	DISEASE CENTER THAT PREVIOUSLY BORDEREDSITE HAS NOW CONVERGED WITH THIS SITE								
+2	3	F	14	DF	1	51.5	1	53.9	1	57.1	1	60.7	1	65.5	1	74.9	1					OK									
+2	3	F	15	DF	1	17.7	4		4		4		4	 	4		4					OK									
+2	3	F	16	DF	1	43.2	1	45.4	1	48	1	52.2	1	57	1	59.5	1					OK									
+2	3	F	17	RA	1	29.8	4		4		4		4	 	4		4					OK									
+2	3	F	18	DF	1	48.1	1		1					 								OK									
+2	3	F	19	DF	1	63.4	1	66.4	1	71.2	1	72	1	77.5	1	80.1	4	Tall no crown. Standing dead.				OK									
+2	3	F	20	DF	1		3		3		3		3	 	3		3					OK									
+2	3	F	21	DF	3		3		3		3		3	 	3		3					OK									
+2	3	F	22	DF	3		3		3		3		3	 	3		3					OK									
+2	3	F	23	HL												16.7	1														
+2	3	F	24	HL												20.5	1														
+2	4	A	1	DF	1	19	1					 		 								OK									
+2	4	A	2	DF	1	32.3	1	34.8	1	39.1	1	41.8	1	47.8	1	47.9	4	Tall snag. TAG#4905 				OK									
+2	4	A	3	DF	1	18.4	1					 		 								OK									
+2	4	A	4	DF	1	27.6	1					 		 								OK									
+2	4	A	5	DF	1	24.7	1					 		 								OK									
+2	4	A	6	DF	1	23.3	1					 		 								OK									
+2	4	A	7	DF	1	31.7	1	35.2	1	38.7	1	41.8	1	45.4	1	51.3	2	Leaning				OK									
+2	4	A	8	DF	1	17.4	1	17.8	1	17.5	1	18.5	1	19	2	19.6	2	Thin crown.				OK									
+2	4	A	9	DF	1		3		3		3	 	3	 	3		3					OK									
+2	4	A	10	DF	1	17	1					 		 								OK									
+2	4	A	11	DF	1	31	1	33.8	1			 		 	4		4				missing	OK		GPS NOTES 2009: 		PLOT 2-4A					
+2	4	A	12	DF	1	19.8	1					 		 								OK		GARMIN 60C  WAYPOINT 			#64				
+2	4	A	13	DF	1	18.8	3		3		3	 	3	 	3		3					OK		ACCURACY + OR - 24FT							
+2	4	A	14	DF	1	31.1	1	35.3	1	37.6	1	43	1	43.4	4			15 ft snag			09- DEAD STANDING	OK		"N44.53355°, W123.53198°"							
+2	4	A	15	DF	1	21.9	1					 		 								OK									
+2	4	A	16	DF	1	21	1	21.9	1	23	1	24	1	25.8	4			15 ft snag			09- DEAD STANDING	OK									
+2	4	A	17	DF	1	16.8	1					 		 								OK									
+2	4	A	18	DF	1	31.4	1			36.1	1	37.9	1	40.4	2		4	Blown over likely from LRR				OK									
+2	4	A	19	DF	1	16.6	1					 		 								OK									
+2	4	A	20	DF	1	17	1					 		 								OK									
+2	4	A	21	DF	1	16.7	1					 		 								OK									
+2	4	A	22	DF	1	15.7	1					 		 								OK									
+2	4	A	23	DF	1	33.9	1	36.2	1	39	1	41.6	1	44.6	1	47.4	1				09- SOME RED BRANCHES	OK									
+2	4	A	24	DF	1	26.7	1					 		 								OK									
+2	4	A	25	DF	1	21	1					 		 								OK									
+2	4	A	26	DF	1	34	1					 		 								OK									
+2	4	A	27	BM	1	44.2	1					 		 								OK									
+2	4	A	28	DF	1		3		3		3		3		3		3					OK									
+2	4	A	29	DF	1		3		3		3		3		3		3					OK									
+2	4	A	30	DF	1	20	1					 		 								OK									
+2	4	A	31	BM	1	18.2	1					 		 								OK									
+2	4	A	32	DF	1	23.4	1					 		 								OK									
+2	4	A	33	DF	1	16.7	1					 		 								OK									
+2	4	A	34	DF	1	23.2	1					 		 								OK									
+2	4	A	35	DF	1	40	1			47.8	1	52.5	1	57.8	1	60.6	2	Thin crown.				OK									
+2	4	A	36	DF	1	26.6	1	28.3	1	31.9	1	35.5	1	42	2	46.7	2	Thin crown.				OK									
+2	4	B	1	DF	1	34.1	1							 								OK									
+2	4	B	2	DF	1	30.4	1	17.8	1					 								OK									
+2	4	B	3	DF	1	26.3	1							 								OK									
+2	4	B	4	DF	1	22.7	1							 								OK									
+2	4	B	5	DF	1	18.8	1							 								OK									
+2	4	B	6	DF	1	15.9	1							 								OK									
+2	4	B	7	DF	1	20	1							 								OK									
+2	4	B	8	DF	1	27.9	1							 								OK									
+2	4	B	9	DF	1	18	1							 								OK									
+2	4	B	10	DF	1	24.7	1							 								OK									
+2	4	B	11	DF	1	27.5	1	29.3	1	31.7	1	35.1	1	37	1	49.8	1	Site on a slope with lots of understory.				OK									
+2	4	B	12	DF	1	22.6	1	23.5	1	23.7	1	25.6	1	29.3	2	33.2	1					OK									
+2	4	B	13	DF	1	26.8	1							 								OK		GPS NOTES 2009: 		PLOT 2-4B					
+2	4	B	14	DF	1	26.2	1							 								OK		GARMIN 60C  WAYPOINT 			#65				
+2	4	B	15	DF	1	32.1	1	34.3	1	38.1	1	44.6	1	48.3	1	54.9	1	Tag#4541			09- PAINTED 16 DBH MEASURED OVER SCAR	OK		ACCURACY + OR- 27FT							
+2	4	B	16	DF	1	29.8	1							 								OK		"N44.53436°, W123.53062°"							
+2	4	B	17	DF	1	33.1	1							 								OK									
+2	4	B	18	DF	1	33.7	1							 			3	LRR found by this stump. Confirmed with hand lens steal hypha.				OK		NOTE: SITE IS DEEP IN BRUSH							
+2	4	B	19	DF	1	37.9	1							 								OK									
+2	4	B	20	DF	1	37	2							 								OK									
+2	4	B	21	DF		28.1	1							 								OK									
+2	4	B	22	DF	1	28.9	1							 								OK									
+2	4	B	23	DF	1	15.6	4		4					 								OK									
+2	4	B	24	DF	1	26.2	1	27.5	1	28.8	1	30	1	34.3	1	37	1					OK									
+2	4	B	25	DF	1	42.3	1	47.3	1	49.8	1	55.2	1	60.8	1	68.9	1					OK									
+2	4	B	26	DF	1	22.2	1							 								OK									
+2	4	B	27	DF	1	17.8	1							 								OK									
+2	4	D	1	DF	1	45.3	1	48.4	1	50.3	1	54.9	1	58	1	64.7	1	20- Tag# 4562				OK									
+2	4	D	2	DF	1	21.6	1							 								OK									
+2	4	D	3	DF	1	26.6	1							 								OK									
+2	4	D	4	CH	1	22.8	1							 								OK									
+2	4	D	5	DF	1	48.7	1	52.2	1	54.8	1	57.3	1	61.8	1	64.7	1					OK									
+2	4	D	6	DF	1		1	23	1	23.1	1		4	 								00-STANDING DEAD OK									
+2	4	D	7	DF	1	20.1	1	20.1	2	20.2	1	20.5	1	20	1	20.2	1					OK									
+2	4	D	8	DF	1	56.1	1	59.1	1	62.3	1	64.9	1	70.5	1	76.2	1					OK									
+2	4	D	9	DF	1	28.4	1							 								OK									
+2	4	D	10	DF	1	20.3	1							 								OK									
+2	4	D	11	DF	1	47.6	1	50.5	1	54.4	1	57.5	1	63.8	1	73	1					OK									
+2	4	D	12	DF	1	42.8	1							 								OK									
+2	4	D	13	DF	1	40.1	1	41.5	1	44	1	45.7	1	49	1	51.6	1					OK									
+2	4	D	14	DF	1	42.9	1	44.7	1	47.9	1	49.8	1	53.7	1	57.4	1					OK		GPS NOTES 2009: 		PLOT 2-4D					
+2	4	D	15	DF	1	27.4	1							 								OK		GARMIN 60C  WAYPOINT 			none				
+2	4	D	16	DF	1	17.1	1							 								OK		ACCURACY + OR - not recorded							
+2	4	D	17	DF	1	34.6	1	35.7	1	38.2	1	37	1	38.1	1	38.2	1					OK		"N44.53522°, W123.53214°"							
+2	4	D	18	DF	1	27.6	1							 								OK									
+2	4	D	19	DF	1	40.2	1	42.5	1	44.5	1	46.5	1	49.7	1	52.4	1					OK									
+2	4	D	20	DF	1	32	1	33	1	34	1	35	1	36	1	36.5	1					OK									
+2	4	D	21	DF	1	40.4	1	42.2	1	44.1	1	46.4	1	49.1	1	51.8	1	20- Double top 1 broken				OK									
+2	4	D	22	DF	1	21.1	1							 								OK									
+2	4	D	23	DF	1	16.8	3		3		3		3	 	3		3					OK									
+2	4	D	24	DF	1	25.1	1							 								OK									
+2	4	D	25	DF	1	26.8	1							 								OK									
+2	4	D	26	DF	1	49.6	1	53.6	1	57.6	1	61.8	1	69.4	1	76.3	1	09- some fungal growth			09- some fungal growth	OK									
+2	4	D	27	DF	1	23.3	1							 								OK									
+2	4	D	28	DF	1	17.1	1	17.9	4		4		4	 	4		4					OK									
+2	4	D	29	DF	1	53.2	1	57.4	1	61.6	1	66	1	73.6	1	81.4	1					OK									
+2	4	D	30	DF	1	22.3	1	22.2	4		4		4	 	4		4	09- broken dead			09- broken dead	OK									
+2	4	D	31	DF	1	24.8	1							 								OK									
+2	4	D	32	DF	1	17.8	1							 								OK									
+2	4	D	33	DF	1	20.7	1							 								OK									
+2	4	D	34	DF	1	59.6	1	63.7	1	68.5	1	72.7	1	81.2	1	89.5	1					OK									
+2	4	D	35	HL												16.5	1	"New tree, only stem between the 2 remaining trees, plot center unknown but many stems"													
+2	4	E	1	DF	1	35.4	1	37.8	1	41.9	1	44.3	1	49	1	50.5		"Tag #4749, Burnt at bottom. Returned to this site on 7/21/20 and spent 20 mins looking for LRR with no luck."				OK									
+2	4	E	2	DF	1	19.6	1							 								OK									
+2	4	E	3	DF	1	19.1	2							 								OK									
+2	4	E	4	DF	1	17	4		4		4		4	 	4		4					OK									
+2	4	E	5	DF	1	35.1	1	37.3	1	40	1	41.9	1	44.8	1	44.6	1					OK									
+2	4	E	6	DF	1	16.5	1							 								OK									
+2	4	E	7	DF	1	26.9	1			27.2	1	28.5	1	29	2	30.8	2					OK									
+2	4	E	8	DF	1	24.1	1							 								OK									
+2	4	E	9	DF	1	25.4	1	32.7	1	34.6	1	36.5	1	38.5	1	41.3	1					OK									
+2	4	E	10	DF	1	18	1							 								OK									
+2	4	E	11	DF	1	37.9	1	40.3	1	43.8	1	48.2	1	53.8	1	60.4	1					OK		GPS NOTES 2009: 		PLOT 2-4E					
+2	4	E	12	DF	1	18.3	1							 								OK		GARMIN 60C  WAYPOINT 			63				
+2	4	E	13	DF	1	26.2	1							 								OK		ACCURACY +OR- 30FT							
+2	4	E	14	DF	1	27	1	28.4	1	30.6	1	33.4	1	37	1	41.9	1					OK		"N44.53457°, W123.53125°"							
+2	4	E	15	DF	1	26.6	1							 								OK									
+2	4	E	16	BM	1	29.3	1							 								OK									
+2	4	E	17	DF	1	21.1	1							 								OK									
+2	4	E	18	DF	1	23.7	1							 								OK									
+2	4	E	19	DF	1	31.5	1							 								OK									
+2	4	E	20	DF	1	15.6	1							 								OK									
+2	4	E	21	DF	1	38.2	1	40.5	1	44.6	1	46.6	1	50.3	2	56.4	2	Growing slanted				OK									
+2	4	E	22	DF	1	16.6	1							 								OK									
+2	4	E	23	DF	1	18	1							 								OK									
+2	4	E	24	DF	1	23.9	1	25.4	1	29.5	1	30.3	1	33.5	1	31.7	1					OK									
+2	4	E	25	DF	1	31.2	1							 								OK									
+2	4	E	26	DF	1	46.4	1	49.3	1	54.1	1	57.6	1	63.8	1	68	1					OK									
+2	4	E	27	DF	1	18	1							 								OK									
+2	4	E	28	DF	1	23.4	1	23.7	1	26.1	1	26.2	1	27.5	2	24.3	2	"09- SCAR, 20- Dead Armillaria"			09- SCAR	00-SCARRED OK									
+2	4	E	29	DF	1	28.5	1	30.3	1	33.2	1	34.5	1	36.5	2	39.7	2					OK									
+2	4	E	30	DF	1	16.3	1							 								OK									
+2	4	E	31	BM	1	16.7	1							 								OK									
+2	4	E	32	BM	1	20.2	1							 								OK									
+2	4	E	33	BM	1	18.6	1							 								OK									
+2	4	E	34	DF	1	44.4	1	48.7	1	54	1	56.9	1	63.3	1	70.7	1					OK									
+2	4	E	35	DF	1	17.7	1							 								OK									
+2	4	E	36	DF	1	25.7	1							 								OK									
+2	4	E	37	DF	1			41.2	1	44.5	1	48.5	1	53	1							OK									
+2	4	E	38	DF										 								OK									
+2	4	E	39	DF	1			22.3	1	23.6	1	28	1	23.5	2	19.5	2	"09- PROBABLY WRONG DBH,  20- Butt rot"			09- PROBABLY WRONG DBH	OK									
+2	4	E	40	DF										 								OK									
+2	4	E	41	DF	1									 								OK									
+2	4	F	1	DF	1	63.8	1	68.4	1	69.7	1	74.7	1	82.6	1	88.8	1	Tag #4904				OK									
+2	4	F	2	DF	1	26.2	1							 								OK									
+2	4	F	3	BM	1	22.3	1			22.8	1	23.8	1	24.5	1							OK									
+2	4	F	4	BM	1	26.6	1			29	1	30.2	1	31	1							OK									
+2	4	F	5	DF	1	22.4	1							 								OK									
+2	4	F	6	BM	1	20.4	1			19.8	1	20.6	1	21.5	1							OK									
+2	4	F	7	BM	1	21.5	1			21	1	22.7	1	23.8	1							OK		GPS NOTES 2009: 		PLOT 2-4F					
+2	4	F	8	BM	1	31.2	1			33.5	1	33.9	1	34.5	1							OK		GARMIN 60C  WAYPOINT 			38				
+2	4	F	9	BM	1	25.5	1			26.2	1	28	1	30.6	1			20- Missing				OK		ACCURACY + OR- 18FT							
+2	4	F	10	DF	1	45.2	1	48.8	1	51.8	1	54.7	1	59.2	1	65.8	1					OK		"N44.53542°, W123.53075°"							
+2	4	F	11	DF	1	25.6	1							 				Missing				OK									
+2	4	F	12	DF	1	33.9	1	35	1	39.5	1	42	1	46.5	1	48.5	1	Thin crown				OK									
+2	4	F	13	DF	1	58.1	1	60.1	1	61.5	1	64.2	1	67.7	1	71.3	1					OK									
+2	4	F	14	DF	1	34.4	1	36.8	1	38.1	1	39.8	1	42.4	1	43.5	1					OK									
+2	4	F	15	DF	1	22.7	1							 								OK									
+2	4	F	16	DF	1	21.3	1							 								OK									
+2	4	F	17	DF	1	35	1							 								OK									
+2	4	F	18	DF	1	18.3	4		4		4		4		4		4					OK									
+2	4	F	19	DF	1	44.2	1	46.3	1	46.4	1	48.5	1	52.6	1	57.5	1					OK									
+2	4	F	20	DF	1	59.5	1	63.3	1	66.2	1	67.8	1	78.8	1	83.6	1					OK									
+2	4	F	21	DF	1	57.6	1	54.4	1	58.8	1	61.1	1	66.7	1	72.6	1					OK									
+2	4	F	22	DF	1	21.7	1							 				20- Missing				OK									
+2	4	F	23	BM	1	27.9	1							 								OK									
+2	5	A	1	RA	1	39	1		4		4		4	 	4		4					OK									
+2	5	A	2	RA	1									 								OK									
+2	5	A	3	RA	1	36.4	1	36.5	1	35.5	1			 	4		4				missing	00-NOT FOUND OK									
+2	5	A	4	RA	1	45.9	1	45.9	1	46	1	48.6	1	 	4		4				"09- NOT FOUND, ALDER FITTING POSSIBLE DESCRIPTION COMPLETELY ROTTED ON MAIN TRUNK"	OK									
+2	5	A	5	DF	1	73.9	1	78.3	1	82.5	1	89.8	1	102.8	1	121.2	1	Tag 4865				OK									
+2	5	A	6	RA	1	47.4	1	46.5	2		4		4	 	4		4					OK		GPS NOTES 2009: 		PLOT 2-5A					
+2	5	A	7	RA	1	25.5	1	26	1	29.9	1	36.2	1	41	1	62.2	1				"09- DBH TAKEN AT 10FT, DOWNED TREE, DEBRIS, AND TREE BRANCH POINT IN THE WAY"	OK		GARMIN 60C  WAYPOINT 			91				
+2	5	A	8	RA	1	26.6	1		4		4		4	 	4		4					OK		"N44.54146°, W123.52597°"							
+2	5	A	9	RA	1	43.2	1		4		4		4	 	4		4					OK		ACCURACY +OR- 22FT							
+2	5	A	10	BM	1	36.6	1		1					 							missing	OK									
+2	5	A	11	BM	1	34.8	1		4		4		4	 	4		4					OK									
+2	5	A	12	BM	1	36.8	1		4		4		4	 	4		4					OK									
+2	5	A	13	BM	1	39.8	1	40.5	1	38.7	1			 							missing	00-NOT FOUND OK									
+2	5	A	14	DF	1	20.6	4		4		4		4	 	4		4					OK									
+2	5	A	15	DF	1	16.1	4		4		4		4	 	4		4					OK									
+2	5	A	16	RA	1	52.6	1	54	1	54.5				 	4		4					OK									
+2	5	A	17	BM	1		4		4		4		4	 	4		4					OK									
+2	5	A	18	DF												21	1	"New tree, only stem between the 2 remaining trees, plot center unknown but many stems"													
+2	5	B	1	CH	1	20.6	1	20.7	1		4		4	 	4		4					OK									
+2	5	B	2	DF	1	32.6	1							 								OK									
+2	5	B	3	DF	1	34.4	1	37.9	1	42.7	1	44	1	50.1	1	57.7	1					OK									
+2	5	B	4	DF	1	21.4	1							 								OK									
+2	5	B	5	DF	1	55.5	1	59.9	1	63.5	1	67.9	1	73.3	1	80.8	1				09- MOVED DBH UP 1FT	OK									
+2	5	B	6	DF	1	19.7	1	16.2	4		4		4	 	4		4					OK									
+2	5	B	7	DF	1	30.5	1	31.7	1	33.6	1	35	1	37.4	1	39.1	1					OK									
+2	5	B	8	DF	1	16.2	1		4		4		4	 	4		4					OK									
+2	5	B	9	DF	1	39.2	1	43.8	1	47.5	1	51.8	1	59.6	1	69.9	1					OK		GPS NOTES 2009: 		PLOT 2-5B					
+2	5	B	10	DF	1	34.4	1							 								OK		GARMIN 60C  WAYPOINT 			90				
+2	5	B	11	BM	1	28.5	1	28.5	1	28.5	1	30.4	1	33	1							OK		ACCURACY + OR- 36FT							
+2	5	B	12	BM	1	29.4	1	31.5	1	33.1	1	35.4	1	38	1							OK		"N44.54076°, W123.52509°"							
+2	5	B	13	BM	1	15.8	1			16	1	15.7	1	18.1	1							OK									
+2	5	B	14	BM	1	15.9	1			15.7	1	16.5	1	16	1							OK									
+2	5	B	15	DF	1	33	1	35.7	1	39.3	1	42.8	1	48.8	1	55.1	1					OK									
+2	5	B	16	CH	1		4		4		4		4		4		4					OK									
+2	5	B	17	CH	1		4		4		4		4		4		4					OK									
+2	5	B	18	CH	1		4		4		4		4		4		4					OK									
+2	5	B	19	CH	1		4		4		4		4		4		4					OK									
+2	5	B	20	CH	1		4		4		4		4		4		4					OK									
+2	5	B	21	DF	1	19	3		3		3		3	 	3		3					OK									
+2	5	B	22	DF	1	33	1							 								OK									
+2	5	B	23	DF	1	50.7	1	54.9	1	58.8	1	62.5	1	68.3	1	72.6	1					OK									
+2	5	B	24	CH	1									 								OK									
+2	5	B	25	DF	1	44.9	1	49	1	52.5	1	56.5	1	60.8	1	62.2	4	"Dead, recently fallen"				OK									
+2	5	B	26	DF	1	42.7	1	44.3	1	46	1	48.1	1	51.3	1	53.1	2	Thin crowm				OK									
+2	5	B	27	DF	1	25.9	2							 								OK									
+2	5	B	28	DF	1	28.1	1							 								OK									
+2	5	B	29	DF	1	44	1							 								OK									
+2	5	B	30	DF	1		4		4		4		4	 	4		4					OK									
+2	5	B	31	DF	1	39.2	1	42.1	1	45.4	1	49	1	54.3	1							OK									
+2	5	B	32	DF	1		4							 								OK									
+2	5	D	1	DF	1	45.2	1	46.9	1	47.2	1		4	 	4		4	Tag#4805. 20 foot snag.			00-DEAD STANDING-E POSURE?09- BIG SNAG PLOT TREE			OK							
+2	5	D	2	DF	1	30.5	1							 								OK									
+2	5	D	3	DF	1	34.6	1							 								OK									
+2	5	D	4	DF	1	40.4	1		3		3		3	 	3		3					OK									
+2	5	D	5	DF	1	30.3	1							 								OK									
+2	5	D	6	DF	1	61.6	1		3		3		3	 	3		3					OK									
+2	5	D	7	DF	1	33.4	1		4		4		4	 	4		4					OK									
+2	5	D	9	DF	1	33.7	1							 								OK		GPS NOTES 2009: 		PLOT 2-5D					
+2	5	D	10	DF	1	41.3	1	44	1	44.9	1	47.5	1	51.2	1	58.6	2	Thin crown what appears to be beetle draws.			"09- E POSED, VERY SUCCEPTIBLE TO WIND THROW"	OK		GARMIN 60C  WAYPOINT 			94				
+2	5	D	11	DF	1	30.4	1							 								OK		ACCURACY + OR - 19FT							
+2	5	D	12	DF	1	18.1	1							 								OK		"N44.54355°, W123.52071°"							
+2	5	D	13	DF	1	23.2	1							 								OK									
+2	5	D	14	DF	1	18.4	3		3		3		3	 	3		3					OK									
+2	5	D	15	DF	1	27.7	1							 								OK									
+2	5	D	16	DF	1	22.5	1							 								OK									
+2	5	D	17	DF	1	19.8	1							 								OK									
+2	5	D	18	DF	1	36.9	1							 								OK									
+2	5	D	19	DF	1	31.4	1							 								OK				PLOT NOTES: THIS SITE IS VERY E POSED 					
+2	5	D	20	DF	1	36	1							 								OK				LOCATED WITHIN A YOUNG STAND OF STARKER 					
+2	5	D	21	WI	1	16.9	1							 								OK				TREES					
+2	5	D	22	CH	1	15.8	1							 								OK				AT TIME OF DATA COLLECTION2009 SPUR RD OFF OF SKID					
+2	5	D	23	GF	1	33.4	1							 								OK				RD WOULD LEAD CLOSE TO SITE AND THIS IS BEST POSSIBLE ROUTE					
+2	5	D	24	DF	1	49.6	1	53.2	1	55.8	1	57.4	1	 	3		3				"09- DOWN, SAMPLE TAKEN, ROOT BALLS, SETAL HYPHAE, PW CONFIRMED"	OK									
+2	5	D	25	DF	1	45.3	1							 								OK									
+2	5	D	26	DF	1	22.2	1		3		3		3	 	3		3					OK									
+2	5	D	27	DF	1	41	1		3		3		3	 	3		3					OK									
+2	5	D	32	Birch												20.7	1	New tree added to plot.													
+2	5	D	33	HL												24.4	1	New tree added to plot.													
+2	5	D	34	Birch												19.4	1	New tree added to plot.													
+2	5	D	35	HL												22.4	1	New tree added to plot.													
+2	5	D	36	HL												25	1	New tree added to plot.													
+2	5	E	1	DF	1	18.3	1							 								OK									
+2	5	E	2	DF	1	22.9	1	24.5	1	25.9	1		4	 	4		4				00-DOWN	OK									
+2	5	E	3	DF	1	16.3	1	16.1	4		4		4	 	4		4					OK									
+2	5	E	4	DF	1	30.8	1	33.2	1	36.6	1	39.4	1	44.5	1	51.7	1					OK									
+2	5	E	5	DF	1	17.9	1	18.4	1	18.9	1		4	 	4		4				00-DOWN	OK									
+2	5	E	6	DF	1	85.5	1	87.1	1	86.1	1	88.5	1	89	1			Missing.			"09- LOTS OF SCARS DBH ON BUTT OF TREE, PLOT TREE, MISTLETOE"	OK									
+2	5	E	7	DF	1	15.7	1							 								OK									
+2	5	E	8	DF	1	21.6	1							 								OK									
+2	5	E	9	DF	1	25.8	1							 								OK									
+2	5	E	10	DF	1	24.1	1	25.6	1	27.5	4		4	 	4		4					OK		GPS NOTES 2009: 							
+2	5	E	11	DF	1	25.5	1	26.7	1	27.1	4		4	 	4		4					OK		GARMIN 60C  WAYPOINT 		none					
+2	5	E	12	DF	1	16.9	1	17.8	1	20.2	4		4	 	4		4					OK		ACCURACY +OR-		not recorded					
+2	5	E	13	DF	1	31.7	1	33.8	1	34.2	4		4	 	4		4					OK		"N44.542570°, W123.521969°"							
+2	5	E	14	DF	1									 								OK									
+2	5	E	15	DF	1	18.1	1		1					 								OK									
+2	5	E	16	DF	1	18.8	1	18.9	2	18.7	4		4	 	4		4					OK		NOTE; RIGHT OFF OF SKID RD							
+2	5	E	17	DF	1	22.3	1							 								OK									
+2	5	E	18	DF	1	20.5	1	21.3	1	22.6	1	24.6	1	27.2	2		2	Tree was snapped and split and DBH could not be recorded. :(			00-LEANING 09-BIG SCAR @DBH LEANING ON #6 TOTAL OF 3 BRANCHES 	OK									
+2	5	E	19	DF	1	32.3	1							 								OK									
+2	5	E	20	DF	1	36	1	38.2	1	38.6	3			 								OK									
+2	5	E	21	DF	1	16.9	1	17	1	17.9	4		4	 	4		4					OK									
+2	5	E	22	DF	1	29.6	1							 								OK									
+2	5	E	23	BM	1	23.3	1	22.7	1	23	1	25.5	1	28.3	1	23.1	4	Dead snag			09- NO DBH LINE	OK									
+2	5	E	24	BM	1	26.2	1	26.7	1	27.7	1		1	23.9	2		4	Dead snag. Split could not get DBH.			00-NOT MEASURED		OK								
+2	5	E	25	DF	1	23.9	1	25	1	25.2	4		4	 	4		4					OK									
+2	5	E	26	BM	1	21.5	1	21.4	1	21.7	1	22	1	23.6	1			Missing.				OK									
+2	5	E	27	DF	1	25.4	1	27	1					 	4		4					OK									
+2	5	E	28	DF	1	31.5	1	33.3	1	33.5	4		4	 	4		4					OK									
+2	5	E	29	DF	1	26.9	1							 								OK									
+2	5	E	30	DF	1	16.8	1							 			4	Tag 4144				OK									
+2	5	E	31	DF	1	29.4	1							 								OK									
+2	5	E	32	DF	1	29.8	1	32.2	1	36.3	1	39.7	1	44.1	1	49.1	1				09- MISTLETOE	OK									
+2	5	E	33	DF	1	21.2	1							 								OK									
+2	5	E	34	DF	1	39.4	1	43.5	1	48	1	51.1	1	57.6	1	67.3	1				09- MISTLETOE	OK									
+2	5	E	35	DF	1	21.4	1							 								OK									
+2	5	E	36	DF	1	22	1							 								OK									
+2	5	E	37	DF	1	29.4	1							 								OK									
+2	5	E	38	DF		16.7	1	16.6	1	16.5	4		4	 	4		4					OK									
+2	5	E	40	DF												23.1	1	New tree added to plot.													
+2	5	G	1	DF		54.1	1	57.1	1	61.3	1	67.4	1	74	1	81.79	1				09- LEANING	OK									
+2	5	G	2	DF		23.6	1							 							missing	OK									
+2	5	G	3	DF		40.2	1		3		3		3		3		3					OK									
+2	5	G	4	DF		16.3	1		4		4		4	 	4		4					OK									
+2	5	G	5	DF		16.8	4		4		4		4	 	4		4					OK									
+2	5	G	6	DF		34.6	1							 								OK									
+2	5	G	7	DF		57.8	1	61	1	66.5	1	72.8	1	83.3	1	91.19	1				09- HUGE SCAR THRU DBH	OK									
+2	5	G	8	DF		33.9	3		3					 								OK									
+2	5	G	9	DF		46.1	1							 								OK		GPS NOTES 2009: 		PLOT2-5G					
+2	5	G	10	DF		40.3	1							 								OK		GARMIN 60C  WAYPOINT 			93				
+2	5	G	11	CH		21.2	1		4		4		4	 	4		4					OK		ACCURACY +OR- 29FT							
+2	5	G	12	RA		37	1		4		4		4	 	4		4					OK		"N44.54271°, W123.52114°"							
+2	5	G	13	WI		19.7	1							 								OK									
+2	5	G	14	DF		46.1	1							 								OK									
+2	5	G	15	DF		46.5	1		4		4		4	 	4		4					OK									
+2	5	G	16	CH		16.7	1							 								OK									
+2	5	G	17	CH		23.4	1							 								OK									
+2	5	G	18	DF		45	1		3		3		3	 	3		3					OK									
+2	5	G	19	DF		33.7	1							 								OK									
+2	5	G	20	DF		51.2	1		3		3		3	 	3		3					OK									
+2	5	G	21	DF			3		3		3		3	 	3		3					OK									
+2	5	G	22	DF		44.3	1	46.7	1	49.5	1	55.7	1	57	1	69.34	1				09- MISTLETOE	OK									
+2	5	G	23	DF			3		3		3		3	 	3		3					OK									
+2	5	G	24	DF			3		3		3		3	 	3		3					OK									
+2	5	G	25	DF		15.8	1	15.9	4					 								OK									
+2	5	G	26	BM												21.34	1														
+2	5	G	27	BM												19.05	1														
+2	5	G	28	RA												20.83	1														
+2	5	G	29	DF												23.37	1														
+3	1	A	1	DF	1	68.4	1	70.9	1	73	1		3	 	3		3					OK	GPS NOTES 2009: 		PLOT3-1A						
+3	1	A	2	DF	1	62.8	1	65.5	1	68.5	1	71.9	1	76.5	1	88.9	1					OK	GARMIN 60C  WAYPOINT 			97					
+3	1	A	3	DF	3		3		3		3		3		3		3					OK	ACCURACY + OR- 20FT								
+3	1	A	4	DF	2		3		3		3		3		3		3					OK	"N44.53175°, W123.54446°"								
+3	1	A	5	DF	1	18.2	1							 								OK									
+3	1	A	6	DF	1	62.4	1							 								OK									
+3	1	A	7	DF	1	25.1	1							 								OK									
+3	1	A	8	RC	1	18.8	1							 								OK									
+3	1	A	9	DF	1	38	1							 								OK									
+3	1	A	10	DF	1	72.1	1	73.7	1	75.5	1	80.2	1	91.3	1		3	LRR - 2020 - blown over - 				OK									
+3	1	A	11	DF	1	18.2	1							 								OK									
+3	1	A	12	DF	1	78.4	1	82.4	1	86	1	89.9	1	98.5	1		3	2020 - blown over from LRR				OK	NOTES 2009: Disease center is at the west edge of this site there are downed trees at this site due to PW								
+3	1	A	13	DF	1	53.9	1	56.2	1	59.9	1	63.1	1	71	1	77.4	1					OK									
+3	1	A	14	HL	1	30.7	1							 								OK									
+3	1	B	1	RC	1	21.3	1							 								OK									
+3	1	B	2	DF	1	64.2	1							 								OK									
+3	1	B	3	RC	1	27.1	1	28.8	1	31.7	1	35.5		44.6	1	58.1	1	Double stem at DBH.			"09- DOUBLE STEMMED TRUNK, MEASURED ONLY LARGER OF THE TWO"	OK									
+3	1	B	4	RC	1	16.1	1							 								OK									
+3	1	B	5	RC	1	17.8	1							 								OK									
+3	1	B	6	RC	1	17.9	1							 								OK									
+3	1	B	7	DF	1	49.7	1		3		3		3	 	3		3					OK									
+3	1	B	8	HL	1	23.2	1							 								OK				"N44.53238°, W123.54422°"					
+3	1	B	9	DF	1	45.8	1							 								OK									
+3	1	B	10	DF	1	52.2	1		3		3		3	 	3		3				"09- DOWN, METAL TAG, REPAINTED"	OK									
+3	1	B	11	DF	1	44.8	1	48.3	1	52.3	1	56.8		66	1	76.7	1	Tag #4656			09- PLOT TREE	OK									
+3	1	B	12	HL	1	18.2	1							 								OK									
+3	1	B	13	DF	1	31.3	1							 								OK									
+3	1	B	14	DF	1	48.5	1	52	1	56.3	1	59.4		63.9	1	70.2	1					OK									
+3	1	B	15	HL	1	39.5	1							 								OK									
+3	1	B	20	DF	1	45	1							 								OK									
+3	1	B	21	DF	3		3		3		3		3	 	3		3					OK									
+3	1	B	22	DF	1	54.3	1	58.6	1	63.8	1	68.2	1	78.7	1	89.3	1				09- METAL TAG	OK				GPS NOTES 2009: 		PLOT 3-1B			
+3	1	B	23	RC	1	15.9	1							 								OK									
+3	1	B	24	DF	1	39.5	1		3		3		3	 	3		3					OK				GARMIN 60C  WAYPOINT 			#98		
+3	1	B	25	DF	1	56.2	1		3		3		3	 	3		3					OK				ACCURACY + OR- 24FT					
+3	1	B	25	HL												15.8	1	New tree added to plot.													
+3	1	B	26	HL												17.3	1	New tree added to plot.													
+3	1	B	27	HL												21.6	1	New tree added to plot.													
+3	1	C	1	DF	1	64.9	1	71.2	1	66.8	1	82.5	1	92.7	1	102.8	1	Tag 4705			09- PLOT TREE	OK									
+3	1	C	2	HL	1	57.5	1	59	1	60.7	1	62.5	1	64.6	1	67.7	1					OK			ACCURACY + OR- 19FT						
+3	1	C	3	HL	1	36.3	1							 								OK			"N44.53283°, W123.54606°"						
+3	1	C	4	HL	1	30.2	1							 								OK									
+3	1	C	5	RC	1	46.5	1	49	1	53.5	1	57.8	1	69.9	1	85	1				00-OLD PW ON PLOT OK	OK									
+3	1	C	6	HL	1									 								OK									
+3	1	C	7	DF	1	65	1							 								OK									
+3	1	C	8	DF	1	87	1	91	1	96.5	1	99.9	1	106.9	1	116	1					OK									
+3	1	C	9	DF	1	93.5	1	95.4	1	99	1	103	1	110.1	1	118.4	1					OK			GPS NOTES 2009: 		PLOT 3-1C 				
+3	1	C	10	HL	1	34.2	1							 								OK									
+3	1	C	11	DF	1	107.8	1	110.5	1	115.5	1	120.2	1	128.1	1	136.9	1								GARMIN 60C  WAYPOINT 			99			
+3	1	C	12	HL												17.4	1														
+3	1	C	13	HL												17.5	1														
+3	1	C	14	HL												24.6	1														
+3	1	C	15	HL												21.5	1														
+3	1	C	18	HL												19.7	1														
+3	1	C	19	HL												17	1														
+3	1	C	23	HL												23.1	1														
+3	1	C	24	HL												19.7	1														
+3	1	C	25	HL												16.3	1														
+3	1	D	1	DF	1	112.2	1	112.4	1	121.3	1	122.8	1	132.3	1	142.5	1				09- PLOT TREE	OK									
+3	1	D	2	HL	1	31	1							 								OK			GPS NOTES 2009: 		PLOT 3-1D				
+3	1	D	3	HL	1	34.1	1	35.6	1	38	1		3	 	3		3				00-PW	OK			GARMIN 60C  WAYPOINT 			100			
+3	1	D	4	HL	1	44.5	1							 										OK	ACCURACY + OR - 23FT						
+3	1	D	5	HL	1	66.6	1	66.6	1	71.8	1	72.8	1	80.9	1	89.6	1				"00-NO PAINT-NOT SURE IF RIGHT TREE, 09- MISTLETOE   "	OK			"N44.53336, W123.54661"						
+3	1	D	6	DF	1	83	1							 								OK									
+3	1	D	7	DF	1	87.4	1	89	1	90.8	1	92.5	1	93.4	3	99.3	1	Downed and dead tree.			"09- ON THE GROUND WAS ABLE TO GET DBH, CONFIRMED PW, ALSO BEETLE FRASS PRESENT, SAMPLED PW"	OK									
+3	1	D	8	HL	1	24.5	1							 								OK									
+3	1	D	9	DF	1	57.4	1	58.9	1	62.2	1		3	 	3		3				00-ROOT ROT PROB. PW	OK									
+3	1	D	11	HL	1	37.7	1							 								OK									
+3	1	D	13	DF	1	54.3	1							 											OK						
+3	1	D	15	HL	1	25.9	1							 								OK									
+3	1	D	16	HL	1	17.8	1							 								OK									
+3	1	D	17	HL	1	70.3	1							 								OK									
+3	1	D	18	DF	1	30.4	1							 								OK									
+3	1	D	19	HL	1	29	1							 								OK									
+3	1	D	20	HL						17.2	1	23.7	1	36.3	1	46.6	1				09- MISTLETOE	OK									
+3	1	E	1	HL	1	85	1	97.2	1	95.7	1	98.9	1	101.6	1	104.9	1	Tag #4964			09- PLOT TREE	OK									
+3	1	E	2	HL	1	20	1	20.2	1	20.3	1	21	1	21.3	2	21.6	2				09-SUPPRESSED	OK									
+3	1	E	3	HL	1	18.8	1	19.3	1	20.2	1	21.3	1	22.2	2	23	2				"09- MISTLETOE, METAL TAG, SUPPRESSED"	OK									
+3	1	E	4	HL	1	85.3	1	87.3	1	88.5	1	91.6	1	95.3	1	99	1				09- CODOMINATE WITH TREE #1	OK		GPS NOTES 2009: 		PLOT 3-1E					
+3	1	E	5	HL	1	20.5	1	20.9	1	21.3	1	21.8	1	22	2	21.9	2				"09- MISTLETOE, SUPPRESSED"	OK		GARMIN 60C  WAYPOINT 			102				
+3	1	E	6	HL	1	31.3	1							 								OK		ACCURACY + OR- 20FT							
+3	1	E	7	HL	1	44	1	45.1	1	49	1	52.4	1	58	1	63.8	1					OK		"N44.53283°, W123.54704°"							
+3	1	E	10	HL	1	80	1	91.6	1	92.2	1	99.5	1	101.8	1	109.4	1	Double stem with tree 11			"09- 2 SMALL HEMLOCKS GROWING OUT OF BOLE, ONE IS TREE#11"	OK									
+3	1	E	11	HL	1	17	1							 				Double stem with tree 11			09- TREE 10 &11 MEASURED TOGETHER AS 1	OK									
+3	1	E	12	DF	1	67	1	69.6	1	70.8	1	73.2	1	74.5	1	77.7	1				09- NOT MUCH CROWN	OK									
+3	1	E	13	RC	1	21.5	1	22.7	1	23.5	1	21.7	1	26.7	2	27.5	2				09- suppressed	OK									
+3	1	E	14	HL	1	29.5	1							 								OK									
+3	1	E	15	DF	1	140.1	1	147.8	1	147.5	1	152.2	1	157.8	1	165.8	1				"09- BIG TREE, DBH TAPE ONLY TO160CM!"	OK									
+3	1	E	18	HL												17.8	1	"From base tree 10, new to data"													
+3	2	A	1	DF	1	65.5	1	67.8	1	71	1	72.9	1	 	4			Missing. Two large trees are down within the plot. Cannot see paint but am assuming this is one of them.			09-NEWLY DOWNED TREE THAT IS THE RIGHT SIZE FOR TREE#1 FELL ON # CAN'T SEE PAINT	OK									
+3	2	A	2	DF	1	31.5	1							 								OK									
+3	2	A	3	DF	1	19.8	1							 								OK									
+3	2	A	4	DF	1	23.7	1							 								OK									
+3	2	A	5	DF	1		4		4					 								OK									
+3	2	A	6	DF	1		4		4					 								OK									
+3	2	A	7	DF	1		4		4					 								OK									
+3	2	A	8	DF	1		4		4					 								OK									
+3	2	A	9	DF	1		4		4					 								OK									
+3	2	A	10	DF	1	42.4	1	47.2	1	52.7	1	60.1	1	59	4			"Tall, big snag."			"09- STANDING DEAD, PLOT TREE, BIG BLACK SCAR ON TRUNK AT DBH"	OK									
+3	2	A	11	DF	1	17.5	1							 								OK	GPS NOTES 2009: 		PLOT 3-2A						
+3	2	A	12	DF	1	27.7	1							 								OK	GARMIN 60C  WAYPOINT 			54					
+3	2	A	13	DF	1		4		4					 								OK	ACCURACY + OR- 25FT								
+3	2	A	14	DF	1		4		4					 								OK	"N44.53562°, W123.52554°"								
+3	2	A	15	DF	1		4		4					 								OK									
+3	2	A	16	DF	1		4		4					 								OK									
+3	2	A	19	DF	1	26.1	1	28.8	1	33.2	1	37.7	1	44.8	1	56	1					OK									
+3	2	A	21	DF	1	38.6	1							 								OK		THERE IS A LARGE ?100CM IN DIAMETER DF							
+3	2	A	22	DF	1	27.8	1							 								OK		DOWN THAT IF FOLLWED LEADS STRAIGHT							
+3	2	A	23	DF	1	21.5	1							 								OK		FROM THE TRAIL SIDE UPTO THE PLOT. 							
+3	2	A	24	DF	1	36.7	1	38.7	1	42.8	1	46.6	1	54.8	1	57.1	4	"Tag#4692, Tall, big snag."				OK		CAN SEE SMALL CHINKAPIN FROM TRAIL							
+3	2	A	25	DF	1	48	1	50.4	1	50.3	1		4	 								00-DEAD	OK								
+3	2	A	29	DF	1	39.2	1							 								OK									
+3	2	A	30	DF	1	16.3	1							 								OK									
+3	2	A	31	DF	1	21.4	1	23.1	1	26	1	28	1	 	3							OK									
+3	2	A	32	CH								19.6	1	23.2	2			Missing			"09- MEASURED DBH AT ABOUT 2FT ABOVE A LARGE DOWN DF THAT FELL ACROSS THIS TREE, IS THIS THE RIGHT TREE? ONLY FEASIBLE CHINKAPIN ON PLOT, DOWNED TREE IN THE WAY OF #"	CHINKAPIN OK									
+3	2	B	2	DF	1	61.8	1							 								OK									
+3	2	B	4	DF	1	24.3	1							 								OK									
+3	2	B	5	DF	1	17.1	1							 								OK									
+3	2	B	7	DF	1	16	1							 								OK									
+3	2	B	8	DF	1	36.2	1	38.8	1	42.5	1	47.3	1	53.5	1	59.3	1					OK									
+3	2	B	9	DF	1	20.9	1							 								OK									
+3	2	B	10	DF	1	33	1	34.6	1	37.7	1	41.7	1	47.3	1	52.5	1					OK		GPS NOTES 2009: 		PLOT 3-2B					
+3	2	B	11	DF	1	28.3	1	29.2	1	32	1	36.7	1	43.3	1	48.9	1					OK		GARMIN 60C  WAYPOINT 			57				
+3	2	B	12	DF	1	24.4	1							 								OK		ACCURACY + OR - 18FT							
+3	2	B	13	DF	1	23.9	1							 								OK		"N44.53601°, W123.52430°"							
+3	2	B	14	DF	1	30.6	1	32.3	1	35	1	38.6	1	43.3	1	48.1	1					OK									
+3	2	B	15	DF	1	23.8	1		4					 								OK									
+3	2	B	16	DF	1	29.7	1							 								OK		SITE ON TRAIL							
+3	2	B	17	DF	1	27.2	1							 								OK									
+3	2	B	19	DF	1	17	1							 								OK									
+3	2	B	21	DF	1	17.1	1							 								OK									
+3	2	B	22	DF	1	27.1	1	29.5	1	32.3	1	36.5	1	41.8	1	48	1					OK									
+3	2	B	25	DF	1	30.3	1							 								OK									
+3	2	B	27	DF	1	19	1							 								OK									
+3	2	B	28	DF	1	16.8	1							 								OK									
+3	2	B	29	DF	1		1							 								OK									
+3	2	B	30	DF	1	25.5	1							 								OK									
+3	2	B	32	DF	1	30.9	1	33.2	1	36.4	1	41	1	48	1	55.4	1					OK									
+3	2	B	33	DF	1	22.9	1							 								OK									
+3	2	B	34	DF	1	19.7	1							 								OK									
+3	2	B	36	DF	1	19.9	1							 								OK									
+3	2	B	37	DF	1	20.5	1							 								OK									
+3	2	B	38	DF	1	28.2	1							 								OK									
+3	2	B	39	DF	1	36.5	1							 								OK									
+3	2	B	40	DF	1	20.1	1							 								OK									
+3	2	B	42	DF	1	23.9	1	25	1	28	1	31.8	1	38.5	2	44.6	1	Tag#4860. Tree is right along the trail!				OK									
+3	2	B	43	DF	1	27.6	1							 								OK									
+3	2	B	44	DF	1	27.1	1							 								OK									
+3	2	B	45	DF	1	29.3	1							 								OK									
+3	2	B	46	DF	1	16.6	1							 								OK									
+3	2	B	47	DF	1	17.1	1							 								OK									
+3	2	C	1	DF	1			15.8	1	15.9	1	16.2	1	16.1	4			5 ft snag measured slightly below DBH. Snapped at 5 ft.			09- DEAD STANDING	OK									
+3	2	C	2	DF	1	16.5	3		3		3		3	 	3							OK									
+3	2	C	3	DF	1	19.1	1							 								OK									
+3	2	C	4	DF	1	33.5	1							 								OK									
+3	2	C	5	DF	1	36.4	1	39.1	1	42.9	1	47.7	1	54.1	1	59.9	1	Tag #4480			09- PLOT TREE	OK									
+3	2	C	6	DF	1	19.8	1							 								OK									
+3	2	C	7	DF	1	30.7	1							 								OK				GPS NOTES 2009: 		PLOT 3-2C			
+3	2	C	9	DF	1	35.3	1	38.2	1	42.8	1	47.2	1	51.5	1	56.6	1				09 NICE CROWN	OK				ACCURACY + OR - 22FT					
+3	2	C	10	DF	1	21.2	1							 								OK				"N44.53513°, W123.52377°"					
+3	2	C	11	DF	1	26.7	1							 								OK									
+3	2	C	12	DF	1	17.7	1	18.2	1	17.9		18.3	4	18.5				10 ft snag			"09- DEAD STANDING, SNAG"	OK				note: directly off trail downhill					
+3	2	C	13	DF	1	24	1	26.1	1	29.1	1	32.3	1	36.6	1	40.1	1					OK									
+3	2	C	14	DF	1	30.5	1							 								OK									
+3	2	C	15	DF	1	24.9	1							 								OK									
+3	2	C	17	DF	1	30	1	32.7	1	36.7	1	41	1	46.9	1	52.9	1				09- INJURY AT 9FT	00-JUST DIED-GREEN WOOD OK									
+3	2	C	19	DF	1	25	1							 								OK									
+3	2	C	20	DF	1	30.3	1	30.9	1	32.2	1	34.1	1	36.9	2	37.9	2					OK									
+3	2	C	21	DF	1	50.8	1	54.5	1	58.3	1	62.5	1	59.3	1	76	1					OK									
+3	2	C	22	DF	1	23	1							 								OK									
+3	2	C	23	DF	1				4		4		4	 	4		4					OK									
+3	2	C	24	DF	1	35.3	1	37.2	1	40.5	1	43.9	1	47.7	1	51.8	1				09- FORKED TOP	OK									
+3	2	C	25	DF	1	17	1	17	1	16.7	1	17.1	1	16.7	4			Missing			09- DEAD STANDING	OK									
+3	2	C	26	DF	1	19.4	1							 								OK									
+3	2	C	27	DF	1	20.3	1							 								OK									
+3	2	C	28	DF	1	35	1							 								OK									
+3	2	C	29	DF	1	17	1	16.9	1	17.1	4			 								OK									
+3	2	C	30	DF	1	28.2	1	29.8	1	33.7	1	36.8	1	40.4	1	42.1	1					OK									
+3	2	C	31	DF	1	27.2	1							 								OK									
+3	2	C	32	DF	1	23.3	1							 								OK									
+3	2	D	1	DF	3		3		3		3		3		3		3					OK									
+3	2	D	2	DF	3		3		3		3		3		3		3					OK									
+3	2	D	3	DF	2		3		3		3		3		3		3					OK									
+3	2	D	4	DF	2		3		3		3		3		3		3					OK									
+3	2	D	5	DF	2	29.9	1							 								OK									
+3	2	D	6	DF	1		4		4					 								OK									
+3	2	D	7	DF	1	29.3	1	32.8	1	35.7	1		3	 	3		3					00-DEAD PW OK		GPS NOTES 2009: 		PLOT 3-2D					
+3	2	D	8	DF	1	24.2	1							 								OK		GARMIN 60C  WAYPOINT 			60				
+3	2	D	9	DF	1									34.8	4							OK		ACCURACY + OR- 22FT							
+3	2	D	10	DF	1	16.5	1							 								OK		"N44.53593°, W123.52480°"							
+3	2	D	12	DF	1	19.1	1							 								OK		NOTE: ON TRAIL							
+3	2	D	14	DF	1		4		4		4		4	 	4		4					OK									
+3	2	D	16	DF	1	27	1							 								OK									
+3	2	D	17	DF	1	35.6	1	40	1	44.8	1	50.5	1	57.7	1	60.9	1					OK									
+3	2	D	18	DF	1	38.5	1	41.8	1	45.7	1	50.2	1	56.9	1	65.9	1					OK									
+3	2	D	19	DF	1	26.2	1							 								OK									
+3	2	D	20	DF	1	20.7	1							 								OK									
+3	2	D	21	DF	1	19.4	1							 								OK									
+3	2	D	22	DF	1	24.4	1	27.1	1	31	1	35.8	1	35.6	4		4	12 ft snag				OK									
+3	2	D	24	DF	1	28.3	1	31.1	1	32	1	37.3	1	41.7	1	46.1	1					OK									
+3	2	D	26	DF	1	39.9	1	43	1	47.9	1	52.6	1	59.1	1	65	1	On the trail.				OK									
+3	2	D	27	DF	1	25.2	1							 								OK									
+3	2	D	28	DF	1	24	1							 								OK									
+3	2	D	29	DF	1	41	1	45	1	51.1	1	54	1	61	1	66.4	1	Tag#4610. Tree is right by the trail!				OK									
+3	2	D	30	DF	1	23.4	1							 								OK									
+3	2	D	31	DF	1		4							 								OK									
+3	2	D	32	DF	1	28.6	1	29.6	1	32.2	1	33.4	1	36	2	39.7	2	Thin crown.			09- RED BRANCHES	OK									
+3	2	D	33	DF	1	22.9	1							 								OK									
+3	2	D	34	DF	1	20.9	1							 								OK									
+3	2	D	35	DF	3		3		3		3		3	 	3		3					OK									
+3	2	D	36	DF	3		3		3		3		3	 	3		3					OK									
+3	2	E	1	DF	1	37.6	1							 								OK									
+3	2	E	2	DF	1	54.7	1	58	1	62	1	65.3	1	70	1	74.3	1	Tag#4628			09- RED BRANCHES	OK									
+3	2	E	3	DF	1	34.6	1	35.7	1	37.8	1	39.9	1	44.4	1	47.9	1					OK									
+3	2	E	4	DF	1	39.9	1							 								OK									
+3	2	E	5	DF	1	35.6	1							 								OK									
+3	2	E	6	DF	1	31.7	1	32.7	1	34	1	35.6	1	38.2	2	40.8	2					OK									
+3	2	E	7	DF	1	31	1	32	1	33	1	34.2	1	36	2	37.5	2					OK									
+3	2	E	8	DF	1	57.5	1	61.5	1	63	1	66.5	1	72.8	1	79.3	1				09- RED BRANCHES	OK									
+3	2	E	9	DF	1	22.2	1							 								OK									
+3	2	E	10	DF	1	17.3	1	17.2	1	17.3	1	17.7	1	18.3	2			Missing.				00-STILL SUPPRESSED OK									
+3	2	E	12	DF	1	44.5	1							 								OK									
+3	2	E	13	DF	1	33	1			37.5	1	40.4	1	45.2	1	50.9	1					OK		GPS NOTES 2009: 		PLOT 3-2E					
+3	2	E	14	DF	1	26.5	1							 								OK		GARMIN 60C  WAYPOINT 			59				
+3	2	E	15	DF	1	60.4	1	63.3	1	68.8	1	69.9	1	75.8	1	77.8	1				09- RED BRANCHES	OK		ACCURACY + OR - 21FT							
+3	2	E	16	DF	1	23.3	1							 								OK		"N44.53527°, W123.52546°"							
+3	2	E	17	DF	1	23.2	1	23.4	1	24.2	1	25.9	1	27.8	2	29.2	2					OK									
+3	2	E	18	DF	1	38.8	1	40	1	43.5	1	46.6	1	49.8	1	53	1				09- RED BRANCHES	OK									
+3	2	E	19	DF	1	29.9	1							 								OK		NOTE: ON TRAIL							
+3	2	E	20	DF	1	43.2	1							 								OK									
+3	2	E	21	DF	1	42	1	44.5	1	46.9	1	49.3	1	53.4	1	58.5	1					OK									
+3	2	E	23	DF	1	31.8	1	33.3	1	34.8	1	36.8	1	40.5	1	44	1					OK									
+3	2	E	24	DF	1	31	1							 								OK									
+3	3	A	1	DF	3		3		3		3		3	 	3		3					OK									
+3	3	A	2	DF	1	39	1							 								OK									
+3	3	A	3	DF	1	33.8	1	36.1	1	40.2	1	44.3	1	49.6	1	53.4	1					OK									
+3	3	A	4	DF	1	41.5	1							 								OK									
+3	3	A	5	DF	1	38.3	1	40.1	1		1	45.9	1	50.2	1	52.3	1	Tag 4536				OK									
+3	3	A	6	DF	1	55.7	1	58.5	1	62.5	1	65.9	1	72.8	1	80.3	1					OK									
+3	3	A	7	CH	1	22.8	4		4		4		4	 	4		4					OK									
+3	3	A	8	DF	1	23.5	1							 								OK									
+3	3	A	9	DF	1	49.3	1							 								OK									
+3	3	A	10	DF	1	44.7	1							 								OK			GPS NOTES 2009: 		PLOT 3-3A				
+3	3	A	11	DF	1	37.7	1	39.5	1	44	1	47	1	52.2	1	57.9	1					OK			GARMIN 60C  WAYPOINT 			96			
+3	3	A	12	DF	1	26.9	1							 								OK			ACCURACY + 0R - 23FT						
+3	3	A	13	DF	1	49.1	1							 								OK			"N44.53181°, W123.53346°"						
+3	3	A	14	DF	1	45	1	47.9	1	51.7	1	55.8	1	62.1	1	68.9	1				09- BIG SCAR @DBH	OK									
+3	3	A	15	DF	1	21.1	1							 								OK			NOTE: PREV. MENTIONED RD NOT APPARENT						
+3	3	A	16	DF	1	23.5	1							 								OK			"IN 2009, LARGE ORANGE LINE PAINTED ON BIG "						
+3	3	A	17	DF	3		3		3		3		3	 	3		3					OK			SNAG NE T TO PLOT						
+3	3	A	18	DF	1	26.6	1															OK			AS OF 2009 THIS SITE IS VERY FAR FROM ANY RD OR TRAIL						
+3	3	A	19	DF	1	26.7	1	26.7	4		4		4	 	4		4					OK									
+3	3	A	20	DF	1	17	3		3		3		3	 	3		3					OK									
+3	3	A	21	DF	1	34.8	1							 								OK									
+3	3	A	22	DF	1	39.1	1	41.3	1	47.9	1	51.9	1	60	1	67.8	1				"09- METAL TAG, BIG SCAR"	OK									
+3	3	A	23	DF	1	39.7	1							 								OK									
+3	3	A	24	DF	1	24.1	1							 								OK									
+3	3	A	25	DF	1	26.4	1							 								OK									
+3	3	A	26	DF	1	32	1	34	1	35.7	1	39.4	1	42.2	1	44.1	1				09- BIG SCAR	00-FROST CRACK-LIKE SCAR(5-15') OK									
+3	3	A	27	DF	1	50	1							 								OK									
+3	3	A	28	DF	1	35	1							 								OK									
+3	3	A	29	DF	1	42.1	1	43.6	1	48	1	51.3	1	57.3	1	61.5	1				09- BIG SCAR @DBH	00-PITCHED OVER CANKER OK									
+3	3	A	30	DF	1	41.1	1			47.7	1	51.6	1	55.9	1	62	1					OK									
+3	3	B	1	DF										 																	
+3	3	B	2	DF	1	33.1	1							 								OK									
+3	3	B	3	DF	1	37.7	1	41.1	1	44.6	1	47.6	1	52.4	1	59	1				09- PLOT TREE	OK									
+3	3	B	4	DF	1	27.4	1							 								OK									
+3	3	B	5	DF	1	49.3	1	50.7	4	51	4		4		4		4	25 ft snag			"09- top out, repainted, woodpecker holes"	OK									
+3	3	B	6	DF	1	28	4		4		4		4		4		4					OK									
+3	3	B	7	DF	1	30.8	1							 								OK									
+3	3	B	8	DF	1	52.9	1	56.6	1	60.7	1	63.4	1	 	3		3				"09- found newly down tree ne t to #9, fell across DBH"	OK			GPS NOTES 2009: 		PLOT3-3B				
+3	3	B	9	DF	1	42.5	1	46.5	1	50.8	1	56.7	1	64.1	1	69.3	1					OK			GARMIN 60C  WAYPOINT 			104			
+3	3	B	10	DF	1	49.3	1	52.3	1	55.3	1	58.5	1	63.1	1	67.1	1					OK			ACCURACY +OR- 20FT						
+3	3	B	11	DF	1	43.4	1	47.1	1	51.4	1	55	1	62	1	69.4	1					OK			"N44.53054°, W123.53620°"						
+3	3	B	12	DF	1	31.8	1	34.4	1	37.6	1	42	1	49.1	1	57.4	1	Tag #4135				OK									
+3	3	B	13	DF	1	20.2	1	20.1	1	20.2	1	20.4	1	21.5	2	21.2	2	Suppressed			"09- lost top, regrew, suppressed"	OK									
+3	3	B	14	DF	1	47.7	1	51.2	1	57.3	1	59.5	1	66.1	1	75.1	4	Snag slightly below DBH				OK									
+3	3	B	15	DF	1	22	3		3		3		3	 	3		3				09- repainted	OK									
+3	3	B	16	DF	1	27	1							 								OK									
+3	3	B	17	DF	3		3		3		3		3	 	3		3					OK									
+3	3	B	18	DF	3		3		3		3		3	 	3		3					OK									
+3	3	B	19	HL												19.2	1	New tree added to plot.													
+3	3	C	1	DF	1	21.2	1	22.2	1	22.2	1	23.9	1	24.9	2	25.8	2	Tag 4732			09- suppressed	OK									
+3	3	C	2	DF	1	29.8	1							 								OK									
+3	3	C	3	DF	1	57.6	1	60.5	1	63.3	1	67.6	1	73.2	1	81.5	1					OK									
+3	3	C	4	DF	1	36.4	1							 								OK									
+3	3	C	5	DF	1	19.2	1							 								OK									
+3	3	C	6	DF	1	29.7	1							 								OK									
+3	3	C	7	DF	1	21	1							 								OK									
+3	3	C	8	DF	1	66.2	1	68	1	72.7	1	77.7	1	81.3	1	87.8	1					OK									
+3	3	C	9	DF	4		4		4		4		4	 	4		4					OK									
+3	3	C	10	DF	1	23.4	3		3		3		3	 	3		3					OK									
+3	3	C	11	DF	1	56.7	1	59.4	1	62.9	1	64	1	68.6	1	74.4	1					OK									
+3	3	C	12	DF	1	49.5	1							 								OK									
+3	3	C	13	DF	1	47.5	1							 								OK									
+3	3	C	14	DF	1	40.7	1	42.4	1	46	1	46.7	1	49.5	1	51.5	1				"09- LOWERED DBH, TREE FELL ON IT"	OK									
+3	3	C	15	DF	1	37.8	1							 								OK									
+3	3	C	16	DF	1	25.4	1							 								OK				GPS NOTES 2009: 		3-3C			
+3	3	C	17	DF	4		4		4		4		4		4		4					OK				GARMIN 60C  WAYPOINT 			70		
+3	3	C	18	DF	1	38.5	1							 								OK				ACCURACY + OR- 27FT					
+3	3	C	19	DF	1	22.2	1							 								OK				"N44.53221°, W123.53544°"					
+3	3	C	20	DF	1	58.4	1	61	1	64.8	1	69.3	1	75.1	1	84.2	1					OK									
+3	3	C	21	DF	4		4		4		4		4		4		4					OK									
+3	3	C	22	DF	1	18.8	3		3		3		3		3		3					OK									
+3	3	C	23	DF	1	23.4	1							 								OK									
+3	3	C	24	DF	1	49	1							 								OK									
+3	3	C	25	DF	1	21.7	1							 								OK									
+3	3	C	26	DF	1	32.5	1							 								OK									
+3	3	C	27	DF	1	36.5	1							 								OK									
+3	3	C	28	DF	1	20.1	4		4		4		4		4		4					OK									
+3	3	C	29	DF	1	40.2	1							 								OK									
+3	3	C	30	DF	1	40	1	42.2	1	46.2	1	49.5	1	55.2	1	61.7	1					OK									
+3	3	C	31	HL										20.9	1	28.3	1				09- ADDEDTHIS ROW TO E CEL SHEET WHY MISSING? Ls										
+3	3	D	1	DF	1	58.2	1	61.1	1	64.9	1	71.3	1	80	1	88	1	Tag 4911			09- PLOT TREE	OK									
+3	3	D	2	BM	1	30	1	30.1	1	35.7	1	37.9	1	43.7	1	44.4	1				"09- PAINT VERY WORN, REPAINTED"	OK									
+3	3	D	3	DF	1	50.6	1							 								OK									
+3	3	D	4	DF	1	41.3	1							 								OK					GPS NOTES 2009: 		PLOT3-3D		
+3	3	D	5	DF	1	41.6	1							 								OK					GARMIN 60C  WAYPOINT 			95	
+3	3	D	6	DF	1	41.5	1	41.7	1	44.5	1	47	1	49.8	1	56.6	1				"09- FORKED ABOUT 21' UP, DBH TAKEN @ 6FT DUE TO VINE MAPLE OBSTRUCTION"	00-FORKED AT 21' OK					ACCURACY + OR- 28FT				
+3	3	D	7	DF	3		3		3		3		3	 	3		3					OK					"N44.53173°, W123.53445°"				
+3	3	D	8	DF	1	32.8	1							 								OK									
+3	3	D	9	DF	1	18	3		3		3		3		3		3					OK									
+3	3	D	10	DF	1	16.9	4		4		4		4		4		4					OK									
+3	3	D	11	DF	1	28.7	1							 								OK									
+3	3	D	12	DF	1	47.7	1	49	4		4		4		4		4					OK							NOTES: USE THE FORKED 		
+3	3	D	13	DF	1	39.3	1							 								OK							TREES TO SIGHT THIS		
+3	3	D	14	DF	1	21.6	3		3		3		3		3		3					OK							PLOT FROM A DISTANCE		
+3	3	D	15	DF	1	51	1	51.2	1	55	1	61.4	1	73	1	85.5	1				"09- ALMOST IN DRAW, BIG SCAR ON DOWNHILL SIDE OF TREE"	OK									
+3	3	D	16	DF	1	51.4	1							 								OK									
+3	3	D	17	DF	1	21.7	4		4		4		4		4		4					OK									
+3	3	D	18	DF	1	29.9	1															OK									
+3	3	D	19	DF	3		3		3		3		3		3		3					OK									
+3	3	D	21	DF	1	69	1	72.9	1	78	1	86.6	1	94.7	1	102.8	1				09- FORKED AT 45' FROM GRND	00-FORKED AT 21' OK	AT 45' OK								
+3	3	D	22	DF	1	49.4	1							 								OK									
+3	3	D	23	DF	1	44.7	1			55.5	1	62	1	72	1	81.7	1				"95-no paint or tag - now painted 23   01-old scar from 3-6' 10% circum, 09- NICE CROWN, BIG SCAR @ DBH"	OK									
+3	3	E	1	DF	1	68.7	1	72.5	1	77.2	1	83.9	1	90.5	1	99.4	1	Tag 4907 				OK									
+3	3	E	2	DF	1	72.5	1							 								OK									
+3	3	E	3	DF	1	22.8	1							 								OK		GPS NOTES 2009: 		PLOT3-3E					
+3	3	E	4	DF	1	28.3	1	29.2	1	31.1	1	32.6	1	34	1	34.8	1					OK		GARMIN 60C  WAYPOINT 			69				
+3	3	E	5	DF	1	27	1							 								OK		ACCURACY + OR- 25FT							
+3	3	E	6	DF	1	17.5	4		4		4		4	 	4		4					OK		"N44.53246°, W123.53612°"							
+3	3	E	7	DF	1	48.3	1	48.3	1	49.4	1	52.9	1	51.9	1	54.5	1					OK									
+3	3	E	8	DF	1	44.5	1							 								OK									
+3	3	E	9	DF	1	54.3	1							 								OK									
+3	3	E	10	DF	1	39	1	41.2	1	43.1	1	45.5	1	49	1	54.4	1				"09- TOP OFF, RECOVERED"	OK									
+3	3	E	11	DF	1	27.1	1							 								OK									
+3	3	E	12	DF	1	27.5	1							 								OK									
+3	3	E	13	DF	1	18.6	1							 								OK									
+3	3	E	14	DF	1	23	1							 								OK									
+3	3	E	15	DF	1	39	1							 								OK									
+3	3	E	16	DF	1	26.5	1							 								OK									
+3	3	E	17	DF	1	37.1	1							 								OK									
+3	3	E	18	DF	1	72.5	1	74.5	1	80.1	1	84.3	1	89.8	1	99	1					OK									
+3	3	E	19	DF	1	29.9	1	31.2	1	34	1	36.1	1	38.6	1	40.4	1					OK									
+3	3	E	20	DF	1	29.4	1							 								OK									
+3	4	A	1	DF	1	49.4	1							 								OK									
+3	4	A	2	DF	1	43.1	1	45.4	1	48.1	1	50.7	1	55.1	1	59.8	1	 This plot intersects with 3-4F!!!			tree also 3-4F #12	OK		GPS NOTES 2009: 		PLOT 3-4A &3-4F					
+3	4	A	3	DF	1	28.1	1	28.5	1	28.5	1	28.6	1	29	2	28.6	2	"Same as 11 on 3-4F, very thin crown."			"tree also 3-4F #11  09- SUPPRESSED, SMALL CROWN"	OK		GARMIN 60C  WAYPOINT 			105				
+3	4	A	4	DF	1	35.1	1							 								OK		ACCURACY + OR- 18FT							
+3	4	A	5	DF	1	63.7	1	67.1	1	69.9	1	73.5	1	78.4	1	84.6	1				tree also 3-4F #13	OK		"N44.52752°, W123.53978°"							
+3	4	A	6	DF	4		1		1					 								OK		NOTE: GPS TAKEN AT TREE 3-4F #19							
+3	4	A	7	DF	1	55	1	57.4	1	60	1	62.7	1	67.8	1	79	1				tree also 3-4F #8  	OK									
+3	4	A	8	DF	1	50.4	1							 								OK									
+3	4	A	9	DF	4		4		4		4		4		4		4					OK									
+3	4	A	10	DF	1	76.1	1	79.7	1	87.2	1	89.3	1	98.6	1	108.5	1	Tag #4225			09- PLOT TREE	OK									
+3	4	C	1	DF	1	43.3	1	44.9	1	47	1	50.7	1	55.4	1	60.2	2	Tag #4428. Thin crown possible LLR. Within 5 meters infected tree #2.			09- PLOT TREE	OK									
+3	4	C	2	DF	1	52.3	1	54.8	1	58.8	1	59.1	1	62.5	1		3	LRR setal hyphae!! Tree split and blown over could not get DBH. (Photos)				OK									
+3	4	C	3	DF	1	29.6	1							 								OK									
+3	4	C	4	DF	1	48.2	1	49.8	1	52.1	1	54.9	1	59.2	1	63.4	1				09- ONE RED BRANCH	OK									
+3	4	C	5	DF	1	27.3	1							 								OK									
+3	4	C	6	DF	3		3		3		3		3		3		3					OK									
+3	4	C	7	DF	1	33.5	1	35.5	1	38.9	1	43.1	1	47.9	1	53.7	1					OK									
+3	4	C	8	DF	1	24.6	1							 								OK									
+3	4	C	9	DF	1	38	1							 								OK									
+3	4	C	10	DF	1	41.8	1							 								OK									
+3	4	C	11	DF	1	24.1	1							 								OK									
+3	4	C	12	DF	1	39.1	1							 								OK			GPS NOTES 2009: 		PLOT3-4C				
+3	4	C	13	DF	1	29.5	1							 								OK			GARMIN 60C  WAYPOINT 			106			
+3	4	C	14	DF	1	28.2	1							 								OK			ACCURACY +OR-		31FT				
+3	4	C	15	DF	1	32.4	1							 								OK			"N44.52759°, W123.53824°"						
+3	4	C	16	DF	1		3		3		3		3		3		3					OK									
+3	4	C	17	DF	1	22.5	1							 								OK									
+3	4	C	18	DF	1	16.9	1							 								OK									
+3	4	C	19	DF	1	33	1							 								OK									
+3	4	C	20	DF	1	28.9	1							 								OK									
+3	4	C	21	DF	1	22.4	1							 								OK									
+3	4	C	22	DF	1	18.7	1							 								OK									
+3	4	C	23	DF	1	18.5	1							 								OK									
+3	4	C	24	DF	1	25.8	1							 								OK									
+3	4	C	25	DF	1	46.2	1	49.4	1	53.4	1	57.7	1	63.2	1	68.7	1				09- BLACK SCAR ON LOWER BOLE	OK									
+3	4	C	26	DF	3		3		3		3		3		3		3					OK									
+3	4	C	27	DF	1	46.9	1	49.1	1	51.6	1	54.2	1	57.7	1	62.7	1				09- METAL TAG	OK									
+3	4	C	28	DF	1	50.7	1	54	1	57.4	1	60.4	1	66.1	1	72.3	1				09- METAL TAG	OK									
+3	4	D	1	DF	1	57.6	1	61.4	1	67.7	1	68.4	1	74.1	1	80	1	tag#4177			09- PLOT TREE	OK									
+3	4	D	2	DF	1	49.5	1							 								OK									
+3	4	D	3	DF	1	20	1							 								OK			GPS NOTES 2009: 		plot 3-4d				
+3	4	D	4	DF	1	55.8	1	49.6	1	64.6	1	68.5	1	75.9	1	83.4	1				09- some red branches	OK			GARMIN 60C  WAYPOINT 			107			
+3	4	D	5	DF	1	49.1	1	47	4		4		4	 	4		4	30ft snag.			09- repainted	OK			ACCURACY +OR-		22ft				
+3	4	D	6	DF	1	58.7	1	63	1	66.2	1	71	1	75.7	1	82.6	1				09- few red branches and a small crown	OK			"N44.52788°, W123.54063°"						
+3	4	D	7	DF	1	55.2	1	58.8	1	62.8	1	66.2	1	73	1	82	1					OK									
+3	4	D	8	DF	1	55.5	1	60.8	1	66.4	1	72.9	1	82.7	1	92.7	1					OK									
+3	4	E	1	HL		68.2	1			74.4	1	77.6	1	82.8	1	90.1	1	Tag #4003				OK									
+3	4	E	2	DF		39.6	1			43.7	1	44.8	1	 	4		4				"09- NOTE THERE ARE NEWLY FALLEN TREES, WHICH ARE PROBABLY PLOT TREES"	OK									
+3	4	E	3	DF		52.8	1							 	4		4					OK									
+3	4	E	4	DF		28	1							 	4		4					OK									
+3	4	E	5	DF		24	1			24	4		4	 	4		4				00-CHOPPED 2000-NO EVIDENCE OF PW-DEAD STANDING	OK									
+3	4	E	6	RC		16.7	1							 								OK									
+3	4	E	7	DF		20.3	3		3		3		3		3		3										OK				
+3	4	E	8	DF			3		3		3		3		3		3				85-dead and down PW	OK									
+3	4	E	9	DF			3		3		3		3		3		3				85-dead PW	OK									
+3	4	E	10	DF			3		3		3		3		3		3				85-dead PW	OK									
+3	4	E	11	DF		20.6	1																								
+3	4	E	12	DF		34.3	1			34.3	3		3		3		3				00-PW	OK									
+3	4	E	13	DF		62.5	1			65	1	66.5	1	 	4						"09- NOTE THERE ARE NEWLY FALLEN TREES, WHICH ARE PROBABLY PLOT TREES"	OK									
+3	4	E	14	DF		19.5	1							 	4							OK									
+3	4	E	16	DF			3		3		3		3		3		3				85-dead and down PW	OK									
+3	4	E	17	DF		20.8	3		3		3		3		3		3					OK					GPS NOTES 2009: 		PLOT 3-4E		
+3	4	E	18	DF			3		3		3		3		3		3				85-not big enough to measure	OK					GARMIN 60C  WAYPOINT 			86	
+3	4	E	19	DF			3		3		3		3		3		3				85-dead and down PW	OK					ACCURACY +OR-		23FT		
+3	4	E	20	DF			3		3		3		3		3		3				85-dead and down PW	OK					"N44.52975°, W123.53804°"				
+3	4	E	21	DF			3		3		3		3		3		3				85-dead and down PW	OK									
+3	4	E	22	DF		31.7	1			38	1	42.1	1	47.3	1	51.9	1				"00-LEANER-PW ALL AROUND, 09- STILL LEANING PREVIOUSLY SUPPRESSED"	OK									
+3	4	E	23	DF		46	1							 								OK									
+3	4	E	24	DF		17.7	1							 										OK							
+3	4	E	25	DF		18.7	3		3		3		3		3		3					OK									
+3	4	E	26	DF		21.7	3		3		3		3		3		3					OK									
+3	4	E	27	DF			3		3		3		3		3		3				85-dead and down PW	OK									
+3	4	E	28	DF			3		3		3		3		3		3				85-dead and down PW	OK									
+3	4	E	29	HL												15.7	1	New tree added to plot.													
+3	4	F	1	DF	1	60.7	1	63.3	1	66.4	1	68.4	1	73.3	1	85.7	1	BE ADVISED THIS PLOT OVERLAPS WITHN3-4A!!!!			09- PLOT TREE	OK									
+3	4	F	2	DF	1	18.3	4		4		4		4	 	4		4					OK									
+3	4	F	3	DF	1	54.4	1	56.9	1	60.4	1	62.2	1	66.5	1	71.6	1					OK									
+3	4	F	4	DF	1	37.1	1							 								OK									
+3	4	F	5	DF	1	35.5	1							 								OK									
+3	4	F	6	DF	1	54.3	1	56.4	1	59.8	1	60.8	1	64.3	1	67.8	1					OK									
+3	4	F	7	DF	1	35.1	1							 								OK									
+3	4	F	8	DF	1	55	1	57.4	1	60	1	62.7	1	67.8	1	79	1				ALSO TREE 3-4A #7	OK			GPS NOTES 2009: 		PLOT 3-4A &3-4F				
+3	4	F	9	DF	1	50.4	1							 								OK			GARMIN 60C  WAYPOINT 			105			
+3	4	F	10	DF	4	24.1	4		4		4		4		4		4					OK			ACCURACY + OR- 18FT						
+3	4	F	11	DF	1	28.1	1	28.5	1	28.5	1	28.6	1	29	2	28.6	2	Very thin crown.			"09- SUPPRESSED, SMALL CROWN"	OK	ALSO TREE 3-4A # 3		"N44.52752°, W123.53978°"						
+3	4	F	12	DF	1	43.1	1	45.4	1	48.1	1	50.7	1	55.1	1	59.8	1	Tag#4006			ALSO TREE 3-4A # 2	OK			NOTE: GPS TAKEN AT TREE 3-4F #19						
+3	4	F	13	DF	1	63.7	1	67.1	1	69.9	1	73.5	1	78.4	1	84.6	1				ALSO TREE 3-4A # 5	OK									
+3	4	F	14	DF	1	26.5	3		3					 								OK									
+3	4	F	15	DF	1	40.9	1							 								OK									
+3	4	F	16	DF	1	64.9	1	67.6	1	70.7	1	74.1	1	79.6	1	86.7	1				09- some red branches	OK									
+3	4	F	17	DF	1	34.3	1	34.1	4		4		4		4		4				09- repainted	OK									
+3	4	F	18	DF	1	52.9	1	54.9	1	69.3	1	71	1	76.5	1	81.5	1					OK									
+3	4	F	19	DF	1	61.3	1	61.3	1	64.2	1	64.2	1	67.9	1	73	1				09- some red branches IN THE LOWER CROWN	OK									
+3	4	F	20	DF	3	20.6	3		3		3		3		3		3					OK									
+3	5	A	1	HL	1	56.7	1	57.1	1	58	1	58.5	1	60.4	1	63.2	1	Tag #4033			09- PLOT TREE	OK									
+3	5	A	2	HL	1	80	1	80	1	81.3	1	82.8	1	84.8	1	86.7	1				09- SHARES STEM WITH #1	OK									
+3	5	A	3	HL	4		4		4		4		4		4		4					OK						GPS NOTES 2009: 		PLOT 3-5A	
+3	5	A	4	HL	1	42	1	43.4	1	43	1	42.7	1	43.5	1	45.2	1				ALSO TREE 3-5C#5	OK						GARMIN 60C  WAYPOINT 			83
+3	5	A	5	HL	1	117.3	1	118.5	1	126.7	1	124.8	1	127	1	129.2	1					OK						ACCURACY +OR-		19FT	
+3	5	A	6	HL	1	97.6	1	99	1	101.8	1	101.2	1	102.3	1	106.1	1				09- HUGE SCAR 15' LONG RUNNING UP BOLE						OK	"N44.52611°, W123.53862°"			
+3	5	A	7	HL	1	67.1	1							 								OK									
+3	5	A	8	HL	1	109.7	1	110.1	1	111.7	1	114.3	1	116.2	1	119.1	1					OK									
+3	5	A	9	HL	1	77.3	1	80	1	82.7	1	85.9	1	90.3	1	92.4	1				09- MISTLETOE	OK									
+3	5	B	1	DF	1	47.6	1	49.4	1	52.2	1	55.1	1	58.1	1	63.5	1	Tag 4624			09- PLOT TREE	OK									
+3	5	B	2	DF	1	17.4	1	17.7	1	17.4	3		3	 	3		3					OK									
+3	5	B	3	DF	1	53.5	1	55.9	1	57.2	1	58.5	1	 	4		4				?	OK									
+3	5	B	4	HL	1	61.8	1	63.9	1	65.9	1	69.1	1	72.1	1	80.3	1					OK									
+3	5	B	5	DF	1	32.1	1							 								OK									
+3	5	B	6	DF	3	58.9	3		3		3		3	 	3		3					OK									
+3	5	B	7	DF	1		1							 								OK									
+3	5	B	8	DF	1		3		3		3		3	 	3		3					OK									
+3	5	B	9	DF	1	20.1	1							 								OK									
+3	5	B	10	DF	3		3		3		3		3	 	3		3					OK									
+3	5	B	11	HL	1	29.1	1	31.8	1	37.6	1	42.3	1	50.7	1	57.3	1					OK									
+3	5	B	12	DF	1	32.6	1							 								OK			GPS NOTES 2009: 		PLOT 3-5B				
+3	5	B	13	DF	1	39.8	1	42.3	1	44.4	1	46.5	1	50.2	1	53.4	1				"09- SMALLISH CROWN, SOMEWHAT UNHEALTHY"	OK			GARMIN 60C  WAYPOINT 			81			
+3	5	B	14	DF	1	57	1	56.2	1	58	1	58.5	1	 	3						09- DOWN ON THE GROUND PW CONFIRMED	OK			ACCURACY +OR-		22FT				
+3	5	B	15	DF	1	23.6	1							 								OK			"N44.52468°, W123.54369°"						
+3	5	B	16	DF	1	36.1	1							 								OK									
+3	5	B	17	HL	1	27	1							 								OK									
+3	5	B	18	DF	3		3		3		3		3		3		3					OK			"Note: This site has a lot of trees around that were painted, for someone elses research. "						
+3	5	B	18	HL												16.8	1	New tree 													
+3	5	B	19	DF	3		3		3		3		3		3		3					OK									
+3	5	B	20	DF	3		3		3		3		3		3		3					OK									
+3	5	B	21	DF	1	40.5	1	44.7	1	48.3	1	55	1	61	1	67.9	1					OK									
+3	5	C	1	RA	1	48.4	1	48.5	1	49.3	1	50.2	1	51.3	1	52.3	1				"09- PLOT TREE, PAINTED BADLY"	OK		NOTE: DEVIL'S CLUB		   CLOSE TO & SHARES TREE WITH 					
+3	5	C	2	RA	1	52.2	1	52.1	1	51.9	1	52	1	51.5	1			Missing			"09- LEANING, IN WATER"	OK		PLOT 3-5A							
+3	5	C	3	RA	1	36.9	1	36	1	36.3	1	36.7	1	36.3	1			Missing			09- SCARRED FROM FALLEN HEMLOCK	OK									
+3	5	C	4	HL	1	38.5	1	40	1	42.2	1			 	4						00-DEAD DOWN	OK									
+3	5	C	5	HL	1	41.9	1	43.4	1	43	1	42.7	1	43.5	1			Missing			ALSO 3-5A TREE#4			GPS NOTES 2009: 		PLOT 3-5C					
+3	5	C	6	HL	1	29.5	1	30	1	31.4	1	31.6	1	33	2	34.8	2				09-suppressed	OK		GARMIN 60C  WAYPOINT 			82				
+3	5	C	7	RA	1	63.6	1	61	1	62	1	62.8	1	62.7	1			Missing			"09- BIG LUMP @DBH, MEASURED ABOVE FROM LARGE DOWNED LOG"	OK									
+3	5	C	8	HL	1	41.3	1	41.9	1	42.9	1	43.5	1	45.5	1	47.8	1	Tag#4573			09-METAL TAG	OK		ACCURACY +OR-		23FT					
+3	5	C	9	HL	1	47	1	49	1	50.9	1	53.1	1	57.2	1	60.8	1					OK		"N44.52601°, W123.53884°"							
+3	5	C	10	BM	1	48.2	1	50.5	1	50.7	1	53.5	1	58.4	1			Missing				OK									
+3	5	C	11	HL	1			15.6	1	16.2	1	16.9	1	18	2	19.5	2					OK									
+3	5	C	12	BM	1		4		4					 								OK									
+3	5	D	1	DF	1	56.8	1	60.2	1	65.2	1	66.9	1	75.8	1	81.6	1	Tag#4235				OK									
+3	5	D	2	DF	1	58.2	1	60.7	1	64.1	1	67	1	72.3	1	80.1	1					OK									
+3	5	D	3	DF	1	54.4	1	55.6	1	61.1	1	62.4	1	68.2	1							OK									
+3	5	D	4	RA	1	47.6	1	47.2	4					 								OK									
+3	5	D	5	RA	1	31	4		4					 								OK									
+3	5	D	6	DF	1	59.6	1	63.7	1	67.8	1	71.5	1	78.8	1	87.3	1					OK		GPS NOTES 2009: 		3-5D					
+3	5	D	7	DF	1	48.2	1	50.4	1	52.5	1	55.5	1	61.7	1	67.8	1				"09- 1/2 CROWN, SCAR THROUGH DBH"	OK		GARMIN 60C  WAYPOINT 			85				
+3	5	D	8	DF	1	58.9	1							 								OK		ACCURACY +OR-		18FT					
+3	5	D	9	DF	1	52.2	1	54.6	1	56.7	1	60.1	1	66.2	1			Missing.			09- SCAR FROM 12'-20'	OK		"N44.52602°, W123.54048°"							
+3	5	D	10	DF	1	38.3	1							 								OK									
+3	5	D	11	DF	1	29.4	1	29.4	1	31	1	31.3	1	34.2	2	37.1	2				09- SUPPRESSED	OK									
+3	5	D	12	RA	1	48	1	43	1		4			 								OK									
+3	5	E	1	HL	1	134	1	133.7	1	135	1	132	1	130.7	4			Large split stump. Unable to get DBH.			"09- HUGE SNAG, PLOT TREE, ROTTEN, METAL TAG"	OK									
+3	5	E	2	HL	1	25.7	1							 								OK									
+3	5	E	3	DF	1	21	3		3					 								OK									
+3	5	E	4	DF	1	42.3	1	45.4	1	48.7	1	53.9	1	62.7	1	73.8	1	Tag# 4789				OK									
+3	5	E	5	DF	1	38.2	1	41.1	1	44.1	1	46.8	1	50.9	1	56.2	1					OK									
+3	5	E	6	DF	1	34.1	1	36.8	1	38	1	40.7	1	43.7	1	47.2	1					OK									
+3	5	E	7	DF	4		4		4					 								OK									
+3	5	E	8	DF	4		4		4					 								OK		GPS NOTES 2009: 		PLOT 3-5E					
+3	5	E	9	DF	1	47.5	1	51.2	1	55.1	1	59.5	1	67.9	1	79.2	1				"09- DF BEETLES, DEEP CRACK ON BOTH SIDES OF TREE, CROWN STILL LOOKS GOOD"	OK		GARMIN 60C  WAYPOINT 			84				
+3	5	E	10	DF	1	42.5	1							 								OK		ACCURACY +OR-		21FT					
+3	5	E	11	DF	1	54.9	1	58.4	1	63.2	1	69.6	1	78.1	1	88.2	1					OK		"N44.52583°, W123.53942°"							
+3	5	E	12	DF	1	48.8	1							 								OK									
+3	5	E	13	DF	1	26.7	1							 								OK									
+3	5	E	14	DF	1	31.8	1	33.6	1	37.2	1	39.7	1	45.2	1	50.5	1				09- LARGE BLACK STAIN ON BOLE	OK									
+3	5	E	15	HL	1	38.1	1							 								OK									
+3	5	E	16	HL	1	47	1	49.1	1	52.7	1	55.6	1	59.3	1	65.5	1				09- MISTLETOE	OK									
+3	5	E	17	HL	1	20.7	1							 								OK									
+3	5	E	18	HL	1	22	1							 								OK									
+3	5	E	19	HL	1	16.3	1							 								OK									
+3	5	E	20	DF	1	29.3	3		3		3		3		3		3					OK									
+3	5	E	21	BM						33.7	1	35	1	39.1	1	41.6	1					OK									

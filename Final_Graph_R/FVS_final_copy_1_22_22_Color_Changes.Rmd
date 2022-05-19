@@ -1,0 +1,1117 @@
+---
+title: "FVS"
+author: "Shawn"
+date: "Winter 2021"
+output:
+  word_document: default
+  pdf_document: default
+---
+#Import the data yet again
+```{r include=FALSE}
+# Load libraries we need for the assignment
+install.packages("fvsLoad")
+library(ggplot2)
+install.packages(tidyverse)
+install.packages(tidyr)
+library(tidyverse)
+library(dplyr)
+library(tidyr)
+library(readxl)
+
+```
+
+#TMT 1: Edits
+```{r}
+#Total Modelled Data
+fvs_data <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/FVS_data.xlsx")
+fvs_data_TMT2_3 <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/FVS_data_TMT2_3.xlsx")
+fvs_data_combined <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/FVS_data_combined.xlsx")
+fvs_data_combined_TPA <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/FVS_data_combined_TPA.xlsx")
+fvs_data_combined_TMT1 <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/FVS_data_combined_TMT1.xlsx")
+fvs_data_combined_TMT2 <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/FVS_data_combined_TMT2_copy_8_13_21.xlsx")
+fvs_data_combined_TMT3 <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/FVS_data_combined_TMT3_8_13_21.xlsx")
+#Mean with Error Bars
+#fvs_default_TMT1_error <- read_excel("C:/Users/shawn/Desktop/new/TMT1_defualt_FVS_error.xlsx")
+```
+
+
+
+# TMT 1 & 2 & 3: Combined
+```{r}
+#install.packages(scales)
+library(scales)
+library(viridis)
+AVERAGE_BA <- as.numeric(fvs_data_combined$AVERAGE_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+
+ ggplot(data = fvs_data_combined, aes(x = FULL_Year, y = AVERAGE_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    geom_errorbar(data =  fvs_data_combined, aes(ymin=AVERAGE_BA - BA_SE,  ymax=AVERAGE_BA + BA_SE), width=.2, position=position_dodge(0.2)) + 
+   theme_classic() + 
+facet_grid( . ~ TMT) + labs(x = "Year", y = "Basal Area (sq ft/ac)") +
+  scale_color_brewer(palette = "Dark2", name = "") 
+```
+
+Experiment
+```{r}
+
+
+library(RColorBrewer)
+cbPalette <- c("#0072B2", "#D55E00", "#CC79A7")
+
+
+#cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", #"#0072B2", "#D55E00", "#CC79A7")
+
+#install.packages(scales)
+library(scales)
+library(viridis)
+AVERAGE_BA <- as.numeric(fvs_data_combined$AVERAGE_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+
+
+
+ggp <- ggplot(data = fvs_data_combined_TPA, aes(x = FULL_Year, y = AVERAGE_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    geom_errorbar(data =  fvs_data_combined_TPA, aes(ymin=AVERAGE_BA - BA_SE,  ymax=AVERAGE_BA + BA_SE), width=.2, position=position_dodge(0.2)) + 
+    theme_classic() + 
+facet_grid( . ~ TMT) + labs(x = "Year", y = "Trees per acre") 
+ggp + scale_color_brewer(palette = "Dark2", name = "") 
+```
+
+
+
+
+
+
+# TMT 1: ACTUAL DATA
+```{r}
+#(viridis)
+Default_BA <- as.numeric(fvs_data_copy$Default_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+
+ ggplot(data = fvs_data_copy, aes(x = FULL_Year, y = Default_BA, group = STAND), position = position_dodge(0.3)) +  
+  geom_point() +    
+   geom_line(position = position_dodge(0.3)) + 
+  scale_color_viridis(discrete=TRUE) + theme_classic() +
+   facet_wrap(STAND ~ .)
+
+```
+
+
+# TMT 1 & 2 & 3: Experimentation 
+# https://stackoverflow.com/questions/32288199/how-to-align-an-ordinary-ggplot-with-a-faceted-one-in-cowplot/32293096#32293096
+```{r}
+
+library(ggplot2)
+library(cowplot)
+
+#install.packages(scales)
+library(scales)
+library(viridis)
+AVERAGE_BA <- as.numeric(fvs_data_combined$AVERAGE_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+
+ gg1 <- ggplot(data = fvs_data_combined_TMT1, aes(x = FULL_Year, y = TMT1_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + ylim(150, 370) +
+    geom_errorbar(data =  fvs_data_combined_TMT1, aes(ymin=TMT1_BA - TMT1_SE,  ymax=TMT1_BA + TMT1_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic()  + labs(x = "Year", y = "Basal Area (sq ft/ac)") 
+ 
+ 
+ 
+gg2 <- ggplot(data = fvs_data_combined_TMT2, aes(x = FULL_Year, y = TMT2_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + ylim(150, 370) +
+    geom_errorbar(data =  fvs_data_combined_TMT2, aes(ymin=TMT2_BA - TMT2_SE,  ymax=TMT2_BA + TMT2_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic()  + labs(x = "Year", y = "Basal Area (sq ft/ac)") 
+ 
+ output <- plot_grid (gg1, gg2, labels = c('A', 'B'), hjust = -3.5, label_size = 20, ncol = 1)
+print(output)
+ggsave("myplot4.png")
+```
+
+
+#FINAL FINAL TIME.. 3 SEPERATE TREATMENTS
+```{r}
+
+library(ggplot2)
+library(cowplot)
+
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+AVERAGE_BA <- as.numeric(fvs_data_combined$AVERAGE_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+#(aes(fill = dose), show.legend = FALSE)
+ gg1 <- ggplot(data = fvs_data_combined_TMT1, aes(x = FULL_Year, y = TMT1_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + ylim(30, 85) +
+    geom_errorbar(data =  fvs_data_combined_TMT1, aes(ymin=TMT1_BA - TMT1_SE,  ymax=TMT1_BA + TMT1_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic()  + labs(x = "Year") +  
+ylab(expression(paste(BA~m^2/ha)))  
+ ggsave("TMT1.png")
+ 
+ 
+gg2 <- ggplot(data = fvs_data_combined_TMT2, aes(x = FULL_Year, y = TMT2_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + ylim(30, 85) +
+    geom_errorbar(data =  fvs_data_combined_TMT2, aes(ymin=TMT2_BA - TMT2_SE,  ymax=TMT2_BA + TMT2_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic()  + labs(x = "Year") +  
+ylab(expression(paste(BA~m^2/ha)))  
+ 
+ output <- plot_grid (gg2 + theme(legend.position = "none"), labels = c('B'), hjust = -3.5, label_size = 20, ncol = 1)
+#print(output)
+ggsave("TMT2.png")
+
+
+
+ 
+gg3 <- ggplot(data = fvs_data_combined_TMT3, aes(x = FULL_Year, y = TMT3_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) + 
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + ylim(30, 85) +
+    geom_errorbar(data =  fvs_data_combined_TMT3, aes(ymin=TMT3_BA - TMT3_SE,  ymax=TMT3_BA + TMT3_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic()  + labs(x = "Year") +  
+ylab(expression(paste(BA~m^2/ha)))  
+ 
+ output <- plot_grid (gg1 + theme(legend.position = "none"), gg2 + theme(legend.position = "none") , gg3 + theme(legend.position = "none") , labels = c('A', 'B', 'C'),  hjust = -3.5, label_size = 20, ncol = 1) 
+print(output)
+#ggsave("TMT3.png")
+
+
+gg2 <- ggplot(data = fvs_data_combined_TMT2, aes(x = FULL_Year, y = TMT2_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + ylim(30, 85) +
+    geom_errorbar(data =  fvs_data_combined_TMT2, aes(ymin=TMT2_BA - TMT2_SE,  ymax=TMT2_BA + TMT2_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic()  + labs(x = "Year") + ylab(expression(paste(BA~m^2/ha)))   
+ 
+ output <- plot_grid (gg1 + theme(legend.position = "none"), gg2 + theme(legend.position = "none") , gg3 + theme(legend.position = "none") , labels = c('A', 'B', 'C'),  hjust = -3.5, label_size = 20, ncol = 1) 
+print(output)
+ggsave("TMT3.png", width = 5.5, height = 11)
+```
+
+
+
+```{r}
+
+library(ggplot2)
+library(cowplot)
+
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+AVERAGE_BA <- as.numeric(fvs_data_combined$AVERAGE_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+#(aes(fill = dose), show.legend = FALSE)
+ gg1 <- ggplot(data = fvs_data_combined_TMT1, aes(x = FULL_Year, y = TMT1_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + ylim(30, 85) +
+    geom_errorbar(data =  fvs_data_combined_TMT1, aes(ymin=TMT1_BA - TMT1_SE,  ymax=TMT1_BA + TMT1_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_brewer(palette = "Dark2", name = "") + theme_classic()  + labs(x = "Year") +  ylab(expression(paste(BA~m^2/ha)))   
+
+ 
+ 
+gg2 <- ggplot(data = fvs_data_combined_TMT2, aes(x = FULL_Year, y = TMT2_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + ylim(30, 85) +
+    geom_errorbar(data =  fvs_data_combined_TMT2, aes(ymin=TMT2_BA - TMT2_SE,  ymax=TMT2_BA + TMT2_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_brewer(palette = "Dark2", name = "") + theme_classic()  + labs(x = "Year") + ylab(expression(paste(BA~m^2/ha)))   
+ 
+ #output <- plot_grid (gg1, gg2, labels = c('A', 'B'), hjust = -3.5, label_size = 20, ncol = 1)
+#print(output)
+#ggsave("myplot4.png")
+
+
+
+ 
+gg3 <- ggplot(data = fvs_data_combined_TMT3, aes(x = FULL_Year, y = TMT3_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) + 
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + ylim(30, 85) +
+    geom_errorbar(data =  fvs_data_combined_TMT3, aes(ymin=TMT3_BA - TMT3_SE,  ymax=TMT3_BA + TMT3_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_brewer(palette = "Dark2", name = "") + theme_classic()  + labs(x = "Year") + ylab(expression(paste(BA~m^2/ha)))   
+ 
+ output <- plot_grid (gg1 + theme(legend.position = "none"), labels = c('A'),  hjust = -3.5, label_size = 20, ncol = 1) 
+print(output)
+ggsave("TMT1.png")
+output <- plot_grid (gg2 + theme(legend.position = "none") , labels = c('B'),  hjust = -3.5, label_size = 20, ncol = 1) 
+print(output)
+ggsave("TMT2.png")
+output <- plot_grid ( gg3 + theme(legend.position = "none") , labels = c('C'),  hjust = -3.5, label_size = 20, ncol = 1) 
+print(output)
+ggsave("TMT3.png")
+```
+
+
+
+
+
+
+
+#Lag Ratio
+```{r}
+library(scales)
+library(viridis)
+library(ggplot2)
+library(cowplot)
+lag_ratio <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/lag_ratio.xlsx")
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+LAG_RAT <- as.numeric(lag_ratio$LAG_RAT)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+#(aes(fill = dose), show.legend = FALSE)
+ lag <- ggplot(data = lag_ratio, aes(x = FULL_Year, y = LAG_RAT, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  #geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    #geom_errorbar(data =  fvs_data_combined_TMT1, aes(ymin=TMT1_BA - TMT1_SE,  ymax=TMT1_BA + TMT1_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic()  + labs(x = "Year", y = "Lag Ratio All Species") 
+ lag
+ ggsave("lag_ratio_all_SP.png")
+```
+
+
+
+
+
+
+#Lag Ratio Douglas-fir Only
+```{r}
+library(scales)
+library(viridis)
+library(ggplot2)
+library(cowplot)
+lag_ratio <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/lag_ratio_DF.xlsx")
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+LAG_RAT <- as.numeric(lag_ratio$LAG_RAT)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+#(aes(fill = dose), show.legend = FALSE)
+ lag_DF <- ggplot(data = lag_ratio, aes(x = FULL_Year, y = LAG_RAT, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  #geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    #geom_errorbar(data =  fvs_data_combined_TMT1, aes(ymin=TMT1_BA - TMT1_SE,  ymax=TMT1_BA + TMT1_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic()  + labs(x = "Year", y = "Lag Ratio Douglas-Fir") 
+ lag_DF
+  ggsave("lag_ratio_DF.png")
+```
+
+
+
+
+
+
+#Lag Ratio LRR Mort/Current Alive All Species
+```{r}
+library(scales)
+library(viridis)
+library(ggplot2)
+library(cowplot)
+lag_ratio <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/lag_ratio_LRR_all.xlsx")
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+LAG_RAT <- as.numeric(lag_ratio$LAG_RAT)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+#(aes(fill = dose), show.legend = FALSE)
+ lag <- ggplot(data = lag_ratio, aes(x = FULL_Year, y = LAG_RAT, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  #geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    #geom_errorbar(data =  fvs_data_combined_TMT1, aes(ymin=TMT1_BA - TMT1_SE,  ymax=TMT1_BA + TMT1_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic()  + labs(x = "Year", y = "All Species Code 3 Count/Alive Count") 
+ lag
+ ggsave("lag_ratio_all_SP_code_3.png")
+```
+
+
+
+
+
+#Lag Ratio Mort/Prev Alive DF
+```{r}
+library(scales)
+library(viridis)
+library(ggplot2)
+library(cowplot)
+lag_ratio <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/lag_ratio_LRR_DF.xlsx")
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+LAG_RAT <- as.numeric(lag_ratio$LAG_RAT)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+#(aes(fill = dose), show.legend = FALSE)
+ lag <- ggplot(data = lag_ratio, aes(x = FULL_Year, y = LAG_RAT, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  #geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    #geom_errorbar(data =  fvs_data_combined_TMT1, aes(ymin=TMT1_BA - TMT1_SE,  ymax=TMT1_BA + TMT1_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic()  + labs(x = "Year", y = "Douglas-Fir Code 3 Count/Previous Alive Count") 
+ lag
+ ggsave("DF_lag_ratio_code_3.png")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+
+
+library(ggplot2)
+library(cowplot)
+
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+AVERAGE_BA <- as.numeric(fvs_data_combined$AVERAGE_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+
+ gg1 <- ggplot(data = fvs_data_combined_TMT1, aes(x = FULL_Year, y = TMT1_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    geom_errorbar(data =  fvs_data_combined, aes(ymin=TMT1_BA - TMT1_SE,  ymax=TMT1_BA + TMT1_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic() 
+ 
+ 
+```
+
+
+
+```{r}
+
+gg3 <- ggplot(data = fvs_data_combined, aes(x = FULL_Year, y = AVERAGE_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    geom_errorbar(data =  fvs_data_combined, aes(ymin=AVERAGE_BA - BA_SE,  ymax=AVERAGE_BA + BA_SE), width=.2, position=position_dodge(0.2)) + 
+   theme_classic() + 
+facet_grid( TMT ~ .) + labs(x = "Year", y = "Basal Area (sq ft/ac)") +
+  scale_color_viridis(discrete=TRUE) 
+
+
+ 
+ output <- plot_grid (gg3, labels = c('A', 'B'), label_size = 20, ncol = 1)
+print(output)
+
+```
+
+
+
+```{r}
+
+ ggplot(data = fvs_data_combined, aes(x = FULL_Year, y = AVERAGE_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    geom_errorbar(data =  fvs_data_combined, aes(ymin=AVERAGE_BA - BA_SE,  ymax=AVERAGE_BA + BA_SE), width=.2, position=position_dodge(0.2)) + 
+   theme_classic() + 
+facet_wrap(~ TMT, scale="free_y") + labs(x = "Year", y = "Basal Area (sq ft/ac)") +
+  scale_color_viridis(discrete=TRUE) 
+
+```
+
+
+
+
+
+
+
+
+# TMT 1 & 2 & 3: Experimentation 
+```{r}
+
+#devtools::install_github("baptiste/egg") 
+#install.packages(scales)
+#library(scales)
+library(viridis)
+AVERAGE_BA <- as.numeric(fvs_data_combined$AVERAGE_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+#install.packages("gtable")
+#library(gtable)
+
+ gg1 <- ggplot(data = fvs_data_combined, aes(x = FULL_Year, y = TMT1_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    geom_errorbar(data =  fvs_data_combined, aes(ymin=TMT1_BA - TMT1_SE,  ymax=TMT1_BA + TMT1_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic() 
+ 
+gg2 <- ggplot(data = fvs_data_combined, aes(x = FULL_Year, y = TMT2_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point(position = position_dodge(0.3)) +    
+   geom_line(position = position_dodge(0.3)) + 
+    geom_errorbar(data =  fvs_data_combined, aes(ymin=TMT2_BA - TMT2_SE,  ymax=TMT2_BA + TMT2_SE), width=.2, position=position_dodge(0.2)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic() 
+ 
+ output <- plot_grid (gg1, gg2, labels = c('A', 'B'),label_size = 20)
+print(output)
+
+```
+
+
+
+
+#READING IN OLDER DATA FILES
+```{r}
+
+
+#Total Modelled Data
+fvs_default_TMT1 <- read_excel("C:/Users/shawn/Desktop/new/TMT1_defualt_FVS.xlsx")
+
+#Mean with Error Bars
+fvs_default_TMT1_error <- read_excel("C:/Users/shawn/Desktop/new/TMT1_defualt_FVS_error.xlsx")
+fvs_default_TMT2 <- read_excel("C:/Users/shawn/Desktop/new/TMT2_defualt_FVS.xlsx")
+fvs_default_TMT3 <- read_excel("C:/Users/shawn/Desktop/new/TMT3_defualt_FVS.xlsx")
+
+#FVS with Root Disease Parameters
+root_disease_run5 <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/TMT1/1990/root_disease_run4.xlsx")
+root_disease_TMT2 <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/TMT2/Raw_data/WRD/root_disease_data_TMT_2.xlsx")
+root_disease_TMT3 <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/TMT3/WRD/root_disease_data_TMT_3.xlsx")
+
+#Taking a closer look at the data
+fvs_data_copy <- read_excel("C:/Users/shawn/Desktop/LAST_TIME/R_final/FVS_data_copy1.xlsx")
+
+
+#Mean data with error bars
+start_end_TMT1_error <- read_excel("C:/Users/shawn/Desktop/new/start_and_end_90_and_20_TMT1_error.xlsx")
+start_end_TMT2 <- read_excel("C:/Users/shawn/Desktop/new/start_and_end_90_and_20_TMT2.xlsx")
+start_end_TMT3 <- read_excel("C:/Users/shawn/Desktop/new/start_and_end_90_and_20_TMT3.xlsx")
+
+```
+
+
+
+
+
+
+
+
+   
+   
+   
+   
+   
+ 
+```{r}
+ 
+
+  ggplot() +  
+  geom_point(data = fvs_data, aes(x = FULL_Year, y = BA), position = position_dodge(0.3)) +       facet_grid(STAND ~ .) +
+  geom_line(aes(group=1)) 
+
+
+  geom_line(data = fvs_default_TMT1_error, col = "blue") +  geom_point(data = fvs_default_TMT1_error, col = "blue",  position=position_dodge(0.3)) +
+  geom_errorbar(data = fvs_default_TMT1_error, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "blue")
+ 
+ #geom_line(data = root_disease_run5, col = "forest green") + geom_point(data = root_disease_run5, col = "forest green") + 
+  # geom_errorbar(data =  root_disease_run5, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "forest green" ) +
+  
+  #geom_line(data = start_end_TMT1_error, col = "red") + geom_point(data = start_end_TMT1_error, col = "red") + scale_x_discrete(breaks=c(1990,1995, 2000, 2009,2020)) +
+ # geom_errorbar(data = start_end_TMT1_error, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "red",
+  #               position=position_dodge(0.3)) 
+
+ggp  + labs(title = "Comparison of Data Collected and Modelled Data",
+            subtitle = "Average Basal Area of Unthinned Stands (TMT 1)", x = "Year", y = "Basal Area")  
+# scale_x_discrete(breaks=seq(1990,2020,by=5))
+
+```
+
+# TMT 1: Root Disease
+```{r}
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+RD_BA <- as.numeric(fvs_data$RD_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+
+ ggplot(data = fvs_data, aes(x = FULL_Year, y = RD_BA, color = STAND, group = STAND), position = position_dodge(0.3)) +  
+  geom_point() +    
+  geom_line() + scale_color_viridis(discrete=TRUE) + theme_classic() +
+   facet_grid(STAND ~ .)
+```
+
+# TMT 1: Actual Data
+```{r}
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+Actual_BA <- as.numeric(fvs_data$Actual_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+
+ ggplot(data = fvs_data, aes(x = FULL_Year, y = Actual_BA, color = STAND, group = STAND), position = position_dodge(0.3)) +  
+  geom_point() +    
+  geom_line() + scale_color_viridis(discrete=TRUE) + theme_classic() +
+   facet_wrap(STAND ~ .)
+```
+
+
+# TMT 1: By Stand
+```{r}
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+Default_BA <- as.numeric(fvs_data$Default_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+
+ ggplot(data = fvs_data, aes(x = FULL_Year, y = Default_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point() +    
+  geom_line() + scale_color_viridis(discrete=TRUE) + theme_classic() +
+   facet_wrap(STAND ~ .)
+```
+
+# TMT 1: Combined
+```{r}
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+AVERAGE_BA <- as.numeric(fvs_data$AVERAGE_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+
+ ggplot(data = fvs_data, aes(x = FULL_Year, y = AVERAGE_BA, color = GRAPH, group = GRAPH),    position = position_dodge(0.3)) +  
+  geom_point() +    
+   geom_line() + scale_color_viridis(discrete=TRUE) + theme_classic() +
+facet_wrap(STAND_AVG ~ .)
+```
+
+# TMT 2 & 3: Combined
+```{r}
+#install.packages(scales)
+#library(scales)
+#library(viridis)
+AVERAGE_BA <- as.numeric(fvs_data$AVERAGE_BA)
+#as.numeric(fvs_data$FULL_Year)
+#as.numeric(fvs_data$Full_MgmtID)
+
+ ggplot(data = fvs_data_TMT2_3, aes(x = FULL_Year, y = AVERAGE_BA, color = GRAPH, group = GRAPH), position = position_dodge(0.3)) +  
+  geom_point() +    
+   geom_line() + 
+    geom_errorbar(data =  fvs_data_TMT2_3, aes(ymin=AVERAGE_BA - BA_SE,  ymax=AVERAGE_BA + BA_SE), width=.2, position=position_dodge(0.3)) + 
+   scale_color_viridis(discrete=TRUE) + theme_classic() +
+facet_wrap(STAND_AVG ~ .)
+```
+
+
+
+
+
+
+
+# TMT 1: MEAN/ERROR BARS
+```{r}
+#WORKING!!!!!
+as.numeric(fvs_default_TMT1$Full_BA)
+as.numeric(fvs_default_TMT1$Full_Year)
+as.numeric(fvs_default_TMT1$Full_MgmtID)
+ggp <- ggplot(NULL, aes(x=Full_Year, y=Full_BA, group=Full_MgmtID, color=Full_MgmtID)) +    # Draw ggplot2 plot based on two data frames
+  
+  geom_line(data = fvs_default_TMT1_error, col = "blue") +  geom_point(data = fvs_default_TMT1_error, col = "blue",  position=position_dodge(0.3)) +
+  geom_errorbar(data = fvs_default_TMT1_error, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "blue") +
+ 
+ geom_line(data = root_disease_run5, col = "forest green") + geom_point(data = root_disease_run5, col = "forest green") + 
+   geom_errorbar(data =  root_disease_run5, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "forest green" ) +
+  
+  geom_line(data = start_end_TMT1_error, col = "red") + geom_point(data = start_end_TMT1_error, col = "red") + scale_x_discrete(breaks=c(1990,1995, 2000, 2009,2020)) +
+  geom_errorbar(data = start_end_TMT1_error, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "red",
+                 position=position_dodge(0.3)) 
+
+ggp  + labs(title = "Comparison of Data Collected and Modelled Data",
+            subtitle = "Average Basal Area of Unthinned Stands (TMT 1)", x = "Year", y = "Basal Area")  
+# scale_x_discrete(breaks=seq(1990,2020,by=5))
+
+```
+
+
+
+
+
+
+#TMT 2:
+```{r}
+
+as.numeric(fvs_default_TMT1$Full_BA)
+as.numeric(fvs_default_TMT1$Full_Year)
+as.numeric(fvs_default_TMT1$Full_MgmtID)
+ggp <- ggplot(NULL, aes(x=Full_Year, y=Full_BA, group=Full_MgmtID, color=Full_MgmtID)) +    
+  # Draw ggplot2 plot based on two data frames
+  
+   geom_line(position=position_dodge(),data = fvs_default_TMT2, col = "blue") +  geom_point(data = fvs_default_TMT2, col = "blue", position = position_dodge2(width = 0.9)) +
+  geom_errorbar(data = fvs_default_TMT2, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "blue", position = position_dodge2(width = 0.9)) +
+  
+ geom_point(data = start_end_TMT2, col = "red", position = position_dodge2(width = 0.9)) + scale_x_discrete(breaks=c(1990,1995, 2000, 2009,2020))+ 
+   geom_errorbar( data = start_end_TMT2, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "red", position = position_dodge2(width = 0.9)) +
+
+geom_line(data = root_disease_TMT2, col = "forest green") + geom_point(data = root_disease_TMT2, col = "forest green") + 
+   geom_errorbar(data =  root_disease_TMT2, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "forest green")
+
+ggp  + labs(title = "Comparison of Data Collected and Modelled Data",
+            subtitle = "Average Basal Area of Lightly Thinned Stands (TMT 2)", x = "Year", y = "Basal Area")  
+```
+
+
+
+
+
+#TMT 3
+```{r}
+as.numeric(fvs_default_TMT1$Full_BA)
+as.numeric(fvs_default_TMT1$Full_Year)
+as.numeric(fvs_default_TMT1$Full_MgmtID)
+ggp <- ggplot(NULL, aes(x=Full_Year, y=Full_BA, group=Full_MgmtID, color=Full_MgmtID)) +    
+  # Draw ggplot2 plot based on two data frames
+  
+  #Default Run
+   geom_line(position=position_dodge(),data = fvs_default_TMT3, col = "blue") +  geom_point(data = fvs_default_TMT3, col = "blue", position = position_dodge2(width = 0.9)) +
+  geom_errorbar(data = fvs_default_TMT3, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "blue", position = position_dodge2(width = 0.9)) +   
+  
+  # Start and End Data
+  # Draw ggplot2 plot based on two data frames
+ geom_point(data = start_end_TMT3, col = "red") + scale_x_discrete() + 
+   geom_errorbar( data = start_end_TMT3, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "red") +
+
+  #Root Disease Model Run
+geom_line(data = root_disease_TMT3, col = "forest green") + geom_point(data = root_disease_TMT3, col = "forest green") + 
+   geom_errorbar(data =  root_disease_TMT3, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "forest green") + theme_classic()
+
+
+#Display the Plot and Labels
+ggp  + labs(title = "Comparison of Data Collected and Modelled Data",
+            subtitle = "Average Basal Area of Lightly Thinned Stands (TMT 3)", x = "Year", y = "Basal Area") 
+  
+  
+```
+
+
+
+
+
+
+
+
+# TMT 1: MEAN/ERROR BARS (Backup)
+```{r}
+
+#WORKING!!!!!
+as.numeric(fvs_default_TMT1$Full_BA)
+as.numeric(fvs_default_TMT1$Full_Year)
+as.numeric(fvs_default_TMT1$Full_MgmtID)
+ggp <- ggplot(NULL, aes(x=Full_Year, y=Full_BA, group=Full_MgmtID, color=Full_MgmtID)) +    # Draw ggplot2 plot based on two data frames
+  geom_line(data = fvs_default_TMT1_error, col = "blue") +  geom_point(data = fvs_default_TMT1_error, col = "blue") +
+   geom_errorbar(data = start_end_TMT1_error, aes(ymin=Full_BA-SE, ymax=Full_BA+SE), width=.2, col = "red",
+                 position=position_dodge(0.3)) +
+  #geom_line(data = root_disease_run1, col = "forest green") +
+  #geom_line(data = root_disease_run2, col = "forest green") +
+  #geom_line(data = root_disease_run3, col = "forest green") +
+  #geom_line(data = root_disease_run4, col = "forest green") +
+ geom_line(data = root_disease_run5, col = "forest green") + geom_point(data = root_disease_run5, col = "forest green") + 
+   geom_errorbar(data =  root_disease_run5, aes(ymin=Full_BA-SD, ymax=Full_BA+SD), width=.2, col = "forest green",
+                 position=position_dodge(0.15)) +
+  geom_point(data = start_end_TMT1_error, col = "red") + scale_x_discrete(breaks=c(1990,1995, 2000, 2009,2020)) 
+ggp  + labs(title = "Comparison of Data Collected and Modelled Data",
+            subtitle = "Average Basal Area of Unthinned Stands", x = "Year", y = "Basal Area")  
+# scale_x_discrete(breaks=seq(1990,2020,by=5))
+
+
+```
+
+
+
+
+
+
+
+
+
+# TMT 1: MEAN/ERROR BARS
+```{r}
+
+#WORKING!!!!!
+as.numeric(fvs_default_TMT1$Full_BA)
+as.numeric(fvs_default_TMT1$Full_Year)
+as.numeric(fvs_default_TMT1$Full_MgmtID)
+ggp <- ggplot(NULL, aes(x=Full_Year, y=Full_BA, group=Full_MgmtID, color=Full_MgmtID)) +    # Draw ggplot2 plot based on two data frames
+  geom_line(data = fvs_default_TMT1_error, col = "blue") +  geom_point(data = fvs_default_TMT1_error, col = "blue") +
+   #geom_errorbar(data = fvs_default_TMT1_error, aes(ymin=Full_BA-SD, ymax=Full_BA+SD), width=.2,
+  #               position=position_dodge(0.05)) +
+  geom_line(data = root_disease_run1, col = "forest green") +
+  geom_line(data = root_disease_run2, col = "forest green") +
+  geom_line(data = root_disease_run3, col = "forest green") +
+  geom_line(data = root_disease_run4, col = "forest green") +
+ 
+  geom_point(data = start_end_TMT1_error, col = "red") + scale_x_discrete(breaks=c(1990,1995, 2000, 2009,2020)) 
+ggp  + labs(title = "Comparison of Data Collected and Modelled Data",
+            subtitle = "Average Basal Area of Unthinned Stands", x = "Year", y = "Basal Area")  
+# scale_x_discrete(breaks=seq(1990,2020,by=5))
+
+
+```
+
+
+
+
+
+# TMT 1: MEAN/ERROR BARS
+```{r}
+
+#WORKING!!!!!
+as.numeric(fvs_default_TMT1$Full_BA)
+as.numeric(fvs_default_TMT1$Full_Year)
+as.numeric(fvs_default_TMT1$Full_MgmtID)
+pd <- position_dodge(width = 0.9)
+ggp <- ggplot(NULL, aes(x=Full_Year, y=Full_BA, group=Full_MgmtID, color=Full_MgmtID)) +    # Draw ggplot2 plot based on two data frames
+  geom_line(data = fvs_default_TMT1_error, col = "blue") +  geom_point(data = fvs_default_TMT1_error, col = "blue") +
+   geom_errorbar(data = start_end_TMT1_error, aes(ymin=Full_BA-SD, ymax=Full_BA+SD), width=.7,
+                 position=pd) +
+  #geom_line(data = root_disease_run1, col = "forest green") +
+  #geom_line(data = root_disease_run2, col = "forest green") +
+  #geom_line(data = root_disease_run3, col = "forest green") +
+  #geom_line(data = root_disease_run4, col = "forest green") +
+ geom_line(data = root_disease_run5, col = "forest green") + geom_point(data = root_disease_run5, col = "forest green") + 
+  # geom_errorbar(data =  root_disease_run5, aes(ymin=Full_BA-SD, ymax=Full_BA+SD), width=.2) +
+  geom_point(data = start_end_TMT1_error, col = "red") + scale_x_discrete(breaks=c(1990,1995, 2000, 2009,2020)) 
+ggp  + labs(title = "Comparison of Data Collected and Modelled Data",
+            subtitle = "Average Basal Area of Unthinned Stands", x = "Year", y = "Basal Area")  
+# scale_x_discrete(breaks=seq(1990,2020,by=5))
+
+
+```
+
+
+
+
+
+
+
+
+
+
+# TMT 1
+```{r}
+
+#WORKING!!!!!
+as.numeric(fvs_default_TMT1$Full_BA)
+as.numeric(fvs_default_TMT1$Full_Year)
+as.numeric(fvs_default_TMT1$Full_MgmtID)
+ggp <- ggplot(NULL, aes(x=Full_Year, y=Full_BA, group=Full_MgmtID, color=Full_MgmtID)) +    # Draw ggplot2 plot based on two data frames
+  geom_line(data = fvs_default_TMT1, col = "blue") +
+  geom_line(data = root_disease, col = "forest green") +
+  geom_point(data = start_end_TMT1, col = "red") + scale_x_discrete(breaks=c(1990,1995, 2000, 2009,2020)) 
+ggp  + labs(title = "Comparison of Data Collected and Modelled Data",
+            subtitle = "Combined Unthinned Plots", x = "Year", y = "Basal Area")  
+# scale_x_discrete(breaks=seq(1990,2020,by=5))
+
+
+```
+
+# TMT 2
+```{r}
+
+#WORKING!!!!!
+as.numeric(fvs_default_TMT2$Full_BA)
+as.numeric(fvs_default_TMT2$Full_Year)
+as.numeric(fvs_default_TMT2$Full_MgmtID)
+ggp <- ggplot(data = fvs_default_TMT2, aes(x=Full_Year, y=Full_BA, group=Full_MgmtID, color=Full_MgmtID)) +    # Draw ggplot2 plot based on two data frames
+  geom_line(data = fvs_default_TMT2, col = "blue") +
+  geom_line(data = root_disease_TMT2, col = "forest green") +
+  geom_point(data = start_end_TMT2, col = "red")
+ggp  + labs(title = "Comparison of Data Collected and Modelled Data",
+            subtitle = "Combined Thinned Plots (TMT 2)",
+                                         
+              x = "Year", y = "Basal Area")  
+
+
+```
+
+# TMT 3
+```{r}
+
+#WORKING!!!!!
+as.numeric(fvs_default_TMT3$Full_BA)
+as.numeric(fvs_default_TMT3$Full_Year)
+as.numeric(fvs_default_TMT3$Full_MgmtID)
+ggp <- ggplot(data = fvs_default_TMT3, aes(x=Full_Year, y=Full_BA, group=Full_MgmtID, color=Full_MgmtID)) +    # Draw ggplot2 plot based on two data frames
+  geom_line(data = fvs_default_TMT3, col = "blue") +
+  #geom_line(data = root_disease, col = "forest green") +
+  geom_point(data = start_end_TMT3, col = "red")
+ggp  + labs(title = "Comparison of Data Collected and Modelled Data",
+            subtitle = "Combined Thinned Plots (TMT 3)",
+                                         
+              x = "Year", y = "Basal Area")  
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+```{r}
+1 
+#WORKING!!!!!
+#as.numeric(fvs_data$Full_BA)
+colors <- c()
+ggp <- ggplot(NULL, aes(x=Full_Year, y=Full_BA, group=Full_MgmtID, color=Full_MgmtID)) +    # Draw ggplot2 plot based on two data frames
+  geom_line(data = fvs_default, col = "blue") +
+  geom_line(data = root_disease, col = "forest green") +
+  geom_point(data = start_end, col = "red")
+ggp  + labs(title = "Comparison of Data Collected and Modelled Data",
+            subtitle = "Total Basal Area of all Unthinned Plots",
+                                         
+              x = "Year", y = "Basal Area")  +
+  labs (x = "Year", y ="Basal Area") + 
+  theme(legend.position = "left") +
+     theme(plot.title = element_text(lineheight=.8,
+face="bold"),legend.position="left")+
+     theme_bw()
+
+
+
+```
+
+
+
+```{r}
+library(ggthemes)
+T999 <- runif(10, 100, 200)
+T888 <- runif(10, 200, 300)
+TY <- runif(10, 20, 30)
+df <- data.frame(T999, T888, TY)
+
+
+ggplot(data = df, aes(x=T999, y=TY, pointtype="T999")) + 
+       geom_point(size = 15, colour = "darkblue") + 
+       geom_point(data = df, aes(x=T888, y=TY), colour = 'red', size = 10 ) + 
+       theme(axis.text.x = element_text(size = 20), axis.title.x =element_text(size = 20),   axis.text.y = element_text(size = 20)) +
+       xlab("Txxx") + ylab("TY [°C]") + labs(title="temperatures", size = 15) + 
+       scale_colour_manual(labels = c("T999", "T888"), values = c("darkblue", "red")) +    theme(legend.position="topright")
+
+
+library(reshape2)
+dfm <- melt(df, id = "TY")
+
+# creating a scatterplot
+ggplot(data = dfm, aes(x = TY, y = value, color = variable)) + 
+  geom_point(size=5) +
+  labs(title = "Temperatures\n", x = "TY [°C]", y = "Txxx", color = "Legend Title\n") +
+  scale_color_manual(labels = c("Model Root Disease", "Data Collected", "TS"), values = c("forest green", "red", "forest green")) +
+  theme_bw() +
+  theme(axis.text.x = element_text(size = 14), axis.title.x = element_text(size = 16),
+        axis.text.y = element_text(size = 14), axis.title.y = element_text(size = 16),
+        plot.title = element_text(size = 20, face = "bold", color = "darkgreen")) +
+
+theme_fivethirtyeight() +
+theme(axis.title = element_text()) +
+theme(legend.title = element_blank())
+```
+
+
+
+
+```{r}
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s003-indexD701-D503-ATTACTCG-AGGATAGG-MP13_S3_L002_R1_001.fastq.gz MP13_R1.fastq.gz |
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s003-indexD701-D503-ATTACTCG-AGGATAGG-MP13_S3_L002_R2_001.fastq.gz MP13_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s004-indexD701-D504-ATTACTCG-TCAGAGCC-MP15_S4_L002_R1_001.fastq.gz
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s004-indexD701-D504-ATTACTCG-TCAGAGCC-MP15_S4_L002_R2_001.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s005-indexD701-D505-ATTACTCG-CTTCGCCT-MP1_S5_L002_R1_001.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s005-indexD701-D505-ATTACTCG-CTTCGCCT-MP1_S5_L002_R2_001.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s006-indexD701-D506-ATTACTCG-TAAGATTA-MP8_S6_L002_R1_001.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s006-indexD701-D506-ATTACTCG-TAAGATTA-MP8_S6_L002_R2_001.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s009-indexD702-D501-TCCGGAGA-AGGCTATA-MP2_S9_L002_R1_001.fastq.gz MP2_R1.fastq.gz
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s009-indexD702-D501-TCCGGAGA-AGGCTATA-MP2_S9_L002_R2_001.fastq.gz MP2_R2.fastq.gz
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s010-indexD702-D502-TCCGGAGA-GCCTCTAT-MP12_S10_L002_R1_001.fastq.gz MP12_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s010-indexD702-D502-TCCGGAGA-GCCTCTAT-MP12_S10_L002_R2_001.fastq.gz MP12_R2.fastq.gz
+
+
+
+
+
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s011-indexD702-D503-TCCGGAGA-AGGATAGG-MP17_S11_L002_R1_001.fastq.gz MP17_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s011-indexD702-D503-TCCGGAGA-AGGATAGG-MP17_S11_L002_R2_001.fastq.gz MP17_R2.fastq.gz
+
+
+
+
+
+
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s012-indexD702-D504-TCCGGAGA-TCAGAGCC-MP19_S12_L002_R1_001.fastq.gz MP19_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s012-indexD702-D504-TCCGGAGA-TCAGAGCC-MP19_S12_L002_R2_001.fastq.gz MP19_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s013-indexD702-D505-TCCGGAGA-CTTCGCCT-W-IA2_S13_L002_R1_001.fastq.gz W-IA2_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s013-indexD702-D505-TCCGGAGA-CTTCGCCT-W-IA2_S13_L002_R2_001.fastq.gz W-IA2_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s014-indexD702-D506-TCCGGAGA-TAAGATTA-W-IC2_S14_L002_R1_001.fastq.gz W-IC2_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s014-indexD702-D506-TCCGGAGA-TAAGATTA-W-IC2_S14_L002_R2_001.fastq.gz W-IC2_R2.fastq.gz
+
+
+
+
+
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s015-indexD702-D507-TCCGGAGA-ACGTCCTG-MAT-763-2_S15_L002_R1_001.fastq.gz MAT-763-2_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s015-indexD702-D507-TCCGGAGA-ACGTCCTG-MAT-763-2_S15_L002_R2_001.fastq.gz MAT-763-2_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s016-indexD702-D508-TCCGGAGA-GTCAGTAC-MP11_S16_L002_R1_001.fastq.gz MP11_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s016-indexD702-D508-TCCGGAGA-GTCAGTAC-MP11_S16_L002_R2_001.fastq.gz MP11_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s017-indexD703-D501-CGCTCATT-AGGCTATA-SH-49_S17_L002_R1_001.fastq.gz SH-49_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s017-indexD703-D501-CGCTCATT-AGGCTATA-SH-49_S17_L002_R2_001.fastq.gz SH-49_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s018-indexD703-D502-CGCTCATT-GCCTCTAT-MP14_S18_L002_R1_001.fastq.gz MP14_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s018-indexD703-D502-CGCTCATT-GCCTCTAT-MP14_S18_L002_R2_001.fastq.gz MP14_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s019-indexD703-D503-CGCTCATT-AGGATAGG-WIIA2_S19_L002_R1_001.fastq.gz WIIA2_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s019-indexD703-D503-CGCTCATT-AGGATAGG-WIIA2_S19_L002_R2_001.fastq.gz WIIA2_R2.fastq.gz
+
+
+
+
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s020-indexD703-D504-CGCTCATT-TCAGAGCC-MAT91-490-3_S20_L002_R1_001.fastq.gz MAT91-490-3_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s020-indexD703-D504-CGCTCATT-TCAGAGCC-MAT91-490-3_S20_L002_R2_001.fastq.gz MAT91-490-3_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s021-indexD703-D505-CGCTCATT-CTTCGCCT-MAT91-1-13_S21_L002_R1_001.fastq.gz MAT91-1-13_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s021-indexD703-D505-CGCTCATT-CTTCGCCT-MAT91-1-13_S21_L002_R2_001.fastq.gz MAT91-1-13_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s022-indexD703-D506-CGCTCATT-TAAGATTA-WIVC3_S22_L002_R1_001.fastq.gz WIVC3_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s022-indexD703-D506-CGCTCATT-TAAGATTA-WIVC3_S22_L002_R2_001.fastq.gz WIVC3_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s023-indexD703-D507-CGCTCATT-ACGTCCTG-WVE1_S23_L002_R1_001.fastq.gz WVE1_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s023-indexD703-D507-CGCTCATT-ACGTCCTG-WVE1_S23_L002_R2_001.fastq.gz WVE1_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s024-indexD703-D508-CGCTCATT-GTCAGTAC-WIIIA1_S24_L002_R1_001.fastq.gz WIIIA1_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s024-indexD703-D508-CGCTCATT-GTCAGTAC-WIIIA1_S24_L002_R2_001.fastq.gz WIIIA1_R2.fastq.gz
+
+
+
+
+
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s025-indexD704-D501-GAGATTCC-AGGCTATA-WIB2_S25_L002_R1_001.fastq.gz WIB2_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s025-indexD704-D501-GAGATTCC-AGGCTATA-WIB2_S25_L002_R2_001.fastq.gz WIB2_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s026-indexD704-D502-GAGATTCC-GCCTCTAT-MP6_S26_L002_R1_001.fastq.gz MP6_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s026-indexD704-D502-GAGATTCC-GCCTCTAT-MP6_S26_L002_R2_001.fastq.gz MP6_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s027-indexD704-D503-GAGATTCC-AGGATAGG-WVH1_S27_L002_R1_001.fastq.gz WVH1_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s027-indexD704-D503-GAGATTCC-AGGATAGG-WVH1_S27_L002_R2_001.fastq.gz WVH1_R2.fastq.gz
+
+
+
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s028-indexD704-D504-GAGATTCC-TCAGAGCC-WIVA1_S28_L002_R1_001.fastq.gz WIVA1_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s028-indexD704-D504-GAGATTCC-TCAGAGCC-WIVA1_S28_L002_R2_001.fastq.gz WIVA1_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s029-indexD704-D505-GAGATTCC-CTTCGCCT-WVL2_S29_L002_R1_001.fastq.gz WVL2_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s029-indexD704-D505-GAGATTCC-CTTCGCCT-WVL2_S29_L002_R2_001.fastq.gz WVL2_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s030-indexD704-D506-GAGATTCC-TAAGATTA-WIIB2_S30_L002_R1_001.fastq.gz WIIB2_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s030-indexD704-D506-GAGATTCC-TAAGATTA-WIIB2_S30_L002_R2_001.fastq.gz WIIB2_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s005-indexD701-D505-ATTACTCG-CTTCGCCT-MP1_S5_L002_R1_001.fastq.gz MP1_R1.fastq.gz
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s005-indexD701-D505-ATTACTCG-CTTCGCCT-MP1_S5_L002_R2_001.fastq.gz MP1_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s006-indexD701-D506-ATTACTCG-TAAGATTA-MP8_S6_L002_R1_001.fastq.gz MP8_R1.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/lane2-s006-indexD701-D506-ATTACTCG-TAAGATTA-MP8_S6_L002_R2_001.fastq.gz MP8_R2.fastq.gz
+
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/
+ln -s /nfs1/BPP/LeBoldus_Lab/lab_data/coniferiporia/L2/
+  
+
+
+
+```
+
+
+
