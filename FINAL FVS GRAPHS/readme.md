@@ -1,8 +1,13 @@
 ![TMT1_FINAL](https://user-images.githubusercontent.com/49656044/169945025-c187e107-4876-4977-9b10-120b83fa30b0.png)
+## Figure 1: Model comparison of Woods Creek stands plots that were not thinned.
+
+![TMT3_FINAL](https://user-images.githubusercontent.com/49656044/169945046-56a5e9a0-e44a-4b08-999e-91955c306a13.png)
+
+## Figure 2: Model comparison of Woods Creek plots with light thinning.
 
 ![TMT2_FINAL](https://user-images.githubusercontent.com/49656044/169945032-6cbb39aa-f8f4-47f9-bb72-b75abcd53e0e.png)
 
-![TMT3_FINAL](https://user-images.githubusercontent.com/49656044/169945046-56a5e9a0-e44a-4b08-999e-91955c306a13.png)
+## Figure 3: Model comparison of Woods Creek plots that were thinned.
 
 # R Code Used For Graphing
 
