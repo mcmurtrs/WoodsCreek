@@ -9,24 +9,26 @@
 
 ## Figure 3: Model comparison of Woods Creek plots that were thinned.
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # R Code Used For Graphing
 
----
-title: "FVS_FINAL"
-author: "Shawn McMurtrey"
-date: "5/18/2022"
-output: html_document
----
 
----
-title: "FVS"
-author: "Shawn"
-date: "Winter 2021"
-output:
-  word_document: default
-  pdf_document: default
----
-## Import the data yet again
+## Import data
 ```{r include=FALSE}
 # Load libraries we need for the assignment
 install.packages("fvsLoad")
