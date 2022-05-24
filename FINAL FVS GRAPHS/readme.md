@@ -1,7 +1,8 @@
 ![TMT1_FINAL](https://user-images.githubusercontent.com/49656044/169945025-c187e107-4876-4977-9b10-120b83fa30b0.png)
 ## Figure 1: Model comparison of Woods Creek plots that were not thinned.
 
-![TMT3_FINAL](https://user-images.githubusercontent.com/49656044/169945046-56a5e9a0-e44a-4b08-999e-91955c306a13.png)
+![TMT3_FINAL](https://user-images.githubusercontent.com/49656044/169949067-11185fcf-2557-40d9-bb58-be246712db13.png)
+
 
 ## Figure 2: Model comparison of Woods Creek plots that were lightly thinned.
 
