@@ -1,6 +1,8 @@
-![TMT1_FINAL](https://user-images.githubusercontent.com/49656044/169206204-002614df-34d2-4d55-b7c4-52518a2ddf09.png)
-![TMT2_FINAL](https://user-images.githubusercontent.com/49656044/169206207-08641ccf-c106-4c56-a2d5-7ccdf7e48edb.png)
-![TMT3_FINAL](https://user-images.githubusercontent.com/49656044/169207484-2b0ab2f9-31d0-49f9-a8e9-a87e7e37aad4.png)
+![TMT1_FINAL](https://user-images.githubusercontent.com/49656044/169945025-c187e107-4876-4977-9b10-120b83fa30b0.png)
+
+![TMT2_FINAL](https://user-images.githubusercontent.com/49656044/169945032-6cbb39aa-f8f4-47f9-bb72-b75abcd53e0e.png)
+
+![TMT3_FINAL](https://user-images.githubusercontent.com/49656044/169945046-56a5e9a0-e44a-4b08-999e-91955c306a13.png)
 
 # R Code Used For Graphing
 
