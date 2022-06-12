@@ -9,23 +9,6 @@
 - Combined spreadsheets with basal area calculations and FVS/WRDM output values are located in: ` mcmurtrs/WoodsCreek/Combined_Outputs`
 
 
-# Paramaters for FVS
-
-# Parameters for WRDM
-![image](https://user-images.githubusercontent.com/49656044/160974332-ca7210b1-3813-4116-aa9a-531981f9a31c.png)
-
-# Methods for Model Comparisons
-- Step 1: Use FVS_Input_Files to run FVS and WRDM with default parameters
-- Step 2: Select the following years for output:
-![image](https://user-images.githubusercontent.com/49656044/163603749-135c28c2-aec8-4521-89c6-eef7c13ade92.png)
-
-# Methods for Actual Data Calculations
-- Using the "basal_area_calculations.Rmd file.
-- Inputting basal area calculations for each year from the `WC Final 2020 - 08_05_20_CLEANED_FVS_INPUT.xlsx` file and running calculations within R.
-- Basal area calculations are exported from R into individual excel files within the "Actual_Data" directory.
-
-
-
 
 # Data Cleanup
 ## Step 1: Initial Tidying Steps
@@ -84,3 +67,22 @@ Current "History" coding conversion for 1990 is:
 - 14F Tree #40 missing DBH from 1990 
 - Trees 12A #23, 12A #26, 12E #26, 12E #29 were missing species codes and were removed from the data sheet. 
 - Additional previous notes from Everett concerning potential errors within the data can be found in the "notes" spreadsheet of the "WC Final 2020 - 08_05_20.xlsx" spreadsheet
+
+
+# Paramaters for FVS
+
+# Parameters for WRDM
+![image](https://user-images.githubusercontent.com/49656044/160974332-ca7210b1-3813-4116-aa9a-531981f9a31c.png)
+
+# Methods for Model Comparisons
+- Step 1: Use FVS_Input_Files to run FVS and WRDM with default parameters
+- Step 2: Select the following years for output:
+![image](https://user-images.githubusercontent.com/49656044/163603749-135c28c2-aec8-4521-89c6-eef7c13ade92.png)
+
+# Methods for Actual Data Calculations
+- Using the "basal_area_calculations.Rmd file.
+- Inputting basal area calculations for each year from the `WC Final 2020 - 08_05_20_CLEANED_FVS_INPUT.xlsx` file and running calculations within R.
+- Basal area calculations are exported from R into individual excel files within the "Actual_Data" directory.
+
+
+
